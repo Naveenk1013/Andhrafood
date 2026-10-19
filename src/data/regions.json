@@ -1,0 +1,91 @@
+[
+  {
+    "slug": "coastal-andhra",
+    "nameEn": "Coastal Andhra",
+    "nameTe": "కోస్తా ఆంధ్ర",
+    "districtCount": 12,
+    "districts": [
+      "kakinada",
+      "konaseema",
+      "east-godavari",
+      "west-godavari",
+      "eluru",
+      "krishna",
+      "ntr",
+      "guntur",
+      "bapatla",
+      "palnadu",
+      "prakasam",
+      "sri-potti-sriramulu-nellore"
+    ],
+    "taglineEn": "The Emerald Delta of Rice, River Catch & Pungent Tamarind Pulusus",
+    "taglineTe": "గోదావరి, కృష్ణా నదీ లోయల వరి పంటలు, చేపల పులుసులు మరియు ఘాటైన రుచులు",
+    "geography": "The fertile alluvial plains formed by the Krishna and Godavari river basins along the 974 km coastline of the Bay of Bengal. Verdant paddy fields, coconut groves, mangrove estuaries, and extensive freshwater river systems.",
+    "culinaryHallmarks": [
+      "Heavy reliance on aged tamarind (chintapandu) and raw mango (mamidikaya) for deep, layered sourness",
+      "Gongura (red sorrel leaf) as the quintessential herb for dals, pachadis, and meats",
+      "River and coastal seafood (Pulasa, Royyalu, Peethalu) slow-cooked in earthenware",
+      "World-renowned sweets like Atreyapuram Pootharekulu, Kakinada Kaja, and Bandar Laddu",
+      "Whole green gram tiffins (MLA Pesarattu) with piquant allam pachadi"
+    ],
+    "cookingVessels": ["Unglazed clay chatty (kunda)", "Heavy bell-metal gangalam", "Cast-iron dosapena"],
+    "stapleFats": ["Cold-pressed sesame oil (nuvvula noone)", "Pure buffalo and cow ghee", "Groundnut oil"],
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792341033/APFOOD/region-coastal-andhra.jpg"
+  },
+  {
+    "slug": "rayalaseema",
+    "nameEn": "Rayalaseema",
+    "nameTe": "రాయలసీమ",
+    "districtCount": 8,
+    "districts": [
+      "kurnool",
+      "nandyal",
+      "anantapuramu",
+      "sri-sathya-sai",
+      "ysr-kadapa",
+      "annamayya",
+      "tirupati",
+      "chittoor"
+    ],
+    "taglineEn": "The Rugged Dryland Realm of Millets, Free-Range Game & Fiery Garlic Karam",
+    "taglineTe": "రాగి సంగటి, నాటుకోడి పులుసు, మరియు గుబురుగా వేయించిన వేరుశెనగల ఘాటు నేల",
+    "geography": "The arid red and black soil plateau of south-western Andhra, bordered by the rocky Seshachalam and Erramala ranges. Low rainfall and rugged topography historically necessitated drought-resistant millets, hearty legumes, and unrefined farm staples.",
+    "culinaryHallmarks": [
+      "Ragi Sangati (finger millet mudda) and Jonna Roti (sorghum flatbread) as the daily agrarian core",
+      "Fiery Natu Kodi Pulusu (country chicken curry) thickened with stone-ground poppy seeds and dry coconut",
+      "Extensive use of groundnuts (verusenagalu), roasted sesame, and garlic cloves pounded in granite mortars (rolu)",
+      "Uggani (spiced puffed rice) served with crispy piping-hot deep-fried Mirchi Bajjis",
+      "Generous floods of hot homemade cow ghee used to temper and soothe intense chilli heat"
+    ],
+    "cookingVessels": ["Granite rolu and rokali (mortar & pestle)", "Heavy brass gangalam for sangati", "Cast iron concave tawa"],
+    "stapleFats": ["Cold-pressed groundnut oil (verusenaga noone)", "Desi cow ghee (aavu neyyi)"],
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792341035/APFOOD/region-rayalaseema.jpg"
+  },
+  {
+    "slug": "uttarandhra",
+    "nameEn": "Uttarandhra & Araku",
+    "nameTe": "ఉత్తరాంధ్ర & అరకు",
+    "districtCount": 6,
+    "districts": [
+      "srikakulam",
+      "vizianagaram",
+      "parvathipuram-manyam",
+      "alluri-sitharama-raju",
+      "visakhapatnam",
+      "anakapalli"
+    ],
+    "taglineEn": "Misty Eastern Ghats, Woodfire Bamboo Cooking & Subtle Sweet-Sour Harmony",
+    "taglineTe": "అరకు వెదురు బొంగు చికెన్, స్వచ్ఛమైన బెల్లం పులుసులు మరియు గిరిజన సాంప్రదాయాలు",
+    "geography": "The northern coastal and high-altitude mountainous region of Andhra Pradesh, spanning the forested Eastern Ghats, dense bamboo groves of Araku and Paderu, and the rocky coastline of Visakhapatnam.",
+    "culinaryHallmarks": [
+      "Bongu Kodi (Bamboo Chicken) — tender country chicken stuffed with wild herbs into green bamboo culms and roasted over woodfire coals with zero oil",
+      "Bellam Pulusu (sweet-sour stew) — harmonious balance of unrefined cane jaggery, mustard powder (aavapindi), and tender winter vegetables",
+      "Madugula Halwa — century-old confection made by extracting tender sprouted wheat milk, stirred patiently over beechwood fires with pure ghee",
+      "Teepi Avakaya — sweet and pungent green mango pickle fermented with cane jaggery and mustard",
+      "Tribal minor millets (Sama, Korra, Oodalu) and wild forest roots cooked with aromatic Pippali (long pepper)"
+    ],
+    "cookingVessels": ["Fresh green bamboo culms (bongu)", "Open woodfire hearths", "Brass uruli"],
+    "stapleFats": ["Cold-pressed sesame oil", "Wood-pressed mustard oil", "Desi cow ghee"],
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792341037/APFOOD/region-uttarandhra.jpg"
+  }
+]

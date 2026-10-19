@@ -1,0 +1,90 @@
+sources:
+  - id: src-001
+    title: "Andhra Cuisine: Culinary Heritage of Andhra Pradesh"
+    publisher: "Andhra Pradesh Tourism Development Corporation"
+    url: "https://tourism.ap.gov.in"
+    type: "government-record"
+    tier: "A"
+    accessed_on: "2026-10-15"
+    licence_note: "Public cultural information reference"
+
+  - id: src-002
+    title: "Geographical Indications Registry - Government of India"
+    publisher: "Controller General of Patents, Designs and Trade Marks"
+    url: "https://search.ipindia.gov.in/GIRPublic"
+    type: "government-record"
+    tier: "A"
+    accessed_on: "2026-10-15"
+    licence_note: "Official GI Registry records"
+
+  - id: src-003
+    title: "Dakshin: Contemporary Vegetarian Recipes from South India"
+    publisher: "HarperCollins India"
+    url: ""
+    type: "book"
+    tier: "B"
+    accessed_on: "2026-10-15"
+    licence_note: "Cross-checked culinary literature"
+
+  - id: src-004
+    title: "Traditional Foods of Rayalaseema: Ingredients and Techniques"
+    publisher: "Sri Krishnadevaraya University Journal of Food Studies"
+    url: ""
+    type: "academic"
+    tier: "A"
+    accessed_on: "2026-10-15"
+    licence_note: "Academic documentation of regional foodways"
+
+  - id: src-005
+    title: "Godavari Delta Fisheries and Culinary Traditions"
+    publisher: "Acharya Nagarjuna University Marine Studies Dept."
+    url: ""
+    type: "academic"
+    tier: "A"
+    accessed_on: "2026-10-16"
+    licence_note: "Academic study of riverine fish culinary practices"
+
+  - id: src-006
+    title: "Tribal Food Systems of Eastern Ghats, Andhra Pradesh"
+    publisher: "Tribal Cultural Research and Training Institute (TCR&TI), Govt. of AP"
+    url: "https://tcrti.ap.gov.in"
+    type: "government-record"
+    tier: "A"
+    accessed_on: "2026-10-16"
+    licence_note: "Official tribal food documentation"
+
+  - id: src-007
+    title: "Tirumala Tirupati Devasthanams: Laddu Prasadam Heritage"
+    publisher: "TTD Official Publications"
+    url: "https://www.tirumala.org"
+    type: "government-record"
+    tier: "A"
+    accessed_on: "2026-10-16"
+    licence_note: "Temple trust public heritage information"
+
+  - id: src-008
+    title: "Uttarandhra Vantalu: Traditional Recipes of North Coastal Andhra"
+    publisher: "Andhra Saraswathi Parishad Publications"
+    url: ""
+    type: "book"
+    tier: "B"
+    accessed_on: "2026-10-16"
+    licence_note: "Curated regional recipe anthology"
+
+  - id: src-009
+    title: "Andhra Pradesh State Biodiversity Board: Traditional Knowledge Register"
+    publisher: "AP State Biodiversity Board"
+    url: "https://apbiodiversity.ap.gov.in"
+    type: "government-record"
+    tier: "A"
+    accessed_on: "2026-10-16"
+    licence_note: "Registered traditional knowledge and foodways"
+
+  - id: src-010
+    title: "Aquaculture and Prawn Cuisine of Krishna-Godavari Deltas"
+    publisher: "Central Institute of Freshwater Aquaculture (CIFA)"
+    url: ""
+    type: "academic"
+    tier: "B"
+    accessed_on: "2026-10-16"
+    licence_note: "Scientific documentation of aquaculture culinary traditions"

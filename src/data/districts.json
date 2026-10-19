@@ -1,0 +1,262 @@
+[
+  {
+    "slug": "srikakulam",
+    "nameEn": "Srikakulam",
+    "nameTe": "శ్రీకాకుళం",
+    "region": "uttarandhra",
+    "headquarters": "Srikakulam",
+    "signatures": ["Bellam Pulusu", "Puri Kunda Sweet", "Arasavalli Prasadam", "Pothula Vadiyalu"],
+    "soilAndProduce": "Fertile coastal plains and Nagavali river basin, red gram, green gram, cashews, and sweet jaggery.",
+    "flavorProfile": "Gentle jaggery sweetness balanced with sharp mustard (aavapindi) and sour tamarind."
+  },
+  {
+    "slug": "vizianagaram",
+    "nameEn": "Vizianagaram",
+    "nameTe": "విజయనగరం",
+    "region": "uttarandhra",
+    "headquarters": "Vizianagaram",
+    "signatures": ["Kobbari Bellam Paakam", "Teepi Avakaya", "Majji Gadda Iguru"],
+    "soilAndProduce": "Champavathi and Gosthani rivers, abundant sesame, mustard seeds, and pulses.",
+    "flavorProfile": "Subtle mustard pungency, sweet jaggery infusions, and cold-pressed sesame oil aromatics."
+  },
+  {
+    "slug": "parvathipuram-manyam",
+    "nameEn": "Parvathipuram Manyam",
+    "nameTe": "పార్వతీపురం మన్యం",
+    "region": "uttarandhra",
+    "headquarters": "Parvathipuram",
+    "signatures": ["Konda Chilakada Dumplings", "Tribal Millet Ambli", "Wild Bamboo Shoots"],
+    "soilAndProduce": "Forested hills of Eastern Ghats, minor millets (ragi, sama, korra), wild tubers, and mountain turmeric.",
+    "flavorProfile": "Earthy, smoky woodfire notes with wild mountain herbs and unrefined millets."
+  },
+  {
+    "slug": "alluri-sitharama-raju",
+    "nameEn": "Alluri Sitharama Raju",
+    "nameTe": "అల్లూరి సీతారామరాజు",
+    "region": "uttarandhra",
+    "headquarters": "Paderu",
+    "signatures": ["Bongu Kodi (Bamboo Chicken)", "Bongu Biryani", "Araku Valley Organic Coffee", "Pippali Stew"],
+    "soilAndProduce": "Misty high-altitude Araku ranges, wild green bamboo culms, shaded organic coffee, long pepper (pippali).",
+    "flavorProfile": "Smoky green-bamboo fragrance, woodfire roasting with zero added oil, and spicy wild herbs."
+  },
+  {
+    "slug": "visakhapatnam",
+    "nameEn": "Visakhapatnam",
+    "nameTe": "విశాఖపట్నం",
+    "region": "uttarandhra",
+    "headquarters": "Visakhapatnam",
+    "signatures": ["Vizag Coastal Fish Fry", "Royyala Biryani", "Simhachalam Appalu"],
+    "soilAndProduce": "Bay of Bengal deep coastal waters, sea mackerel, crabs, tiger prawns, and cashews.",
+    "flavorProfile": "Crisp seashore seafood with spicy crushed coriander seed and red chilli crust."
+  },
+  {
+    "slug": "anakapalli",
+    "nameEn": "Anakapalli",
+    "nameTe": "అనకాపల్లి",
+    "region": "uttarandhra",
+    "headquarters": "Anakapalli",
+    "signatures": ["Anakapalli Jaggery Boorelu", "Madugula Halwa", "Nookala Jeedi"],
+    "soilAndProduce": "Asia's second largest jaggery market, high-sucrose sugarcane valleys of Sarada river.",
+    "flavorProfile": "Caramelized raw sugarcane sweetness, pure buffalo milk ghee, and tender wheat extract."
+  },
+  {
+    "slug": "kakinada",
+    "nameEn": "Kakinada",
+    "nameTe": "కాకినాడ",
+    "region": "coastal-andhra",
+    "headquarters": "Kakinada",
+    "signatures": ["Gotta Kaja (Kakinada Kaja)", "Subbayya Gari Bhojanam", "Peethala Pulusu (Mud Crab Curry)"],
+    "soilAndProduce": "Godavari delta silt, extensive mangrove mud crabs, paddy wetlands, and sugarcane.",
+    "flavorProfile": "Flaky syrup-bursting desserts alongside rich estuary mud crabs in sour tamarind pulusu."
+  },
+  {
+    "slug": "konaseema",
+    "nameEn": "Dr. B.R. Ambedkar Konaseema",
+    "nameTe": "డా. బి.ఆర్. అంబేద్కర్ కోనసీమ",
+    "region": "coastal-andhra",
+    "headquarters": "Amalapuram",
+    "signatures": ["Atreyapuram Pootharekulu (Paper Sweet)", "Pulasa Chepala Pulusu", "Panasa Pottu Kura (Jackfruit Curry)"],
+    "soilAndProduce": "Breathtaking emerald delta crisscrossed by Gautami Godavari, dense coconut palms, banana groves.",
+    "flavorProfile": "Creamy coconut milk curries, artisanal rice-paper confectioneries, and prized river fish."
+  },
+  {
+    "slug": "east-godavari",
+    "nameEn": "East Godavari",
+    "nameTe": "తూర్పు గోదావరి",
+    "region": "coastal-andhra",
+    "headquarters": "Rajahmundry",
+    "signatures": ["Rajahmundry Rose Milk", "Godavari Vankaya Vepudu", "Pottikkalu (Steamed Idlis in Jackfruit Leaves)"],
+    "soilAndProduce": "Godavari riverbanks, aromatic sona masuri paddy, jackfruit trees, tender brinjals.",
+    "flavorProfile": "Fragrant steamed leaf aromas, delicate tempering of mustard and curry leaves."
+  },
+  {
+    "slug": "west-godavari",
+    "nameEn": "West Godavari",
+    "nameTe": "పశ్చిమ గోదావరి",
+    "region": "coastal-andhra",
+    "headquarters": "Bhimavaram",
+    "signatures": ["Bhimavaram Royyala Iguru", "Gongura Royyalu", "Natu Kodi Pulao"],
+    "soilAndProduce": "Aquaculture hub of India, freshwater scampi, brackish tiger prawns, and black alluvial soil.",
+    "flavorProfile": "Intense seafood richness, fiery green chillies, and sharp gongura acidity."
+  },
+  {
+    "slug": "eluru",
+    "nameEn": "Eluru",
+    "nameTe": "ఏలూరు",
+    "region": "coastal-andhra",
+    "headquarters": "Eluru",
+    "signatures": ["Kolleru Fish Fry", "Kandipappu Annam with Ghee", "Chintakaya Pachadi"],
+    "soilAndProduce": "Kolleru freshwater lake wetlands, wintering fish, pulses, and wild tamarind.",
+    "flavorProfile": "Freshwater fish delicately spiced with freshly crushed ginger, garlic, and turmeric."
+  },
+  {
+    "slug": "krishna",
+    "nameEn": "Krishna",
+    "nameTe": "కృష్ణా",
+    "region": "coastal-andhra",
+    "headquarters": "Machilipatnam",
+    "signatures": ["Bandar Laddu (Thokkudu Laddu)", "Bandar Halwa", "Chepala Vepudu"],
+    "soilAndProduce": "Krishna river estuary, ancient port city heritage, gram flour and refined ghee craftsmanship.",
+    "flavorProfile": "Melt-in-mouth pounded besan laddus infused with cardamom and nutmeg."
+  },
+  {
+    "slug": "ntr",
+    "nameEn": "NTR (Vijayawada)",
+    "nameTe": "ఎన్టీఆర్",
+    "region": "coastal-andhra",
+    "headquarters": "Vijayawada",
+    "signatures": ["MLA Pesarattu with Upma", "Allam Pachadi", "Punugulu with Peanut Chutney", "Kanakadurga Prasadam"],
+    "soilAndProduce": "Heart of coastal transit along Krishna barrage, abundant whole green gram (pesalu), ginger.",
+    "flavorProfile": "Crispy golden crepes roasted in pure ghee, pungent ginger, and jaggery chutney."
+  },
+  {
+    "slug": "guntur",
+    "nameEn": "Guntur",
+    "nameTe": "గుంటూరు",
+    "region": "coastal-andhra",
+    "headquarters": "Guntur",
+    "signatures": ["Guntur Sannam Chilli Karam", "Gongura Mutton", "Gutti Vankaya Kura", "Guntur Mirchi Bajji"],
+    "soilAndProduce": "Asia's largest chilli market (Mirchi Yard), red-stemmed Gongura farms, black cotton soil.",
+    "flavorProfile": "High-SHU fiery crimson heat balanced with the bold, tart tang of sorrel leaves."
+  },
+  {
+    "slug": "bapatla",
+    "nameEn": "Bapatla",
+    "nameTe": "బాపట్ల",
+    "region": "coastal-andhra",
+    "headquarters": "Bapatla",
+    "signatures": ["Suryalanka Beach Seafood", "Kolluru Bellam Chutney", "Chilli Prawn Fry"],
+    "soilAndProduce": "Sandy coastal belt, sea fisheries, coastal paddy fields, and sun-dried sea salts.",
+    "flavorProfile": "Briny fresh marine fish, shallow-fried with rock salt, turmeric, and dried red chillies."
+  },
+  {
+    "slug": "palnadu",
+    "nameEn": "Palnadu",
+    "nameTe": "పల్నాడు",
+    "region": "coastal-andhra",
+    "headquarters": "Narasaraopet",
+    "signatures": ["Palnadu Mirapakaya Pachadi", "Karam Annam", "Mutton Vepudu with Garlic"],
+    "soilAndProduce": "Dry limestone terrain, intensely pungent small chillies, country sheep rearing.",
+    "flavorProfile": "Raw, unrelenting rustic heat pounded on mortar stone with unpeeled garlic cloves."
+  },
+  {
+    "slug": "prakasam",
+    "nameEn": "Prakasam",
+    "nameTe": "ప్రకాశం",
+    "region": "coastal-andhra",
+    "headquarters": "Ongole",
+    "signatures": ["Ongole Ghee Mudda Pappu", "Ulava Charu", "Giddalur Mutton Curry"],
+    "soilAndProduce": "Famous indigenous Ongole cattle breed (renowned for A2 milk and ghee), horse gram (ulavalu).",
+    "flavorProfile": "Rich, nutty, velvety textures from pure indigenous cattle ghee and slow-reduced horse gram."
+  },
+  {
+    "slug": "sri-potti-sriramulu-nellore",
+    "nameEn": "Nellore",
+    "nameTe": "శ్రీ పొట్టి శ్రీరాములు నెల్లూరు",
+    "region": "coastal-andhra",
+    "headquarters": "Nellore",
+    "signatures": ["Nellore Chepala Pulusu", "Nellore Karam Dosa", "Venkatagiri Sona Masuri Rice"],
+    "soilAndProduce": "Pennar river basin, premium aromatic raw rice paddies, brackish Pulicat Lake.",
+    "flavorProfile": "Piquant, fiery tamarind-thick pulusus aged in unglazed clay pots overnight."
+  },
+  {
+    "slug": "kurnool",
+    "nameEn": "Kurnool",
+    "nameTe": "కర్నూలు",
+    "region": "rayalaseema",
+    "headquarters": "Kurnool",
+    "signatures": ["Uggani with Mirchi Bajji", "Kurnool Mutton Biryani", "Pappu Charu with Jowar Roti"],
+    "soilAndProduce": "Tungabhadra and Handri river confluence, red soil millets, puffed rice (maramaralu) mills.",
+    "flavorProfile": "Zesty tempered puffed rice with roasted gram powder (putnala podi) and deep-fried green chilli fritters."
+  },
+  {
+    "slug": "nandyal",
+    "nameEn": "Nandyal",
+    "nameTe": "నంద్యాల",
+    "region": "rayalaseema",
+    "headquarters": "Nandyal",
+    "signatures": ["Nallamala Forest Honey", "Mahanandi Prasadam", "Gutti Vankaya Rayalaseema Style"],
+    "soilAndProduce": "Nallamala dense hill forests, wild raw honey, small round purple eggplants, and groundnut.",
+    "flavorProfile": "Roasted peanut and sesame stuffing, slow-simmered in earthen pots with groundnut oil."
+  },
+  {
+    "slug": "anantapuramu",
+    "nameEn": "Anantapuramu",
+    "nameTe": "అనంతపురము",
+    "region": "rayalaseema",
+    "headquarters": "Anantapur",
+    "signatures": ["Ragi Sangati with Ghee", "Peanut Chutney (Palli Pachadi)", "Jonna Roti", "Korra Upma"],
+    "soilAndProduce": "Semi-arid Deccan plateau, largest groundnut and foxtail millet farming belt in Andhra.",
+    "flavorProfile": "Hearty, unpolished grains, nutty roasted groundnut pastes, and pure melting cow ghee."
+  },
+  {
+    "slug": "sri-sathya-sai",
+    "nameEn": "Sri Sathya Sai",
+    "nameTe": "శ్రీ సత్యసాయి",
+    "region": "rayalaseema",
+    "headquarters": "Puttaparthi",
+    "signatures": ["Bisi Bele Bath (Rayalaseema Style)", "Millets Dosa", "Dry Fruit Mysore Pak"],
+    "soilAndProduce": "Arid border lands of Chitravathi river, dryland organic millets, tamarind orchards.",
+    "flavorProfile": "Spiced whole lentils with ghee, cinnamon, cloves, and coarse stone-ground ragi."
+  },
+  {
+    "slug": "ysr-kadapa",
+    "nameEn": "YSR Kadapa",
+    "nameTe": "వైఎస్ఆర్ కడప",
+    "region": "rayalaseema",
+    "headquarters": "Kadapa",
+    "signatures": ["Kadapa Karam Dosa", "Natu Kodi Pulusu with Sangati", "Talakaya Kura"],
+    "soilAndProduce": "Pennar river basin, rich red clay, red chillies, and free-range country fowl.",
+    "flavorProfile": "Fiery red onion-chilli karam smeared over crispy dosas, and rustic peppery bone broths."
+  },
+  {
+    "slug": "annamayya",
+    "nameEn": "Annamayya",
+    "nameTe": "అన్నమయ్య",
+    "region": "rayalaseema",
+    "headquarters": "Rayachoti",
+    "signatures": ["Papi Kodi Pulusu", "Jaggery Pongali", "Ragi Roti with Onion & Green Chilli"],
+    "soilAndProduce": "Seshachalam foothill forests, millets, sweet sugarcane, and temple heritage dairy.",
+    "flavorProfile": "Cardamom-scented sweet jaggery rice balanced against rustic stone-tava millet flatbreads."
+  },
+  {
+    "slug": "tirupati",
+    "nameEn": "Tirupati",
+    "nameTe": "తిరుపతి",
+    "region": "rayalaseema",
+    "headquarters": "Tirupati",
+    "signatures": ["Tirupati Laddu (Srivari Prasadam)", "Ven Pongal with Ghee & Pepper", "Chakkarakeli Banana Pachadi"],
+    "soilAndProduce": "Seven sacred hills of Tirumala, purest cow ghee, whole green cardamom, cashews, raisins.",
+    "flavorProfile": "Sacred aromatic camphor, crushed black pepper, toasted cumin, and rich caramelized ghee."
+  },
+  {
+    "slug": "chittoor",
+    "nameEn": "Chittoor",
+    "nameTe": "చిత్తూరు",
+    "region": "rayalaseema",
+    "headquarters": "Chittoor",
+    "signatures": ["Chittoor Mango Pappu", "Ragi Mudda with Chepala Pulusu", "Totapuri Mango Thokku"],
+    "soilAndProduce": "Mango capital of Andhra (Totapuri, Alphonso), extensive dairy milk production, jaggery.",
+    "flavorProfile": "Tangy raw mangoes simmered with toor dal, fresh green chillies, and mustard seed tadka."
+  }
+]

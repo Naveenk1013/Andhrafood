@@ -1,0 +1,62 @@
+{
+  "common": {
+    "appName": "Andhra Ruchulu",
+    "appTagline": "The Andhra Pradesh Food Encyclopedia",
+    "langToggle": "తెలుగు",
+    "currentLang": "EN"
+  },
+  "nav": {
+    "home": "Home",
+    "browse": "Browse",
+    "pantry": "Pantry",
+    "ruchi": "Ruchi AI",
+    "saved": "Saved"
+  },
+  "home": {
+    "heroTitle": "Where do you want to eat from?",
+    "heroSubtitle": "Explore the distinct tastes of Andhra's 3 culinary regions",
+    "ruchiPrompt": "Ask Ruchi anything about Andhra food...",
+    "ruchiButton": "Ask Ruchi",
+    "featuredTitle": "Featured Dishes",
+    "regionsTitle": "Regions of Andhra",
+    "browseByCategory": "Browse by Category"
+  },
+  "regions": {
+    "coastal-andhra": "Coastal Andhra",
+    "rayalaseema": "Rayalaseema",
+    "uttarandhra": "Uttarandhra"
+  },
+  "heat": {
+    "1": "Mild",
+    "2": "Gentle",
+    "3": "Karam",
+    "4": "Fiery",
+    "5": "Guntur-level"
+  },
+  "dish": {
+    "startCooking": "Start cooking",
+    "servings": "Servings",
+    "prepTime": "Prep",
+    "cookTime": "Cook",
+    "story": "The Story",
+    "ingredients": "Ingredients",
+    "method": "Method",
+    "serveWith": "Serve With",
+    "sources": "Sources",
+    "culturalNotes": "Cultural Notes",
+    "notesAndVariations": "Notes & Variations"
+  },
+  "pantry": {
+    "title": "Cook with What I Have",
+    "subtitle": "Select the ingredients in your kitchen to discover authentic Andhra recipes you can make right now.",
+    "selectItems": "Select ingredients in your pantry",
+    "presets": "Popular Andhra Pantries",
+    "clearAll": "Clear Selection",
+    "matchingDishes": "Matching Authentic Dishes",
+    "readyToCook": "Ready to Cook!",
+    "missingItems": "Missing",
+    "askRuchi": "Ask Ruchi AI with this Pantry",
+    "noMatchTitle": "No direct recipes found",
+    "noMatchDesc": "Try selecting additional common staples like rice, dal, chillies or tamarind."
+  }
+}

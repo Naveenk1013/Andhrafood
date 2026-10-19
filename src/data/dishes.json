@@ -1,0 +1,3076 @@
+[
+  {
+    "slug": "pesarattu",
+    "nameEn": "MLA Pesarattu",
+    "nameTe": "ఎమ్మెల్యే పెసరట్టు",
+    "nameEnMeaning": "Whole Green Gram Crepe with Semolina Upma",
+    "region": "coastal-andhra",
+    "districts": [
+      "ntr",
+      "krishna",
+      "guntur",
+      "east-godavari"
+    ],
+    "category": "tiffin",
+    "heatLevel": 2,
+    "dietary": "vegetarian",
+    "prepTimeMinutes": 360,
+    "cookTimeMinutes": 15,
+    "servings": 4,
+    "primaryGrain": "whole-green-gram",
+    "cookingFat": "pure-ghee",
+    "descriptionEn": "A crispy, savory crepe made from whole green gram (pesalu) soaked and ground without fermentation, enriched with ginger and cumin. Traditionally filled with steaming soft Bombay rava upma to create the legendary MLA Pesarattu, and always served with sweet-tangy allam pachadi (ginger chutney).",
+    "descriptionTe": "పొట్టు పెసలతో తయారుచేసే అత్యంత పోషకభరితమైన టిఫిన్. పులియబెట్టాల్సిన అవసరం లేకుండా, అల్లం, పచ్చిమిర్చి, జీలకర్రలతో మెత్తగా రుబ్బి, పెనంపై పోసి, నెయ్యితో కాల్చి, మధ్యలో వేడివేడి ఉప్మాను ఉంచి అల్లం పచ్చడితో తింటారు.",
+    "culturalContext": "Originating in the vibrant legislative canteen culture of coastal Andhra (popularized around Rajahmundry and Vijayawada), the moniker 'MLA' was coined when legislators ordered their plain pesarattu stuffed with a hearty portion of rava upma. Unlike South Indian rice-urad dosas, pesarattu requires zero fermentation, preserving the fresh grassy aroma and earthy sweetness of indigenous green gram.",
+    "servingRituals": "Served sizzling hot straight from the iron tawa onto a fresh banana leaf, with generous mounds of Allam Pachadi (ginger jaggery chutney) and cold-pressed coconut chutney.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792309950/APFOOD/pesarattu.jpg",
+    "ingredients": [
+      {
+        "name": "Whole Green Gram (Pesalu)",
+        "quantity": 1.5,
+        "unit": "cups",
+        "isPrimary": true,
+        "notes": "Must be unpolished whole green gram with skin intact"
+      },
+      {
+        "name": "Raw Rice",
+        "quantity": 2,
+        "unit": "tbsp",
+        "isPrimary": false,
+        "notes": "Adds crispness to the crepe edges"
+      },
+      {
+        "name": "Fresh Ginger",
+        "quantity": 2,
+        "unit": "inch piece",
+        "isPrimary": true,
+        "notes": "Peeled and roughly chopped"
+      },
+      {
+        "name": "Green Chillies",
+        "quantity": 4,
+        "unit": "pieces",
+        "isPrimary": true,
+        "notes": "Slit length-wise"
+      },
+      {
+        "name": "Cumin Seeds (Jeelakarra)",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "isPrimary": true,
+        "notes": "Whole toasted"
+      },
+      {
+        "name": "Finely Chopped Red Onions",
+        "quantity": 1,
+        "unit": "medium",
+        "isPrimary": false,
+        "notes": "Sprinkled raw onto the cooking batter"
+      },
+      {
+        "name": "Desi Cow Ghee",
+        "quantity": 4,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "For roasting to a rich golden lace"
+      },
+      {
+        "name": "Rock Salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "isPrimary": false,
+        "notes": "Adjust to taste"
+      }
+    ],
+    "instructions": [
+      "Wash whole green gram and raw rice thoroughly in cold water 3 times. Soak in plenty of water for 4 to 6 hours.",
+      "Drain the soaking water. Transfer to a wet grinder or heavy blender along with chopped ginger, green chillies, 1 teaspoon cumin seeds, and rock salt.",
+      "Grind using minimal fresh water into a thick, smooth, pouring batter (similar to heavy cream). Do not ferment.",
+      "Heat a seasoned heavy cast-iron tawa until a drop of water sizzles instantly. Lower heat, pour a large ladleful of batter in the center, and swiftly swirl outward into a wide circular crepe.",
+      "Immediately drizzle a generous teaspoon of melted desi ghee along the perimeter and over the center.",
+      "Scatter finely chopped raw onions and a pinch of cumin seeds across the surface, pressing them gently with a flat wooden spatula.",
+      "Cook on medium-high heat until the edges lift cleanly and turn golden brown and crispy.",
+      "Spoon 3 tablespoons of freshly cooked piping-hot rava upma across the center, fold the crepe into a half-moon or cylinder, and transfer immediately to a banana leaf."
+    ]
+  },
+  {
+    "slug": "gutti-vankaya-kura",
+    "nameEn": "Gutti Vankaya Kura",
+    "nameTe": "గుత్తి వంకాయ కూర",
+    "nameEnMeaning": "Stuffed Baby Eggplant in Spiced Peanut Gravy",
+    "region": "coastal-andhra",
+    "districts": [
+      "guntur",
+      "krishna",
+      "bapatla",
+      "prakasam"
+    ],
+    "category": "curries-and-kuras",
+    "heatLevel": 3,
+    "dietary": "vegetarian",
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 35,
+    "servings": 4,
+    "primaryGrain": "none",
+    "cookingFat": "cold-pressed-groundnut-oil",
+    "descriptionEn": "Tender small purple eggplants slit in cross quarters (retaining their green stalks), generously stuffed with a stone-ground masala of roasted peanuts, sesame seeds, coriander, cumin, dry coconut, and red chillies, then slow-simmered in an unglazed clay pot with tamarind extract.",
+    "descriptionTe": "తొడిమలు తొలగించకుండా నాలుగు చీలికలుగా తరిగిన లేత గుత్తి వంకాయలలో వేయించిన పల్లీలు, నువ్వులు, ధనియాలు, ఎండుకొబ్బరి, కారంతో నూరిన మసాలాను కూరి, మట్టిపాత్రలో చింతపండు రసంతో మగ్గబెట్టే మహారాజ వంటకం.",
+    "culturalContext": "Gutti Vankaya is widely hailed as the crown jewel of Andhra vegetarian cooking. The Telugu saying 'Vankaya vanti kura ledu' (There is no vegetable that rivals the eggplant) reflects its regal status in wedding feasts and harvest celebrations.",
+    "servingRituals": "Served alongside piping hot Sona Masuri rice, a dollop of fresh yellow butter or ghee, and crisp vadiyalu (sun-dried crisps).",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792310053/APFOOD/gutti-vankaya-kura.jpg",
+    "ingredients": [
+      {
+        "name": "Small Purple Eggplants (Gutti Vankayalu)",
+        "quantity": 10,
+        "unit": "pieces",
+        "isPrimary": true,
+        "notes": "Must have fresh green stalks intact"
+      },
+      {
+        "name": "Raw Groundnuts (Verusenagalu)",
+        "quantity": 0.5,
+        "unit": "cup",
+        "isPrimary": true,
+        "notes": "Slow-roasted until fragrant and skins crack"
+      },
+      {
+        "name": "White Sesame Seeds (Nuvvulu)",
+        "quantity": 2,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Dry-roasted until popping"
+      },
+      {
+        "name": "Dry Coconut (Kobbari)",
+        "quantity": 3,
+        "unit": "tbsp",
+        "isPrimary": false,
+        "notes": "Finely grated"
+      },
+      {
+        "name": "Coriander Seeds (Dhaniyalu)",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Slow roasted on iron pan"
+      },
+      {
+        "name": "Guntur Dried Red Chillies",
+        "quantity": 6,
+        "unit": "pieces",
+        "isPrimary": true,
+        "notes": "Whole sun-dried Sannam chillies"
+      },
+      {
+        "name": "Tamarind Pulp (Chintapandu)",
+        "quantity": 2,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Extracted from aged black tamarind"
+      },
+      {
+        "name": "Cold-Pressed Groundnut Oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "isPrimary": false,
+        "notes": "Traditional regional cooking fat"
+      },
+      {
+        "name": "Curry Leaves & Mustard Seeds",
+        "quantity": 1,
+        "unit": "sprig",
+        "isPrimary": false,
+        "notes": "For aromatic tempering"
+      }
+    ],
+    "instructions": [
+      "Slit each eggplant vertically in a cross (+) from bottom to top, leaving the green stem and cap completely intact so the eggplant stays together. Keep immersed in salted water to prevent oxidation and browning.",
+      "Dry roast groundnuts, sesame seeds, coriander seeds, cumin, cloves, cinnamon, and dried red chillies on low flame until deeply aromatic. Cool completely and grind into a coarse, fragrant paste with dry coconut, garlic, turmeric, and rock salt.",
+      "Gently drain the eggplants. Stuff the cavity of each eggplant generously with the ground spice paste until packed tight.",
+      "Heat cold-pressed groundnut oil in a wide clay pot or heavy-bottomed kadai. Splutter mustard seeds and fresh curry leaves.",
+      "Gently lower the stuffed eggplants in a single layer into the hot oil. Cover and cook on medium-low flame for 8-10 minutes, gently rolling each eggplant so the skin blisters and turns glossy.",
+      "Dissolve the remaining spice stuffing and tamarind pulp in 1 cup of warm water, and gently pour into the pot around the eggplants.",
+      "Simmer covered on low heat for 15-20 minutes until the eggplants are meltingly tender and the fragrant spiced oil separates and floats on top (telu). Garnish with fresh coriander."
+    ]
+  },
+  {
+    "slug": "ragi-sangati",
+    "nameEn": "Ragi Sangati with Ghee",
+    "nameTe": "రాగి సంగటి",
+    "nameEnMeaning": "Steamed Finger Millet & Rice Mudda",
+    "region": "rayalaseema",
+    "districts": [
+      "anantapuramu",
+      "kurnool",
+      "ysr-kadapa",
+      "chittoor"
+    ],
+    "category": "rice-and-meals",
+    "heatLevel": 1,
+    "dietary": "vegetarian",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 30,
+    "servings": 4,
+    "primaryGrain": "finger-millet",
+    "cookingFat": "pure-cow-ghee",
+    "descriptionEn": "Dense, velvety spheres (mudda) made from slow-cooked raw rice and freshly stone-milled finger millet (ragi) flour, vigorously churned with a wooden baton (thuppanatta). Served steaming hot with an indentation filled with melted ghee and paired with fiery country chicken or tamarind pulusu.",
+    "descriptionTe": "రాయలసీమ జీవన నాడి. విరిగిన బియ్యాన్ని మెత్తగా ఉడికించి, దానిపై రాగి పిండిని పోసి, చెక్క తెడ్డుతో మర్దించి గుండ్రని ముద్దలుగా తయారుచేసే అత్యంత బలవర్ధకమైన సాంప్రదాయ ఆహారం.",
+    "culturalContext": "The agrarian soul of Rayalaseema. For centuries, farmers working under the blazing Deccan sun relied on Ragi Sangati for slow-burning, sustained energy, complex minerals, and natural cooling properties.",
+    "servingRituals": "Placed in the center of a banana leaf or bronze plate. The eater creates a shallow crater on top with their fingers, pours 2 tablespoons of hot melted cow ghee, and ladles fiery Natu Kodi Pulusu around it.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792310240/APFOOD/ragi-sangati.jpg",
+    "ingredients": [
+      {
+        "name": "Raw Rice (Pacha Biyyam / Broken Rice)",
+        "quantity": 0.5,
+        "unit": "cup",
+        "isPrimary": true,
+        "notes": "Traditional unpolished rice"
+      },
+      {
+        "name": "Finger Millet Flour (Ragi Pindi)",
+        "quantity": 1,
+        "unit": "cup",
+        "isPrimary": true,
+        "notes": "Freshly stone-ground whole ragi"
+      },
+      {
+        "name": "Water",
+        "quantity": 3.5,
+        "unit": "cups",
+        "isPrimary": false,
+        "notes": "For slow boiling"
+      },
+      {
+        "name": "Rock Salt",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "isPrimary": false,
+        "notes": "To taste"
+      },
+      {
+        "name": "Pure Desi Cow Ghee",
+        "quantity": 4,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Essential melted topping"
+      }
+    ],
+    "instructions": [
+      "Rinse broken rice and add to a heavy brass pot or clay vessel with 3.5 cups of water and salt.",
+      "Bring to a boil over medium flame and cook until the rice is completely soft, mushy, and easily mashed between fingers.",
+      "Evenly spread 1 cup of ragi flour over the boiling rice like a blanket. DO NOT STIR immediately. Cover with a lid and let steam for 5 to 7 minutes on low flame so the flour cooks through in the steam.",
+      "Remove the lid. Using a sturdy round wooden churner (thuppanatta / wooden rolling pin), vigorously churn and knead the mixture from bottom to top until completely smooth with zero lumps.",
+      "Cover and let rest on lowest simmer for another 3 minutes. Turn off the flame.",
+      "Dip a round bowl and your clean hands in cold water. Scoop a large portion of hot dough and gently roll it in circular motions into a smooth, glossy sphere (mudda).",
+      "Transfer to a plate, create a dimple on top, fill with hot golden ghee, and serve immediately."
+    ]
+  },
+  {
+    "slug": "bongu-kodi",
+    "nameEn": "Bongu Kodi",
+    "nameTe": "బొంగు చికెన్",
+    "nameEnMeaning": "Araku Bamboo Pit-Roasted Chicken",
+    "region": "uttarandhra",
+    "districts": [
+      "alluri-sitharama-raju",
+      "parvathipuram-manyam"
+    ],
+    "category": "curries-and-kuras",
+    "heatLevel": 4,
+    "dietary": "non-vegetarian",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 45,
+    "servings": 4,
+    "primaryGrain": "none",
+    "cookingFat": "none",
+    "descriptionEn": "A primordial tribal masterpiece native to the high-altitude forests of the Araku Valley. Tender country chicken marinated in hand-ground wild mountain herbs, stuffed inside freshly cut green bamboo culms, sealed with sal leaves, and roasted directly over glowing woodfire embers without a single drop of added cooking oil.",
+    "descriptionTe": "అరకు లోయల గిరిజన సాంప్రదాయ అద్భుతం. అడవి మూలికలు, నాటుకోడి మాంసాన్ని పచ్చి వెదురు బొంగులో నింపి, సాల ఆకులతో మూసి, అడవి కట్టెల నిప్పులపై నూనె లేకుండా కాల్చి తయారుచేసే స్వచ్ఛమైన వంటకం.",
+    "culturalContext": "Crafted by the indigenous Valmiki, Bagata, and Konda Dora tribes of the Eastern Ghats. The fresh green bamboo culms release internal moisture and aromatic herbal bamboo sap during heating, steaming and roasting the meat in its own natural juices.",
+    "servingRituals": "The charred bamboo stalk is brought directly to the table, sliced open lengthwise with a machete, and the steaming, herb-infused chicken is slid onto fresh banana or sal leaves.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792310282/APFOOD/bongu-kodi.jpg",
+    "ingredients": [
+      {
+        "name": "Free-Range Country Chicken (Natu Kodi)",
+        "quantity": 1,
+        "unit": "kg",
+        "isPrimary": true,
+        "notes": "Cut into small bone-in pieces"
+      },
+      {
+        "name": "Fresh Green Bamboo Stalk (Bongu)",
+        "quantity": 2,
+        "unit": "sections",
+        "isPrimary": true,
+        "notes": "Freshly cut green bamboo closed on one end"
+      },
+      {
+        "name": "Wild Garlic and Mountain Ginger",
+        "quantity": 3,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Coarsely crushed on stone"
+      },
+      {
+        "name": "Guntur Red Chilli Powder",
+        "quantity": 2,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Sun-dried and stone-ground"
+      },
+      {
+        "name": "Wild Long Pepper (Pippali) & Cloves",
+        "quantity": 1,
+        "unit": "tsp",
+        "isPrimary": true,
+        "notes": "Indigenous Eastern Ghats spice"
+      },
+      {
+        "name": "Sal or Banana Leaves",
+        "quantity": 4,
+        "unit": "leaves",
+        "isPrimary": false,
+        "notes": "For sealing the bamboo mouth tightly"
+      }
+    ],
+    "instructions": [
+      "Clean chicken pieces and toss thoroughly with crushed ginger, garlic, red chilli powder, turmeric, wild long pepper, and rock salt. Marinate for at least 30 minutes.",
+      "Clean the inside of freshly cut hollow green bamboo culms with water.",
+      "Tightly pack the marinated chicken pieces inside the bamboo cavity, leaving 2 inches of space at the open top.",
+      "Fold clean banana or sal leaves into a tight plug and wedge firmly into the opening of the bamboo to seal in all juices and steam.",
+      "Place the stuffed bamboo stalks directly onto red-hot woodfire charcoal embers, rotating every 8-10 minutes.",
+      "As the moisture heats up inside, the bamboo exterior will char black while the green inner wall bakes the meat in its natural herbal sap.",
+      "Roast for 40-45 minutes. Remove from embers, split the bamboo carefully, and serve hot."
+    ]
+  },
+  {
+    "slug": "chepala-pulusu",
+    "nameEn": "Godavari Chepala Pulusu",
+    "nameTe": "గోదావరి చేపల పులుసు",
+    "nameEnMeaning": "Clay-Pot Simmered River Fish in Mango Tamarind Gravy",
+    "region": "coastal-andhra",
+    "districts": [
+      "konaseema",
+      "east-godavari",
+      "west-godavari",
+      "kakinada"
+    ],
+    "category": "curries-and-kuras",
+    "heatLevel": 4,
+    "dietary": "non-vegetarian",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 35,
+    "servings": 4,
+    "primaryGrain": "none",
+    "cookingFat": "cold-pressed-sesame-oil",
+    "descriptionEn": "Freshwater river catch or seasonal Pulasa simmered slowly in an unglazed earthen pot with aged black tamarind extract, raw green mango slices, crushed garlic, and fiery red chillies. Renowned for tasting exponentially richer the next day after resting overnight in clay.",
+    "descriptionTe": "గోదావరి నదీ ముఖద్వార చేపలతో మట్టి పాత్రలో వండే ప్రసిద్ధ పులుసు. పాత చింతపండు, పచ్చి మామిడికాయ ముక్కలు, వెల్లుల్లి ఘాటుతో రాత్రంతా మట్టికుండలో నానిన తర్వాత మరుసటి రోజు తింటే వచ్చే రుచే వేరు.",
+    "culturalContext": "In Godavari culture, fish pulusu is an art form. Local cooks strictly swirl the clay pot using a cloth rather than using a ladle, which would break the tender fish steaks. 'Roju gadichina chepala pulusu' (fish pulusu that has aged a day) is considered the pinnacle of delta gastronomy.",
+    "servingRituals": "Served on day two over warm Sona Masuri rice, allowing the gelatinous, tangy gravy to seep deep into the grains.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792310331/APFOOD/chepala-pulusu.jpg",
+    "ingredients": [
+      {
+        "name": "Freshwater River Fish (Korameenu / Pulasa / Rohu)",
+        "quantity": 1,
+        "unit": "kg",
+        "isPrimary": true,
+        "notes": "Cut into thick steaks"
+      },
+      {
+        "name": "Aged Black Tamarind (Patha Chintapandu)",
+        "quantity": 100,
+        "unit": "grams",
+        "isPrimary": true,
+        "notes": "Soaked and thick juice extracted"
+      },
+      {
+        "name": "Raw Green Mango (Mamidikaya)",
+        "quantity": 1,
+        "unit": "medium",
+        "isPrimary": true,
+        "notes": "Sliced with skin on"
+      },
+      {
+        "name": "Cold-Pressed Sesame or Groundnut Oil",
+        "quantity": 5,
+        "unit": "tbsp",
+        "isPrimary": false,
+        "notes": "Generous oil preserves fish in clay"
+      },
+      {
+        "name": "Fenugreek & Mustard Seed Powder (Menthi Podi)",
+        "quantity": 1,
+        "unit": "tsp",
+        "isPrimary": true,
+        "notes": "Roasted golden and freshly ground"
+      },
+      {
+        "name": "Crushed Garlic Cloves",
+        "quantity": 12,
+        "unit": "cloves",
+        "isPrimary": true,
+        "notes": "Lightly bruised with skin"
+      }
+    ],
+    "instructions": [
+      "Rub fish steaks with sea salt, turmeric, and 1 tablespoon of chilli powder; set aside for 15 minutes.",
+      "Heat sesame oil in an unglazed clay pot (chatty). Splutter mustard seeds, fenugreek seeds, slit green chillies, and crushed garlic.",
+      "Add finely chopped onions and sauté until translucent. Add ginger-garlic paste and sauté until raw aroma disappears.",
+      "Add extracted tamarind water, raw mango slices, turmeric, remaining red chilli powder, and salt. Bring to a rolling boil.",
+      "Gently slide fish steaks into the boiling gravy in a single layer. Lower flame to medium.",
+      "DO NOT USE A SPOON. Hold the pot with a dry cloth on both sides and swirl in a gentle circular motion to coat the fish without breaking delicate steaks.",
+      "Sprinkle roasted fenugreek-mustard powder over the gravy. Simmer uncovered on low flame for 15-20 minutes until oil floats on top.",
+      "Allow to cool in the clay pot and rest at least 6 hours (ideally overnight) before serving."
+    ]
+  },
+  {
+    "slug": "pootharekulu",
+    "nameEn": "Atreyapuram Pootharekulu",
+    "nameTe": "ఆత్రేయపురం పూతరేకులు",
+    "nameEnMeaning": "Artisanal Rice-Paper Wafers with Ghee & Jaggery",
+    "region": "coastal-andhra",
+    "districts": [
+      "konaseema",
+      "east-godavari"
+    ],
+    "category": "sweets",
+    "heatLevel": 1,
+    "dietary": "vegetarian",
+    "prepTimeMinutes": 60,
+    "cookTimeMinutes": 30,
+    "servings": 6,
+    "primaryGrain": "rice",
+    "cookingFat": "pure-cow-ghee",
+    "descriptionEn": "An exquisite GI-tagged confectionery native to Atreyapuram village in Konaseema. Micro-thin edible sheets made from fermented rice batter baked on an inverted clay pot (kunda), carefully folded into delicate translucent envelopes with pure ghee, powdered jaggery, cardamom, and toasted nuts.",
+    "descriptionTe": "గోదావరి లోయలోని ఆత్రేయపురం గ్రామ ప్రత్యేకత (GI Tag). బోర్లించిన మట్టి కుండపై వరి పిండి గుడ్డతో అత్యంత పల్చని పొరలను తీసి, నెయ్యి, బెల్లం పొడి, యాలకులతో మడతపెట్టే అద్భుతమైన సాంప్రదాయ మిఠాయి.",
+    "culturalContext": "Awarded a Geographical Indication (GI) tag, Pootharekulu (literally 'coated sheets') has been handcrafted by women artisans in Atreyapuram for over four centuries using a specialized inverted earthenware pot heated by burning coconut husks.",
+    "servingRituals": "Served at festive gatherings and weddings, enjoyed at room temperature where the wafer dissolves instantly upon touching the tongue.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792310402/APFOOD/pootharekulu.jpg",
+    "ingredients": [
+      {
+        "name": "Coarse Rice Starch Batter (Jaya Biyyam)",
+        "quantity": 2,
+        "unit": "cups",
+        "isPrimary": true,
+        "notes": "Diluted to ultra-thin watery consistency"
+      },
+      {
+        "name": "Pure Desi Ghee",
+        "quantity": 0.5,
+        "unit": "cup",
+        "isPrimary": true,
+        "notes": "Warm and melted"
+      },
+      {
+        "name": "Organic Powdered Cane Jaggery",
+        "quantity": 1,
+        "unit": "cup",
+        "isPrimary": true,
+        "notes": "Fine powder without moisture"
+      },
+      {
+        "name": "Green Cardamom Powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "isPrimary": false,
+        "notes": "Freshly ground"
+      },
+      {
+        "name": "Chopped Pistachios & Almonds",
+        "quantity": 0.25,
+        "unit": "cup",
+        "isPrimary": false,
+        "notes": "Optional dry fruit filling"
+      }
+    ],
+    "instructions": [
+      "Soak starch-rich rice overnight, grind into a silky-smooth liquid batter, and dilute with water to milk-like consistency.",
+      "Heat a specialized polished earthenware pot placed inverted over a low-smoke hearth fueled by coconut shells.",
+      "Dip a clean coarse muslin cloth into the liquid batter and sweep it swiftly across the hot curved surface of the inverted pot.",
+      "Within seconds, the wafer bakes into an ultra-thin, translucent, paper-like sheet. Lift carefully by the edges.",
+      "Place two to three fresh rice sheets on a flat surface, brush with melted warm desi ghee, and evenly sprinkle powdered jaggery, cardamom, and chopped nuts.",
+      "Fold the sides inward like an envelope, rolling tightly into a rectangular packet. Store in airtight tins."
+    ]
+  },
+  {
+    "slug": "gongura-mutton",
+    "nameEn": "Gongura Mutton",
+    "nameTe": "గోంగూర మటన్",
+    "nameEnMeaning": "Red Sorrel Leaf Slow-Cooked Mutton",
+    "region": "coastal-andhra",
+    "districts": [
+      "guntur",
+      "krishna",
+      "west-godavari",
+      "palnadu"
+    ],
+    "category": "curries-and-kuras",
+    "heatLevel": 4,
+    "dietary": "non-vegetarian",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 60,
+    "servings": 4,
+    "primaryGrain": "none",
+    "cookingFat": "cold-pressed-sesame-oil",
+    "descriptionEn": "Bone-in country mutton slow-braised with generous handfuls of red-stemmed sorrel leaves (erra gongura), green chillies, garlic, and aromatic tempering. The oxalic acid in gongura tenderizes the meat while imparting a bold, tangy sourness that defines Guntur non-vegetarian cuisine.",
+    "descriptionTe": "నాటు మేక మాంసాన్ని ఎర్ర గోంగూర ఆకులతో, పచ్చిమిర్చి, వెల్లుల్లితో నెమ్మదిగా ఉడికించి, నువ్వుల నూనెతో తాలింపు పెట్టి వండే గుంటూరు ప్రత్యేక వంటకం. గోంగూర పులుపు మాంసాన్ని మృదువుగా చేస్తుంది.",
+    "culturalContext": "Guntur's fiery pride. During monsoon season, when fresh red-stemmed gongura floods the local markets, every household prepares this dish in brass vessels. The tanginess of gongura perfectly balances the richness of mutton fat.",
+    "servingRituals": "Served with steaming Sona Masuri white rice and a generous dollop of melting ghee. The gravy is meant to pool on the rice plate and soak in.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792310789/APFOOD/gongura-mutton.jpg",
+    "ingredients": [
+      {
+        "name": "Bone-In Mutton (Meka Maamsam)",
+        "quantity": 750,
+        "unit": "grams",
+        "isPrimary": true,
+        "notes": "Country goat with marrow bones"
+      },
+      {
+        "name": "Red Sorrel Leaves (Erra Gongura)",
+        "quantity": 3,
+        "unit": "cups",
+        "isPrimary": true,
+        "notes": "Washed, thick stems removed"
+      },
+      {
+        "name": "Green Chillies",
+        "quantity": 8,
+        "unit": "pieces",
+        "isPrimary": true,
+        "notes": "Slit lengthwise"
+      },
+      {
+        "name": "Garlic Cloves",
+        "quantity": 15,
+        "unit": "cloves",
+        "isPrimary": true,
+        "notes": "Crushed with skin"
+      },
+      {
+        "name": "Cold-Pressed Sesame Oil",
+        "quantity": 5,
+        "unit": "tbsp",
+        "isPrimary": false,
+        "notes": "Traditional Andhra cooking fat"
+      },
+      {
+        "name": "Mustard Seeds & Curry Leaves",
+        "quantity": 1,
+        "unit": "tsp",
+        "isPrimary": false,
+        "notes": "For spluttering talimpu"
+      },
+      {
+        "name": "Guntur Red Chilli Powder",
+        "quantity": 2,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Adjust to heat preference"
+      },
+      {
+        "name": "Turmeric & Salt",
+        "quantity": 1,
+        "unit": "tsp each",
+        "isPrimary": false,
+        "notes": "To taste"
+      }
+    ],
+    "instructions": [
+      "Wash mutton pieces thoroughly. Pressure-cook with turmeric, salt, and 1 cup water for 3-4 whistles until tender but not falling off the bone.",
+      "In a heavy brass pot, heat sesame oil. Splutter mustard seeds, curry leaves, slit green chillies, and crushed garlic until golden and fragrant.",
+      "Add sliced onions and sauté until deep golden brown. Add red chilli powder and sauté for 30 seconds.",
+      "Add the pressure-cooked mutton with its reduced stock. Stir well and cook uncovered on medium heat for 10 minutes to allow the masala to coat each piece.",
+      "Add washed gongura leaves in generous handfuls. Stir, cover, and cook on low heat for 15-20 minutes until the leaves completely wilt and disintegrate into the gravy.",
+      "Uncover and cook on medium-high heat for 5-7 minutes until the oil separates (telu) and the gravy thickens to a glossy, tangy coating.",
+      "Serve immediately with hot rice and ghee."
+    ]
+  },
+  {
+    "slug": "royyala-iguru",
+    "nameEn": "Royyala Iguru",
+    "nameTe": "రొయ్యల ఇగురు",
+    "nameEnMeaning": "West Godavari Spicy Prawn Masala",
+    "region": "coastal-andhra",
+    "districts": [
+      "west-godavari",
+      "east-godavari",
+      "kakinada",
+      "krishna"
+    ],
+    "category": "curries-and-kuras",
+    "heatLevel": 4,
+    "dietary": "non-vegetarian",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
+    "servings": 4,
+    "primaryGrain": "none",
+    "cookingFat": "cold-pressed-groundnut-oil",
+    "descriptionEn": "Plump freshwater scampi or tiger prawns tossed in a fiery, dry-roasted masala of onions, tomatoes, ginger-garlic, and stone-ground spices. Cooked until the oil separates and the prawns are coated in a thick, clinging, spicy gravy — the hallmark of Bhimavaram's seafood kitchens.",
+    "descriptionTe": "బంగారపు రంగు రొయ్యలను ఉల్లిపాయలు, టమాటాలు, అల్లం-వెల్లుల్లి ముద్దతో, ఎర్రమిరపకారంతో గట్టి ఇగురుగా వండే పశ్చిమ గోదావరి ప్రత్యేక వంటకం.",
+    "culturalContext": "West Godavari is India's aquaculture capital. The prawn farms lining the Godavari tributaries supply the freshest catch, and iguru (dry masala curry) is the preferred preparation — where every surface of the prawn is sealed in spice.",
+    "servingRituals": "Served as a side dish alongside plain steamed rice and pappu, or as a standalone appetizer with crispy papads.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792310837/APFOOD/royyala-iguru.jpg",
+    "ingredients": [
+      {
+        "name": "Fresh Tiger Prawns / Scampi (Royyalu)",
+        "quantity": 500,
+        "unit": "grams",
+        "isPrimary": true,
+        "notes": "Cleaned, deveined, tail-on"
+      },
+      {
+        "name": "Onions (finely chopped)",
+        "quantity": 2,
+        "unit": "large",
+        "isPrimary": true,
+        "notes": "Sliced thin for caramelization"
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 2,
+        "unit": "medium",
+        "isPrimary": true,
+        "notes": "Finely chopped"
+      },
+      {
+        "name": "Ginger-Garlic Paste",
+        "quantity": 2,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Stone-ground fresh"
+      },
+      {
+        "name": "Guntur Red Chilli Powder",
+        "quantity": 2,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Adjust to taste"
+      },
+      {
+        "name": "Curry Leaves & Mustard Seeds",
+        "quantity": 1,
+        "unit": "sprig",
+        "isPrimary": false,
+        "notes": "For tempering"
+      },
+      {
+        "name": "Cold-Pressed Groundnut Oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "isPrimary": false,
+        "notes": "Traditional coastal oil"
+      }
+    ],
+    "instructions": [
+      "Clean prawns, rub with turmeric and salt, and set aside for 10 minutes.",
+      "Heat oil in a heavy-bottomed kadai. Splutter mustard seeds and curry leaves.",
+      "Add sliced onions and sauté on medium flame until deep golden brown (8-10 minutes).",
+      "Add ginger-garlic paste and sauté for 2 minutes until raw smell dissipates.",
+      "Add chopped tomatoes, red chilli powder, coriander powder, turmeric, and salt. Cook until tomatoes break down and oil separates.",
+      "Add prawns in a single layer. Toss well to coat each prawn in masala. Cook uncovered on high flame for 5-7 minutes.",
+      "Reduce heat to medium. Continue tossing until gravy becomes thick, dry, and clings to the prawns. Garnish with fresh coriander and serve."
+    ]
+  },
+  {
+    "slug": "punugulu",
+    "nameEn": "Punugulu",
+    "nameTe": "పునుగులు",
+    "nameEnMeaning": "Spiced Urad Dal Fried Dumplings",
+    "region": "coastal-andhra",
+    "districts": [
+      "ntr",
+      "guntur",
+      "krishna",
+      "east-godavari"
+    ],
+    "category": "snacks-and-street-food",
+    "heatLevel": 2,
+    "dietary": "vegetarian",
+    "prepTimeMinutes": 480,
+    "cookTimeMinutes": 20,
+    "servings": 6,
+    "primaryGrain": "urad-dal",
+    "cookingFat": "cold-pressed-groundnut-oil",
+    "descriptionEn": "Crispy, golden spherical fritters made from fermented urad dal and rice batter (leftover idli batter), spiked with curry leaves, green chillies, ginger, and cumin. Deep-fried in groundnut oil until the outside shatters and the inside stays soft and pillowy.",
+    "descriptionTe": "పులిసిన ఇడ్లీ పిండిని కరివేపాకు, పచ్చిమిర్చి, అల్లం, జీలకర్రలతో కలిపి, వేరుశెనగ నూనెలో గుండ్రంగా వేయించి తయారుచేసే విజయవాడ వీధి ఆహారం.",
+    "culturalContext": "A beloved Vijayawada street food, punugulu are the quintessential rainy-day snack. The genius lies in repurposing yesterday's leftover idli batter — the extra fermentation creates an even tangier, airier fritter.",
+    "servingRituals": "Served piping hot in banana leaf cones with tangy tomato sauce and spicy peanut chutney from street vendors along Vijayawada's Benz Circle and MG Road.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792310902/APFOOD/punugulu.jpg",
+    "ingredients": [
+      {
+        "name": "Fermented Idli Batter (Urad + Rice)",
+        "quantity": 3,
+        "unit": "cups",
+        "isPrimary": true,
+        "notes": "Extra sour, day-old batter works best"
+      },
+      {
+        "name": "Curry Leaves (Karivepaku)",
+        "quantity": 2,
+        "unit": "sprigs",
+        "isPrimary": false,
+        "notes": "Finely chopped"
+      },
+      {
+        "name": "Green Chillies",
+        "quantity": 4,
+        "unit": "pieces",
+        "isPrimary": true,
+        "notes": "Finely chopped"
+      },
+      {
+        "name": "Ginger (grated)",
+        "quantity": 1,
+        "unit": "inch",
+        "isPrimary": false,
+        "notes": "Freshly grated"
+      },
+      {
+        "name": "Cumin Seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "isPrimary": false,
+        "notes": "Whole"
+      },
+      {
+        "name": "Groundnut Oil (for deep frying)",
+        "quantity": 500,
+        "unit": "ml",
+        "isPrimary": false,
+        "notes": "Cold-pressed, heated to 180°C"
+      }
+    ],
+    "instructions": [
+      "Take 3 cups of well-fermented sour idli batter in a large bowl.",
+      "Mix in chopped curry leaves, green chillies, grated ginger, cumin seeds, and salt. The batter should be thick enough to hold shape when dropped.",
+      "If batter is too thin, add 1-2 tablespoons of rice flour to tighten the consistency.",
+      "Heat groundnut oil in a deep kadai until a small drop of batter sizzles and rises immediately.",
+      "Using a wet spoon or fingers, drop rounded spoonfuls of batter into the hot oil. Do not overcrowd.",
+      "Fry on medium heat for 4-5 minutes, turning occasionally, until uniformly deep golden brown and the sizzling subsides.",
+      "Drain on a banana leaf or paper towels. Serve immediately with palli chutney and tomato ketchup."
+    ]
+  },
+  {
+    "slug": "pulihora",
+    "nameEn": "Pulihora",
+    "nameTe": "పులిహోర",
+    "nameEnMeaning": "Tamarind-Tempered Festival Rice",
+    "region": "coastal-andhra",
+    "districts": [
+      "guntur",
+      "krishna",
+      "ntr",
+      "east-godavari",
+      "tirupati"
+    ],
+    "category": "rice-and-meals",
+    "heatLevel": 2,
+    "dietary": "vegetarian",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 6,
+    "primaryGrain": "rice",
+    "cookingFat": "cold-pressed-sesame-oil",
+    "descriptionEn": "Aromatic tangy rice mixed with concentrated tamarind paste, turmeric, roasted peanuts, and a fiery tempering of mustard seeds, dried red chillies, curry leaves, and sesame oil. An essential temple prasadam and travel food that stays fresh for hours without refrigeration.",
+    "descriptionTe": "చింతపండు పేస్ట్, పసుపు, వేయించిన పల్లీలు, ఆవాలు, ఎండుమిరపకాయలు, కరివేపాకు తాలింపుతో తయారుచేసే దేవాలయ ప్రసాదం. గంటల తరబడి చల్లగా తిన్నా రుచి తగ్గదు.",
+    "culturalContext": "Pulihora is the sacred travel rice of Andhra. Offered as prasadam in every temple from Tirupati to Srisailam, it is also the mandatory first dish packed into steel tiffin carriers for long train journeys. The tamarind and sesame oil act as natural preservatives.",
+    "servingRituals": "Served at room temperature in banana leaf packets at temple premises, or packed into stainless steel dabba for travel. Eaten as-is, without accompaniments.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792310991/APFOOD/pulihora.jpg",
+    "ingredients": [
+      {
+        "name": "Cooked Sona Masuri Rice",
+        "quantity": 3,
+        "unit": "cups",
+        "isPrimary": true,
+        "notes": "Cooled, grains separated"
+      },
+      {
+        "name": "Tamarind Paste (Chintapandu)",
+        "quantity": 3,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Concentrated extract"
+      },
+      {
+        "name": "Roasted Peanuts",
+        "quantity": 0.25,
+        "unit": "cup",
+        "isPrimary": false,
+        "notes": "Dry-roasted without oil"
+      },
+      {
+        "name": "Cold-Pressed Sesame Oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Essential for flavor and preservation"
+      },
+      {
+        "name": "Mustard Seeds, Dried Red Chillies, Curry Leaves",
+        "quantity": 1,
+        "unit": "tsp + 4 + 2 sprigs",
+        "isPrimary": true,
+        "notes": "For talimpu"
+      },
+      {
+        "name": "Turmeric Powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "isPrimary": false,
+        "notes": "For golden color"
+      }
+    ],
+    "instructions": [
+      "Cook Sona Masuri rice with slightly less water to get firm, separated grains. Spread on a wide plate to cool completely.",
+      "Heat sesame oil in a heavy pan. Splutter mustard seeds, broken dried red chillies, curry leaves, and a pinch of asafoetida.",
+      "Add roasted peanuts and sauté for 30 seconds.",
+      "Lower heat and add tamarind paste, turmeric, and salt. Cook for 3-4 minutes until the raw tamarind smell disappears and the paste thickens.",
+      "Add the cooled rice to the pan. Gently fold and toss (never stir hard) until every grain is evenly coated in the tangy, golden tempering.",
+      "Remove from heat and let rest for 10 minutes so flavors meld. Serve at room temperature."
+    ]
+  },
+  {
+    "slug": "kakinada-kaja",
+    "nameEn": "Kakinada Kaja",
+    "nameTe": "కాకినాడ కాజా",
+    "nameEnMeaning": "Flaky Layered Syrup-Soaked Pastry",
+    "region": "coastal-andhra",
+    "districts": [
+      "kakinada",
+      "east-godavari"
+    ],
+    "category": "sweets",
+    "heatLevel": 1,
+    "dietary": "vegetarian",
+    "prepTimeMinutes": 120,
+    "cookTimeMinutes": 30,
+    "servings": 12,
+    "primaryGrain": "refined-wheat-flour",
+    "cookingFat": "pure-cow-ghee",
+    "descriptionEn": "A legendary GI-tagged sweet of Kakinada — multiple layers of maida dough rolled paper-thin with ghee, deep-fried to shatteringly crisp golden perfection, then soaked in warm sugar syrup until each flaky layer absorbs sweetness while maintaining its signature crunch.",
+    "descriptionTe": "కాకినాడ ప్రత్యేకమైన GI ట్యాగ్ మిఠాయి. నెయ్యితో మడతపెట్టిన మైదా పొరలను బంగారు రంగులో వేయించి, వెచ్చని పంచదార పాకంలో నానబెట్టి తయారుచేసే ప్రసిద్ధ మిఠాయి.",
+    "culturalContext": "Kakinada Kaja received its GI tag recognizing over a century of artisanal preparation by sweetmeat families in Kakinada town. The secret lies in the exact number of ghee-brushed folds (minimum 16 layers) that create the signature shatter.",
+    "servingRituals": "Best eaten fresh within hours of preparation, while the outer layers are still audibly crisp and the interior oozes warm, thin syrup.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792311060/APFOOD/kakinada-kaja.jpg",
+    "ingredients": [
+      {
+        "name": "Maida (Refined Wheat Flour)",
+        "quantity": 2,
+        "unit": "cups",
+        "isPrimary": true,
+        "notes": "Sifted fine"
+      },
+      {
+        "name": "Pure Cow Ghee",
+        "quantity": 0.75,
+        "unit": "cup",
+        "isPrimary": true,
+        "notes": "For layering and frying"
+      },
+      {
+        "name": "Sugar",
+        "quantity": 1.5,
+        "unit": "cups",
+        "isPrimary": true,
+        "notes": "For one-string-consistency syrup"
+      },
+      {
+        "name": "Cardamom Powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "isPrimary": false,
+        "notes": "Freshly ground"
+      },
+      {
+        "name": "Ghee for deep frying",
+        "quantity": 500,
+        "unit": "ml",
+        "isPrimary": false,
+        "notes": "Pure cow ghee only"
+      }
+    ],
+    "instructions": [
+      "Knead maida with a pinch of salt and warm water into a smooth, elastic dough. Rest for 30 minutes.",
+      "Divide into 12 portions. Roll each portion into a thin rectangle. Brush generously with melted ghee.",
+      "Fold into thirds like a letter. Rotate 90°, roll out again, brush ghee, and fold. Repeat 4 times to build 16+ flaky layers.",
+      "Roll the final layered dough into a tight cylinder, flatten slightly, and shape into an oval kaja.",
+      "Heat ghee in a deep kadai to 160°C. Slowly slide each kaja into the oil and fry on low-medium heat, turning gently, until uniformly golden and puffed with distinct layers visible.",
+      "Prepare sugar syrup to one-string consistency with cardamom. Soak hot kajas in warm syrup for 2 minutes, then drain.",
+      "Serve warm or at room temperature within 4-6 hours of preparation."
+    ]
+  },
+  {
+    "slug": "gongura-pappu",
+    "nameEn": "Gongura Pappu",
+    "nameTe": "గోంగూర పప్పు",
+    "nameEnMeaning": "Toor Dal Simmered with Red Sorrel Leaves",
+    "region": "coastal-andhra",
+    "districts": [
+      "guntur",
+      "krishna",
+      "prakasam",
+      "ntr"
+    ],
+    "category": "pappu-and-dals",
+    "heatLevel": 3,
+    "dietary": "vegetarian",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "servings": 4,
+    "primaryGrain": "none",
+    "cookingFat": "cold-pressed-sesame-oil",
+    "descriptionEn": "Pressure-cooked toor dal mashed and simmered with wilted red-stemmed sorrel leaves (gongura), creating a tangy, earthy, vibrant green-tinged dal finished with a crackling talimpu of mustard seeds, dried red chillies, garlic, and curry leaves in sesame oil.",
+    "descriptionTe": "కందిపప్పును ఎర్ర గోంగూర ఆకులతో ఉడికించి, ఆవాలు, ఎండుమిరపకాయలు, వెల్లుల్లి, కరివేపాకు తాలింపుతో రుచికరమైన పప్పు. రోజువారీ భోజనంలో అన్నంపై పోసుకునే ప్రధాన వంటకం.",
+    "culturalContext": "Every Andhra household has its own gongura pappu recipe passed down through generations. It is the everyday staple that defines the family meal — poured generously over steaming rice with a river of ghee.",
+    "servingRituals": "Ladled hot over steamed Sona Masuri rice with a generous pat of melting ghee. Accompanied by crispy appadams or vadiyalu.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792311119/APFOOD/gongura-pappu.jpg",
+    "ingredients": [
+      {
+        "name": "Toor Dal (Kandi Pappu)",
+        "quantity": 1,
+        "unit": "cup",
+        "isPrimary": true,
+        "notes": "Washed and soaked 30 minutes"
+      },
+      {
+        "name": "Red Sorrel Leaves (Erra Gongura)",
+        "quantity": 2,
+        "unit": "cups packed",
+        "isPrimary": true,
+        "notes": "Stems removed, washed"
+      },
+      {
+        "name": "Green Chillies",
+        "quantity": 4,
+        "unit": "pieces",
+        "isPrimary": true,
+        "notes": "Slit"
+      },
+      {
+        "name": "Cold-Pressed Sesame Oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "isPrimary": false,
+        "notes": "For talimpu"
+      },
+      {
+        "name": "Mustard Seeds, Dried Red Chillies, Curry Leaves, Garlic",
+        "quantity": 1,
+        "unit": "set",
+        "isPrimary": true,
+        "notes": "For aromatic tempering"
+      },
+      {
+        "name": "Turmeric & Salt",
+        "quantity": 1,
+        "unit": "tsp each",
+        "isPrimary": false,
+        "notes": "To taste"
+      }
+    ],
+    "instructions": [
+      "Pressure-cook toor dal with turmeric, salt, and 2.5 cups water for 3 whistles until soft and mushy.",
+      "In a separate pan, dry-wilt gongura leaves with slit green chillies on medium heat for 5 minutes until leaves shrink and change color. No oil or water needed at this stage.",
+      "Mash the cooked dal with a ladle. Add the wilted gongura leaves and mix well. Simmer on low heat for 10 minutes until the leaves fully integrate into the dal.",
+      "Prepare talimpu: Heat sesame oil in a small pan. Splutter mustard seeds, broken dried red chillies, sliced garlic, and fresh curry leaves until garlic turns golden.",
+      "Pour the sizzling talimpu over the simmering pappu. Stir well and serve immediately over hot rice with ghee."
+    ]
+  },
+  {
+    "slug": "nellore-chepala-pulusu",
+    "nameEn": "Nellore Chepala Pulusu",
+    "nameTe": "నెల్లూరు చేపల పులుసు",
+    "nameEnMeaning": "Nellore Style Fiery Tamarind Fish Stew",
+    "region": "coastal-andhra",
+    "districts": [
+      "sri-potti-sriramulu-nellore",
+      "prakasam"
+    ],
+    "category": "pulusu-and-charu",
+    "heatLevel": 5,
+    "dietary": "non-vegetarian",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "servings": 4,
+    "primaryGrain": "none",
+    "cookingFat": "cold-pressed-sesame-oil",
+    "descriptionEn": "Nellore's signature fiery fish stew — thick, dark-red tamarind gravy loaded with robust red chilli powder, fenugreek-mustard seed aromatics, and firm-fleshed coastal fish steaks. Known for its scorching heat level and deeply layered sour-spice balance perfected by Pennar river delta cooks.",
+    "descriptionTe": "నెల్లూరు ప్రత్యేక చేపల పులుసు — ఘాటైన చింతపండు రసంలో, మెంతుల-ఆవాల పొడితో, ఎర్రమిరపకారం పుష్కలంగా వేసి వండే మండే పులుసు. పెన్నా నదీ తీర వంటకళాకారుల ప్రత్యేక రుచి.",
+    "culturalContext": "Nellore cooks are known for their uncompromising heat levels. This pulusu is intentionally prepared at maximum fire — only those who can handle raw Guntur-grade chilli powder dare ask for seconds. The fenugreek-mustard powder is the secret aromatic backbone.",
+    "servingRituals": "Served very hot over fluffy white rice with raw onion rings and lime wedges on the side. The gravy is poured liberally to soak the rice plate.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792311291/APFOOD/nellore-chepala-pulusu.jpg",
+    "ingredients": [
+      {
+        "name": "Firm White Fish Steaks (Rohu / Catla)",
+        "quantity": 750,
+        "unit": "grams",
+        "isPrimary": true,
+        "notes": "Cut into thick cross-section steaks"
+      },
+      {
+        "name": "Aged Tamarind Paste",
+        "quantity": 4,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Dark, concentrated extract"
+      },
+      {
+        "name": "Red Chilli Powder (Guntur)",
+        "quantity": 3,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Maximum heat"
+      },
+      {
+        "name": "Fenugreek-Mustard Powder (Menthi-Aavala Podi)",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "isPrimary": true,
+        "notes": "Dry-roasted and ground"
+      },
+      {
+        "name": "Sesame Oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "isPrimary": false,
+        "notes": "Cold-pressed"
+      },
+      {
+        "name": "Garlic, Onions, Curry Leaves",
+        "quantity": 1,
+        "unit": "set",
+        "isPrimary": false,
+        "notes": "For base"
+      }
+    ],
+    "instructions": [
+      "Rub fish steaks with turmeric and salt. Set aside for 10 minutes.",
+      "Heat sesame oil in a heavy clay pot. Splutter mustard seeds, fenugreek seeds, dried red chillies, and curry leaves.",
+      "Add sliced onions and crushed garlic. Sauté until onions turn golden.",
+      "Add tamarind extract, red chilli powder, turmeric, and 2 cups warm water. Bring to a boil and simmer for 5 minutes.",
+      "Gently place fish steaks into the boiling gravy. Swirl the pot — do not stir with a spoon.",
+      "Sprinkle fenugreek-mustard powder on top. Simmer uncovered on low flame for 15-20 minutes until gravy thickens and oil separates.",
+      "Let it rest in the clay pot for minimum 2 hours before serving. Best served next day."
+    ]
+  },
+  {
+    "slug": "natu-kodi-pulusu",
+    "nameEn": "Natu Kodi Pulusu",
+    "nameTe": "నాటు కోడి పులుసు",
+    "nameEnMeaning": "Free-Range Country Chicken Tamarind Curry",
+    "region": "rayalaseema",
+    "districts": [
+      "ysr-kadapa",
+      "kurnool",
+      "anantapuramu",
+      "annamayya"
+    ],
+    "category": "curries-and-kuras",
+    "heatLevel": 4,
+    "dietary": "non-vegetarian",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 50,
+    "servings": 4,
+    "primaryGrain": "none",
+    "cookingFat": "cold-pressed-groundnut-oil",
+    "descriptionEn": "Rayalaseema's most iconic non-vegetarian dish. Tough, flavorful free-range country chicken slow-braised in a fiery, rust-colored tamarind gravy thickened with freshly ground poppy seeds and dry coconut, enriched with pounded garlic and green chillies. The longer it simmers, the deeper the flavor.",
+    "descriptionTe": "రాయలసీమ గర్వం — నాటుకోడిని చింతపండు రసంలో, గసగసాలు, ఎండుకొబ్బరి, వెల్లుల్లి, పచ్చిమిర్చితో నెమ్మదిగా ఉడికించే మండే పులుసు. ఎంతసేపు మగ్గబెడితే అంత రుచి.",
+    "culturalContext": "The prized Sunday lunch across Rayalaseema. Country chicken (natu kodi) raised in open fields produces significantly richer, gamier meat than commercial poultry. The poppy seed-coconut thickener is a Rayalaseema signature absent from coastal preparations.",
+    "servingRituals": "Always paired with Ragi Sangati mudda or Jonna Roti. The gravy is meant to be consumed in generous pools, soaking the sangati from its ghee-filled crater.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792332923/APFOOD/natu-kodi-pulusu.jpg",
+    "ingredients": [
+      {
+        "name": "Country Chicken (Natu Kodi)",
+        "quantity": 1,
+        "unit": "kg",
+        "isPrimary": true,
+        "notes": "Bone-in, skin-on pieces"
+      },
+      {
+        "name": "Tamarind Paste",
+        "quantity": 3,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Aged black tamarind extract"
+      },
+      {
+        "name": "Poppy Seeds (Gasagasalu)",
+        "quantity": 1,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Soaked and ground"
+      },
+      {
+        "name": "Dry Coconut",
+        "quantity": 2,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Grated and dry-roasted"
+      },
+      {
+        "name": "Garlic",
+        "quantity": 15,
+        "unit": "cloves",
+        "isPrimary": true,
+        "notes": "Crushed roughly"
+      },
+      {
+        "name": "Groundnut Oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "isPrimary": false,
+        "notes": "Cold-pressed"
+      },
+      {
+        "name": "Red Chilli Powder",
+        "quantity": 2,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Stone-ground"
+      },
+      {
+        "name": "Mustard Seeds, Curry Leaves, Onions",
+        "quantity": 1,
+        "unit": "set",
+        "isPrimary": false,
+        "notes": "For base"
+      }
+    ],
+    "instructions": [
+      "Clean country chicken pieces. Marinate with turmeric, salt, and half the red chilli powder for 15 minutes.",
+      "Soak poppy seeds in warm water for 20 minutes. Grind with roasted dry coconut into a fine paste.",
+      "Heat groundnut oil in a heavy brass or clay pot. Splutter mustard seeds, curry leaves, and slit green chillies.",
+      "Add sliced onions and crushed garlic. Sauté until deeply browned (10 minutes).",
+      "Add chicken pieces and sear on high heat for 5 minutes until sealed on all sides.",
+      "Add remaining chilli powder, coriander powder, and turmeric. Sauté for 2 minutes.",
+      "Add tamarind extract and 2 cups warm water. Bring to boil, then reduce to lowest simmer.",
+      "Add the poppy seed-coconut paste. Stir well, cover, and slow-cook for 35-40 minutes until chicken is fall-off-the-bone tender and gravy is thick and rust-colored.",
+      "Let rest for 30 minutes off heat before serving with ragi sangati."
+    ]
+  },
+  {
+    "slug": "uggani",
+    "nameEn": "Uggani",
+    "nameTe": "ఉగ్గాణి",
+    "nameEnMeaning": "Kurnool Spiced Puffed Rice with Tempering",
+    "region": "rayalaseema",
+    "districts": [
+      "kurnool",
+      "nandyal",
+      "anantapuramu"
+    ],
+    "category": "snacks-and-street-food",
+    "heatLevel": 3,
+    "dietary": "vegetarian",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 10,
+    "servings": 4,
+    "primaryGrain": "puffed-rice",
+    "cookingFat": "cold-pressed-groundnut-oil",
+    "descriptionEn": "Kurnool's iconic street breakfast — piping hot tempered puffed rice (maramaralu) tossed with roasted gram powder, green chillies, curry leaves, raw onions, and a squeeze of lime. Always served with a crispy deep-fried mirchi bajji on the side.",
+    "descriptionTe": "కర్నూలు వీధి ప్రత్యేకం — వేడివేడి మరమరాలు పుట్నాల పొడి, పచ్చిమిర్చి, కరివేపాకు, ఉల్లిపాయలు, నిమ్మకాయతో కలిపి, మిర్చి బజ్జీతో కలిసి అందించే అద్భుతమైన అల్పాహారం.",
+    "culturalContext": "In Kurnool, uggani vendors set up brass-pan stations by 6 AM. The rhythmic tossing of puffed rice in a wide iron wok with spluttering tempering is a morning symphony. Always comes with exactly one large mirchi bajji tucked into the newspaper packet.",
+    "servingRituals": "Served in rolled newspaper cones or banana leaf cups with a crispy mirchi bajji perched on top. Eaten standing at street stalls.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792332992/APFOOD/uggani.jpg",
+    "ingredients": [
+      {
+        "name": "Puffed Rice (Maramaralu)",
+        "quantity": 4,
+        "unit": "cups",
+        "isPrimary": true,
+        "notes": "Fresh and crisp"
+      },
+      {
+        "name": "Roasted Gram Powder (Putnala Podi)",
+        "quantity": 2,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Freshly ground"
+      },
+      {
+        "name": "Green Chillies (chopped)",
+        "quantity": 3,
+        "unit": "pieces",
+        "isPrimary": true,
+        "notes": "Finely chopped"
+      },
+      {
+        "name": "Red Onion (chopped)",
+        "quantity": 1,
+        "unit": "small",
+        "isPrimary": false,
+        "notes": "Finely diced"
+      },
+      {
+        "name": "Lime Juice",
+        "quantity": 1,
+        "unit": "tbsp",
+        "isPrimary": false,
+        "notes": "Fresh"
+      },
+      {
+        "name": "Groundnut Oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "isPrimary": false,
+        "notes": "For tempering"
+      },
+      {
+        "name": "Mustard Seeds, Curry Leaves, Dried Red Chillies",
+        "quantity": 1,
+        "unit": "tsp + 1 sprig + 2",
+        "isPrimary": true,
+        "notes": "For talimpu"
+      }
+    ],
+    "instructions": [
+      "Heat groundnut oil in a wide iron wok. Splutter mustard seeds, broken dried red chillies, and curry leaves.",
+      "Add chopped green chillies and sauté for 30 seconds.",
+      "Add puffed rice all at once. Toss vigorously with the tempering for 1-2 minutes until every puff is coated.",
+      "Sprinkle roasted gram powder, salt, and turmeric. Toss again.",
+      "Turn off heat. Add chopped onions and fresh lime juice. Toss one final time.",
+      "Serve immediately in banana leaf cups with a hot mirchi bajji on the side."
+    ]
+  },
+  {
+    "slug": "jonna-roti",
+    "nameEn": "Jonna Roti",
+    "nameTe": "జొన్న రొట్టె",
+    "nameEnMeaning": "Handmade Sorghum Flatbread",
+    "region": "rayalaseema",
+    "districts": [
+      "anantapuramu",
+      "kurnool",
+      "ysr-kadapa",
+      "sri-sathya-sai"
+    ],
+    "category": "rice-and-meals",
+    "heatLevel": 1,
+    "dietary": "vegetarian",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "servings": 4,
+    "primaryGrain": "sorghum",
+    "cookingFat": "pure-cow-ghee",
+    "descriptionEn": "Thick, rustic, hand-patted flatbreads made from stone-ground sorghum (jonna) flour and water, cooked directly on a concave iron tawa until charred spots develop. The earthy, slightly sweet, nutty flavor of sorghum pairs perfectly with garlic-heavy non-veg curries and chutneys.",
+    "descriptionTe": "రాయలసీమ రైతుల నిత్య ఆహారం — రోటి రుబ్బురాయిపై రుబ్బిన జొన్న పిండితో చేతితో చపట్లు పెట్టి, ఇనుప పెనం మీద కాల్చే మందమైన రొట్టెలు. నెయ్యి, వెల్లుల్లి పచ్చడితో తింటారు.",
+    "culturalContext": "Jonna Roti is the daily bread of Rayalaseema. Unlike wheat rotis that can be rolled, jowar dough has no gluten and must be patted by hand between wetted palms — a skill mastered by Rayalaseema women from childhood.",
+    "servingRituals": "Served hot off the tawa, broken by hand into pieces, smeared with a thick layer of white butter or ghee, and dipped into natu kodi pulusu or palli chutney.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792333048/APFOOD/jonna-roti.jpg",
+    "ingredients": [
+      {
+        "name": "Sorghum Flour (Jonna Pindi)",
+        "quantity": 2,
+        "unit": "cups",
+        "isPrimary": true,
+        "notes": "Freshly stone-ground"
+      },
+      {
+        "name": "Warm Water",
+        "quantity": 1.5,
+        "unit": "cups",
+        "isPrimary": false,
+        "notes": "Adjust for dough consistency"
+      },
+      {
+        "name": "Rock Salt",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "isPrimary": false,
+        "notes": "To taste"
+      },
+      {
+        "name": "Pure Cow Ghee",
+        "quantity": 4,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "For brushing and serving"
+      }
+    ],
+    "instructions": [
+      "Boil water with salt. Gradually add sorghum flour, stirring vigorously with a wooden spoon to form a thick dough. Cover and let rest for 5 minutes.",
+      "While still warm, divide dough into 4 equal balls.",
+      "Wet both palms with water. Place a dough ball on a banana leaf or plastic sheet and pat it into a thick, round flatbread (about 7-8 inches diameter and 5mm thick).",
+      "Heat a concave iron tawa until smoking hot. Gently transfer the roti onto the dry tawa.",
+      "Cook on medium heat for 2-3 minutes until charred brown spots appear on the underside.",
+      "Flip and cook the other side. Optionally hold directly over open flame for 10 seconds for smoky char.",
+      "Brush generously with melted cow ghee and serve hot with garlic chutney or natu kodi pulusu."
+    ]
+  },
+  {
+    "slug": "ulava-charu",
+    "nameEn": "Ulava Charu",
+    "nameTe": "ఉలవ చారు",
+    "nameEnMeaning": "Horse Gram Pepper Broth",
+    "region": "rayalaseema",
+    "districts": [
+      "prakasam",
+      "kurnool",
+      "nandyal",
+      "anantapuramu"
+    ],
+    "category": "pulusu-and-charu",
+    "heatLevel": 3,
+    "dietary": "vegetarian",
+    "prepTimeMinutes": 480,
+    "cookTimeMinutes": 45,
+    "servings": 4,
+    "primaryGrain": "none",
+    "cookingFat": "cold-pressed-sesame-oil",
+    "descriptionEn": "A deeply nourishing, peppery broth made from slow-boiled horse gram (ulavalu) strained into a clear, dark amber rasam. Tempered with garlic, crushed black pepper, cumin, and curry leaves. Known for its warming and medicinal properties in traditional Andhra Ayurveda.",
+    "descriptionTe": "ఉలవలను ఉడికించి వడగట్టిన గోధుమ రంగు పారదర్శక చారు. వెల్లుల్లి, నలుపు మిరియాలు, జీలకర్ర, కరివేపాకు తాలింపుతో వేడిగా సేవించే ఔషధ ఆహారం.",
+    "culturalContext": "Horse gram is one of the oldest cultivated legumes in the Indian subcontinent. In Rayalaseema folk medicine, ulava charu is prescribed for kidney stones, cold and fever recovery, and weight management. It is served in every Rayalaseema hospital canteen.",
+    "servingRituals": "Served piping hot in brass tumblers or small bowls, sipped alongside rice and pappu. Often consumed as a soup course before the main meal.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792333115/APFOOD/ulava-charu.jpg",
+    "ingredients": [
+      {
+        "name": "Horse Gram (Ulavalu)",
+        "quantity": 1,
+        "unit": "cup",
+        "isPrimary": true,
+        "notes": "Soaked overnight"
+      },
+      {
+        "name": "Crushed Black Pepper",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "isPrimary": true,
+        "notes": "Freshly cracked"
+      },
+      {
+        "name": "Garlic Cloves",
+        "quantity": 8,
+        "unit": "cloves",
+        "isPrimary": true,
+        "notes": "Crushed"
+      },
+      {
+        "name": "Cumin Seeds",
+        "quantity": 1,
+        "unit": "tsp",
+        "isPrimary": true,
+        "notes": "Dry-roasted"
+      },
+      {
+        "name": "Tamarind Extract",
+        "quantity": 1,
+        "unit": "tbsp",
+        "isPrimary": false,
+        "notes": "Small amount for balance"
+      },
+      {
+        "name": "Sesame Oil, Mustard Seeds, Curry Leaves",
+        "quantity": 1,
+        "unit": "set",
+        "isPrimary": false,
+        "notes": "For talimpu"
+      }
+    ],
+    "instructions": [
+      "Soak horse gram overnight in plenty of water. Drain and pressure-cook with 4 cups fresh water for 5-6 whistles until completely soft.",
+      "Strain the cooked horse gram through a fine sieve, pressing with a spoon to extract the maximum dark amber broth. Discard the skins or reserve for other use.",
+      "In a pot, bring the horse gram broth to a simmer. Add tamarind extract, crushed black pepper, cumin, turmeric, and salt.",
+      "Simmer on low heat for 10 minutes to allow the pepper and cumin to infuse.",
+      "Prepare talimpu: Heat sesame oil, splutter mustard seeds, add crushed garlic, dried red chillies, and curry leaves.",
+      "Pour the sizzling talimpu into the simmering broth. Stir and serve immediately in brass tumblers."
+    ]
+  },
+  {
+    "slug": "tirupati-laddu",
+    "nameEn": "Tirupati Laddu (Srivari Prasadam)",
+    "nameTe": "తిరుపతి లడ్డూ (శ్రీవారి ప్రసాదం)",
+    "nameEnMeaning": "Sacred Besan & Ghee Laddu of Tirumala",
+    "region": "rayalaseema",
+    "districts": [
+      "tirupati"
+    ],
+    "category": "sweets",
+    "heatLevel": 1,
+    "dietary": "vegetarian",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 45,
+    "servings": 12,
+    "primaryGrain": "besan",
+    "cookingFat": "pure-cow-ghee",
+    "descriptionEn": "The world-famous sacred sweet prasadam of Tirumala Tirupati Devasthanams — large, golden, aromatic laddus made from slow-roasted gram flour, pure cow ghee, sugar, cashews, raisins, cardamom, and edible camphor. Over 300,000 laddus are prepared daily in the temple kitchen (Potu).",
+    "descriptionTe": "తిరుమల శ్రీవారి ప్రసాదం — శనగపిండి, స్వచ్ఛమైన ఆవునెయ్యి, పంచదార, జీడిపప్పు, కిస్‌మిస్, యాలకులు, పచ్చకర్పూరంతో తయారుచేసే లోకప్రసిద్ధ లడ్డూ. రోజుకు 3 లక్షలకు పైగా తయారవుతాయి.",
+    "culturalContext": "Received a GI tag in 2009. The Tirupati Laddu has been offered as naivedyam to Lord Venkateswara for over 300 years. The recipe is a closely guarded temple secret, and the Potu (temple kitchen) operates 24/7 with over 600 cooks.",
+    "servingRituals": "Distributed to devotees after darshan in sealed packets. Traditionally broken into halves and shared among family. The camphor-cardamom fragrance is considered sacred.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792333221/APFOOD/tirupati-laddu.jpg",
+    "ingredients": [
+      {
+        "name": "Bengal Gram Flour (Besan / Shanaga Pindi)",
+        "quantity": 2,
+        "unit": "cups",
+        "isPrimary": true,
+        "notes": "Fine-sieved"
+      },
+      {
+        "name": "Pure Cow Ghee",
+        "quantity": 1,
+        "unit": "cup",
+        "isPrimary": true,
+        "notes": "Clarified from Ongole breed milk"
+      },
+      {
+        "name": "Powdered Sugar",
+        "quantity": 1.5,
+        "unit": "cups",
+        "isPrimary": true,
+        "notes": "Fine crystal"
+      },
+      {
+        "name": "Cashew Nuts",
+        "quantity": 20,
+        "unit": "pieces",
+        "isPrimary": false,
+        "notes": "Split and fried in ghee"
+      },
+      {
+        "name": "Golden Raisins",
+        "quantity": 2,
+        "unit": "tbsp",
+        "isPrimary": false,
+        "notes": "Plump and clean"
+      },
+      {
+        "name": "Green Cardamom Powder",
+        "quantity": 1,
+        "unit": "tsp",
+        "isPrimary": true,
+        "notes": "Freshly ground"
+      },
+      {
+        "name": "Edible Camphor (Pacha Karpooram)",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "isPrimary": true,
+        "notes": "Food-grade only"
+      }
+    ],
+    "instructions": [
+      "Sieve besan twice for a fine, lump-free flour.",
+      "Heat 0.5 cup ghee in a heavy-bottomed brass kadai on low flame. Add besan and roast on the lowest heat, stirring continuously without pause for 20-25 minutes until the flour turns deep golden and releases a rich nutty aroma.",
+      "In a separate pan, fry cashews and raisins in 1 tablespoon ghee until golden. Set aside.",
+      "Remove the roasted besan from heat. Add powdered sugar while still warm and mix thoroughly.",
+      "Add remaining melted ghee gradually while mixing until the mixture reaches a moist, moldable consistency.",
+      "Add cardamom powder, edible camphor, fried cashews, and raisins. Mix uniformly.",
+      "While still warm, scoop generous portions and press firmly between greased palms into large, dense spherical laddus.",
+      "Let cool completely. Store in airtight containers — stays fresh for 5-7 days."
+    ]
+  },
+  {
+    "slug": "kadapa-karam-dosa",
+    "nameEn": "Kadapa Karam Dosa",
+    "nameTe": "కడప కారం దోస",
+    "nameEnMeaning": "Fiery Red Chilli-Smeared Crispy Dosa",
+    "region": "rayalaseema",
+    "districts": [
+      "ysr-kadapa",
+      "annamayya",
+      "nandyal"
+    ],
+    "category": "tiffin",
+    "heatLevel": 5,
+    "dietary": "vegetarian",
+    "prepTimeMinutes": 480,
+    "cookTimeMinutes": 15,
+    "servings": 4,
+    "primaryGrain": "rice-urad",
+    "cookingFat": "cold-pressed-groundnut-oil",
+    "descriptionEn": "A blazing Rayalaseema street specialty — paper-thin dosa smeared with a visceral red onion-chilli-garlic karam paste right on the hot tawa, creating a fiery, crunchy, rust-red crepe. The karam paste is so intensely spiced that it can only be cooled by the accompanying thick coconut chutney.",
+    "descriptionTe": "కడప వీధుల ప్రత్యేకం — పల్చని దోసపై ఉల్లిపాయ-మిరపకాయ-వెల్లుల్లి కారం ముద్దను పెనంపై పూసి, మండే ఎర్రని క్రిస్పీ దోసగా వండే అద్భుతమైన టిఫిన్.",
+    "culturalContext": "In Kadapa, the intensity of the karam paste is a matter of street-vendor pride. Regulars specify their heat level — 'one spoon karam' being mild and 'three spoon karam' being only for the bravest. The dosa must audibly crackle when bitten.",
+    "servingRituals": "Folded into quarters and served on a steel plate with thick coconut chutney and fiery red tomato chutney.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792333474/APFOOD/kadapa-karam-dosa.jpg",
+    "ingredients": [
+      {
+        "name": "Fermented Dosa Batter (Rice + Urad)",
+        "quantity": 3,
+        "unit": "cups",
+        "isPrimary": true,
+        "notes": "Well-fermented, tangy"
+      },
+      {
+        "name": "Red Onion (finely chopped)",
+        "quantity": 1,
+        "unit": "large",
+        "isPrimary": true,
+        "notes": "Diced very fine"
+      },
+      {
+        "name": "Guntur Red Chilli Powder",
+        "quantity": 3,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Extra spicy grade"
+      },
+      {
+        "name": "Garlic Paste",
+        "quantity": 2,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Stone-ground with salt"
+      },
+      {
+        "name": "Groundnut Oil",
+        "quantity": 3,
+        "unit": "tbsp",
+        "isPrimary": false,
+        "notes": "For crisping the dosa"
+      }
+    ],
+    "instructions": [
+      "Mix red chilli powder, garlic paste, a pinch of salt, and enough oil to form a thick, spreadable karam paste. Set aside.",
+      "Heat a heavy cast-iron dosa tawa until smoking. Pour a ladleful of fermented batter and swirl into a thin, round crepe.",
+      "While the dosa is still wet on top, spread 1-2 tablespoons of karam paste evenly across the entire surface.",
+      "Scatter chopped onions generously over the karam layer.",
+      "Drizzle groundnut oil along the edges and center. Cook on medium-high heat until the underside is deeply golden and crisp.",
+      "Fold into quarters. Serve immediately with coconut chutney to counter the extreme heat."
+    ]
+  },
+  {
+    "slug": "palli-pachadi",
+    "nameEn": "Palli Pachadi",
+    "nameTe": "పల్లీ పచ్చడి",
+    "nameEnMeaning": "Dry-Roasted Groundnut Chutney",
+    "region": "rayalaseema",
+    "districts": [
+      "anantapuramu",
+      "kurnool",
+      "sri-sathya-sai",
+      "ysr-kadapa"
+    ],
+    "category": "pickles-and-chutneys",
+    "heatLevel": 3,
+    "dietary": "vegetarian",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 10,
+    "servings": 6,
+    "primaryGrain": "none",
+    "cookingFat": "none",
+    "descriptionEn": "A thick, coarse, fiery chutney of dry-roasted groundnuts ground with garlic, dried red chillies, and salt on a granite mortar. No oil, no water — pure, raw, nutty-spicy intensity. The universal accompaniment to every Rayalaseema meal.",
+    "descriptionTe": "వేయించిన వేరుశెనగలను వెల్లుల్లి, ఎండుమిరపకాయలు, ఉప్పుతో రోట్లో దంచి చేసే మందమైన పచ్చడి. నూనె, నీళ్లు లేకుండా — రాయలసీమ ప్రతి భోజనంలో తప్పనిసరి.",
+    "culturalContext": "In every Rayalaseema village home, the granite rolu (mortar and pestle) sits in the kitchen corner specifically for palli pachadi. The coarse, chunky texture from hand-pounding is considered superior to any blender-ground version.",
+    "servingRituals": "Placed in a small stone bowl at the center of the leaf plate. Scooped with torn pieces of jonna roti or mixed directly into hot rice with ghee.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792333558/APFOOD/palli-pachadi.jpg",
+    "ingredients": [
+      {
+        "name": "Raw Groundnuts",
+        "quantity": 1,
+        "unit": "cup",
+        "isPrimary": true,
+        "notes": "Dry-roasted until skins crack"
+      },
+      {
+        "name": "Garlic Cloves",
+        "quantity": 6,
+        "unit": "cloves",
+        "isPrimary": true,
+        "notes": "With skin, lightly crushed"
+      },
+      {
+        "name": "Dried Red Chillies (Guntur)",
+        "quantity": 6,
+        "unit": "pieces",
+        "isPrimary": true,
+        "notes": "Dry-roasted until brittle"
+      },
+      {
+        "name": "Rock Salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "isPrimary": false,
+        "notes": "To taste"
+      }
+    ],
+    "instructions": [
+      "Dry roast raw groundnuts on medium heat in an iron wok, stirring constantly until skins crack and nuts turn golden. Cool completely.",
+      "Dry roast dried red chillies for 30 seconds until they turn dark and brittle.",
+      "Place roasted groundnuts, roasted chillies, garlic cloves, and rock salt in a granite mortar (rolu).",
+      "Pound with a heavy stone pestle (rokali) using firm, rhythmic strokes. The texture should be coarse and chunky — never a smooth paste.",
+      "Taste and adjust salt and chilli. Serve immediately or store in a dry jar for up to 3 days."
+    ]
+  },
+  {
+    "slug": "bellam-pulusu",
+    "nameEn": "Bellam Pulusu",
+    "nameTe": "బెల్లం పులుసు",
+    "nameEnMeaning": "Srikakulam Sweet-Sour Jaggery Tamarind Stew",
+    "region": "uttarandhra",
+    "districts": [
+      "srikakulam",
+      "vizianagaram",
+      "parvathipuram-manyam"
+    ],
+    "category": "pulusu-and-charu",
+    "heatLevel": 2,
+    "dietary": "vegetarian",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 25,
+    "servings": 4,
+    "primaryGrain": "none",
+    "cookingFat": "cold-pressed-sesame-oil",
+    "descriptionEn": "The signature comfort stew of Uttarandhra — a harmonious, amber-colored gravy balancing the caramelized sweetness of raw cane jaggery with the tang of tamarind, sharpened by mustard powder (aavapindi) and tempered with curry leaves. Often enriched with tender winter vegetables.",
+    "descriptionTe": "ఉత్తరాంధ్ర ఆదరణ పొందిన వంటకం — బెల్లం తీపి, చింతపండు పులుపు, ఆవపిండి ఘాటు కలిసిన ఆరోగ్యకరమైన చారు. చలికాలపు కూరగాయలతో వండుతారు.",
+    "culturalContext": "Bellam Pulusu defines the Uttarandhra palate — a delicate sweet-sour-pungent balance rarely found in the fiery cuisine of coastal or Rayalaseema zones. Srikakulam families consider it their ancestral comfort food, passed from grandmother to granddaughter.",
+    "servingRituals": "Served warm over steaming rice as the gravy course of the meal, between the pappu and the kura (curry).",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792333641/APFOOD/bellam-pulusu.jpg",
+    "ingredients": [
+      {
+        "name": "Organic Cane Jaggery (Bellam)",
+        "quantity": 100,
+        "unit": "grams",
+        "isPrimary": true,
+        "notes": "Dark, unrefined block jaggery"
+      },
+      {
+        "name": "Tamarind Extract",
+        "quantity": 2,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "From aged tamarind"
+      },
+      {
+        "name": "Mustard Powder (Aavapindi)",
+        "quantity": 1,
+        "unit": "tsp",
+        "isPrimary": true,
+        "notes": "Freshly dry-ground"
+      },
+      {
+        "name": "Mixed Vegetables (drumstick, raw banana, brinjal)",
+        "quantity": 1,
+        "unit": "cup",
+        "isPrimary": false,
+        "notes": "Cut into 2-inch pieces"
+      },
+      {
+        "name": "Sesame Oil, Mustard Seeds, Curry Leaves",
+        "quantity": 1,
+        "unit": "set",
+        "isPrimary": false,
+        "notes": "For talimpu"
+      },
+      {
+        "name": "Turmeric & Salt",
+        "quantity": 1,
+        "unit": "tsp each",
+        "isPrimary": false,
+        "notes": "To taste"
+      }
+    ],
+    "instructions": [
+      "Dissolve jaggery in 1 cup warm water. Strain to remove impurities.",
+      "Cook chopped vegetables with turmeric and salt in 2 cups water until just tender.",
+      "Add tamarind extract and dissolved jaggery water to the vegetables. Stir well and bring to a gentle simmer.",
+      "Add mustard powder (aavapindi) and a pinch of red chilli powder. Simmer for 10 minutes until flavors meld into a balanced sweet-sour-pungent gravy.",
+      "Prepare talimpu: Heat sesame oil, splutter mustard seeds, curry leaves, and dried red chillies.",
+      "Pour talimpu into the simmering pulusu. Serve warm over rice."
+    ]
+  },
+  {
+    "slug": "madugula-halwa",
+    "nameEn": "Madugula Halwa",
+    "nameTe": "మదుగుల హల్వా",
+    "nameEnMeaning": "Anakapalli Sprouted Wheat Milk Halwa",
+    "region": "uttarandhra",
+    "districts": [
+      "anakapalli",
+      "visakhapatnam"
+    ],
+    "category": "sweets",
+    "heatLevel": 1,
+    "dietary": "vegetarian",
+    "prepTimeMinutes": 1440,
+    "cookTimeMinutes": 180,
+    "servings": 8,
+    "primaryGrain": "wheat",
+    "cookingFat": "pure-cow-ghee",
+    "descriptionEn": "A century-old confection from Madugula village near Anakapalli. Whole wheat grains are sprouted for 2-3 days, the tender white shoots ground and strained to extract pure wheat milk, which is then patiently stirred with ghee and sugar over a low beechwood fire for 3-4 hours until it sets into a dense, translucent, jewel-like halwa.",
+    "descriptionTe": "మదుగుల గ్రామ శతాబ్ద సంప్రదాయం — గోధుమ గింజలను మొలకెత్తించి, తెల్ల గడ్డి భాగం నుండి పాలు తీసి, నెయ్యి, పంచదారతో 3-4 గంటలు కట్టెల మంటపై కలుపుతూ వండే పారదర్శక హల్వా.",
+    "culturalContext": "The Madugula halwa-making families have guarded this recipe for over a hundred years. The key is the wheat milk extraction — only the tender white shoots, not the green sprouts, are used. The 3-4 hour continuous stirring over low woodfire is a meditative art form.",
+    "servingRituals": "Cut into diamond shapes and served on brass plates at weddings and festivals. Best at room temperature where the halwa has a firm, sliceable, jewel-like texture.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792333727/APFOOD/madugula-halwa.jpg",
+    "ingredients": [
+      {
+        "name": "Whole Wheat Grains",
+        "quantity": 2,
+        "unit": "cups",
+        "isPrimary": true,
+        "notes": "Sprouted for 2-3 days until white shoots appear"
+      },
+      {
+        "name": "Pure Cow Ghee",
+        "quantity": 1,
+        "unit": "cup",
+        "isPrimary": true,
+        "notes": "Generous quantity for richness"
+      },
+      {
+        "name": "Sugar",
+        "quantity": 1.5,
+        "unit": "cups",
+        "isPrimary": true,
+        "notes": "Fine crystal"
+      },
+      {
+        "name": "Cardamom & Nutmeg",
+        "quantity": 1,
+        "unit": "tsp",
+        "isPrimary": false,
+        "notes": "Freshly ground blend"
+      },
+      {
+        "name": "Cashews & Almonds",
+        "quantity": 0.25,
+        "unit": "cup",
+        "isPrimary": false,
+        "notes": "Sliced and fried"
+      }
+    ],
+    "instructions": [
+      "Soak wheat grains in water for 24 hours. Drain and spread on a damp cloth. Cover with another damp cloth and let sprout for 2-3 days, sprinkling water twice daily.",
+      "Once tender white shoots emerge (not green), grind the sprouts with water into a smooth milky paste.",
+      "Strain through a fine muslin cloth, squeezing thoroughly to extract all the pure white wheat milk. Discard the fiber.",
+      "Heat ghee in a heavy brass or copper vessel over low beechwood or gas fire.",
+      "Add the wheat milk and sugar. Stir continuously and patiently with a long wooden ladle for 3-4 hours.",
+      "The mixture will gradually thicken, change from white to amber to translucent brown-gold, and begin pulling away from the sides.",
+      "Add cardamom, nutmeg, and fried dry fruits. Pour into a greased tray and let set. Cut into diamonds when cooled."
+    ]
+  },
+  {
+    "slug": "royyala-biryani",
+    "nameEn": "Vizag Royyala Biryani",
+    "nameTe": "విశాఖ రొయ్యల బిర్యానీ",
+    "nameEnMeaning": "Visakhapatnam Prawn Biryani",
+    "region": "uttarandhra",
+    "districts": [
+      "visakhapatnam",
+      "anakapalli",
+      "kakinada"
+    ],
+    "category": "rice-and-meals",
+    "heatLevel": 3,
+    "dietary": "non-vegetarian",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 40,
+    "servings": 6,
+    "primaryGrain": "basmati-rice",
+    "cookingFat": "pure-cow-ghee",
+    "descriptionEn": "Visakhapatnam's beloved coastal biryani — fragrant basmati rice layered with plump tiger prawns marinated in fiery yogurt-spice paste, slow-cooked in a sealed pot (dum) until each prawn is infused with saffron, fried onions, mint, and whole garam masala.",
+    "descriptionTe": "విశాఖపట్నం తీర ప్రాంత బిర్యానీ — పెద్ద రొయ్యలను మసాలా పెరుగులో నానబెట్టి, బాస్మతి బియ్యంతో పొరలుగా పేర్చి, మూతపెట్టి దమ్ వేసి వండే సుగంధ బిర్యానీ.",
+    "culturalContext": "Unlike Hyderabadi biryani, Vizag biryani is distinctly coastal — lighter, with a prominent seafood character. Prawn biryani is the Sunday special at beach-side restaurants from RK Beach to Rushikonda.",
+    "servingRituals": "Served in the sealed pot (handi) at the table. Opened ceremonially, the burst of saffron-mint steam is part of the experience. Accompanied by mirchi ka salan and raita.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792333814/APFOOD/royyala-biryani.jpg",
+    "ingredients": [
+      {
+        "name": "Tiger Prawns (Royyalu)",
+        "quantity": 500,
+        "unit": "grams",
+        "isPrimary": true,
+        "notes": "Cleaned, deveined, marinated"
+      },
+      {
+        "name": "Basmati Rice",
+        "quantity": 2,
+        "unit": "cups",
+        "isPrimary": true,
+        "notes": "Soaked 30 minutes, par-boiled"
+      },
+      {
+        "name": "Yogurt-Spice Marinade",
+        "quantity": 0.5,
+        "unit": "cup",
+        "isPrimary": true,
+        "notes": "Yogurt, red chilli, turmeric, garam masala"
+      },
+      {
+        "name": "Fried Onions (Birista)",
+        "quantity": 1,
+        "unit": "cup",
+        "isPrimary": true,
+        "notes": "Deep-fried golden and crisp"
+      },
+      {
+        "name": "Mint & Coriander Leaves",
+        "quantity": 0.5,
+        "unit": "cup each",
+        "isPrimary": false,
+        "notes": "Fresh chopped"
+      },
+      {
+        "name": "Pure Cow Ghee",
+        "quantity": 4,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "For layering and sealing"
+      },
+      {
+        "name": "Saffron Milk",
+        "quantity": 2,
+        "unit": "tbsp",
+        "isPrimary": false,
+        "notes": "Few strands soaked in warm milk"
+      }
+    ],
+    "instructions": [
+      "Marinate prawns in yogurt, red chilli powder, turmeric, garam masala, ginger-garlic paste, and salt for 20 minutes.",
+      "Soak basmati rice for 30 minutes. Par-boil in salted water with whole spices until 70% cooked. Drain.",
+      "In a heavy-bottomed handi, heat ghee. Sauté marinated prawns on high heat for 3-4 minutes until half-cooked. Remove.",
+      "Layer: spread half the par-boiled rice in the handi, then all the prawns, fried onions, mint, coriander, and saffron milk.",
+      "Top with remaining rice. Drizzle melted ghee and 2 tablespoons of warm water.",
+      "Seal the handi tightly with dough or heavy foil. Cook on high heat for 3 minutes, then lowest heat for 25 minutes (dum).",
+      "Rest sealed for 5 minutes. Open, gently mix layers with a flat spatula, and serve."
+    ]
+  },
+  {
+    "slug": "konda-kodi-iguru",
+    "nameEn": "Konda Kodi Iguru",
+    "nameTe": "కొండ కోడి ఇగురు",
+    "nameEnMeaning": "Tribal Hill Country Chicken Dry Curry",
+    "region": "uttarandhra",
+    "districts": [
+      "parvathipuram-manyam",
+      "alluri-sitharama-raju"
+    ],
+    "category": "curries-and-kuras",
+    "heatLevel": 4,
+    "dietary": "non-vegetarian",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 40,
+    "servings": 4,
+    "primaryGrain": "none",
+    "cookingFat": "cold-pressed-sesame-oil",
+    "descriptionEn": "A fiery dry curry of free-range hill chicken (konda kodi) cooked with wild ginger, garlic, green chillies, and minimal water over a woodfire or high-flame stove. The chicken is seared until every piece has a dark, caramelized spice crust. A tribal Eastern Ghats preparation.",
+    "descriptionTe": "కొండ ప్రాంత నాటుకోడిని అడవి అల్లం, వెల్లుల్లి, పచ్చిమిర్చితో తక్కువ నీళ్లతో బాగా వేయించి, ప్రతి ముక్కకు నల్లని మసాలా పొరను అంటించే గిరిజన వంటకం.",
+    "culturalContext": "In the tribal hamlets of Parvathipuram Manyam and Paderu, konda kodi roams freely in the forests and is caught fresh. The iguru preparation uses no onions or tomatoes — only raw garlic, ginger, and hill chillies, reflecting the austere simplicity of tribal cooking.",
+    "servingRituals": "Served on sal leaves alongside bamboo-steamed rice or ragi ambli (millet porridge).",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792333901/APFOOD/konda-kodi-iguru.jpg",
+    "ingredients": [
+      {
+        "name": "Hill Country Chicken (Konda Kodi)",
+        "quantity": 750,
+        "unit": "grams",
+        "isPrimary": true,
+        "notes": "Small bone-in pieces"
+      },
+      {
+        "name": "Wild Ginger (crushed)",
+        "quantity": 2,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Forest variety, more pungent"
+      },
+      {
+        "name": "Garlic (crushed)",
+        "quantity": 12,
+        "unit": "cloves",
+        "isPrimary": true,
+        "notes": "Skin-on, bruised"
+      },
+      {
+        "name": "Green Chillies",
+        "quantity": 8,
+        "unit": "pieces",
+        "isPrimary": true,
+        "notes": "Slit"
+      },
+      {
+        "name": "Red Chilli Powder",
+        "quantity": 2,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Coarsely ground"
+      },
+      {
+        "name": "Sesame Oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "isPrimary": false,
+        "notes": "Cold-pressed"
+      },
+      {
+        "name": "Curry Leaves & Turmeric",
+        "quantity": 1,
+        "unit": "sprig + 0.5 tsp",
+        "isPrimary": false,
+        "notes": "For base"
+      }
+    ],
+    "instructions": [
+      "Clean chicken pieces. Rub with turmeric, salt, and half the red chilli powder. Rest for 10 minutes.",
+      "Heat sesame oil in a heavy iron wok on high flame. Add the chicken pieces and sear for 5-7 minutes without stirring, until deeply browned on one side.",
+      "Flip pieces. Add crushed ginger, garlic, slit green chillies, and curry leaves. Toss on high heat.",
+      "Add remaining chilli powder and a splash of water (just 0.25 cup). Cover and cook on medium heat for 15 minutes.",
+      "Uncover. Increase heat to high and toss continuously for 10-15 minutes until all water evaporates and the chicken develops a dark, dry, spice-crusted exterior.",
+      "The oil should separate and the chicken should be almost blackened with caramelized spices. Serve hot."
+    ]
+  },
+  {
+    "slug": "araku-bamboo-biryani",
+    "nameEn": "Araku Bamboo Biryani",
+    "nameTe": "అరకు బొంగు బిర్యానీ",
+    "nameEnMeaning": "Bamboo-Steamed Tribal Rice with Country Chicken",
+    "region": "uttarandhra",
+    "districts": [
+      "alluri-sitharama-raju"
+    ],
+    "category": "rice-and-meals",
+    "heatLevel": 3,
+    "dietary": "non-vegetarian",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 50,
+    "servings": 4,
+    "primaryGrain": "rice",
+    "cookingFat": "none",
+    "descriptionEn": "A tribal innovation where marinated country chicken pieces and soaked rice are layered inside freshly cut green bamboo sections, sealed with banana leaves, and roasted over woodfire. The bamboo sap infuses the rice with an unmistakable sweet, herbal, smoky character impossible to replicate in any kitchen.",
+    "descriptionTe": "మసాలా చికెన్ ముక్కలు, నానబెట్టిన బియ్యాన్ని పచ్చి వెదురు బొంగులో నింపి, అరటి ఆకులతో మూసి, కట్టెల మంటపై కాల్చే గిరిజన బిర్యానీ. వెదురు రసం బియ్యానికి అద్భుతమైన రుచిని ఇస్తుంది.",
+    "culturalContext": "Born in the Araku Valley tribal markets, bamboo biryani is now a beloved signature dish served at roadside eateries along the Araku-Paderu highway. The green bamboo must be freshly cut that morning — old or dry bamboo will not release the essential sap.",
+    "servingRituals": "The bamboo is split open at the table. The fragrant, smoky rice and chicken tumble out onto banana leaves. Eaten with bare hands.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792334083/APFOOD/araku-bamboo-biryani.jpg",
+    "ingredients": [
+      {
+        "name": "Country Chicken",
+        "quantity": 500,
+        "unit": "grams",
+        "isPrimary": true,
+        "notes": "Small bone-in pieces, marinated"
+      },
+      {
+        "name": "Raw Rice",
+        "quantity": 1.5,
+        "unit": "cups",
+        "isPrimary": true,
+        "notes": "Soaked for 30 minutes"
+      },
+      {
+        "name": "Fresh Green Bamboo Sections",
+        "quantity": 2,
+        "unit": "sections",
+        "isPrimary": true,
+        "notes": "Cut fresh, one end sealed"
+      },
+      {
+        "name": "Ginger-Garlic-Chilli Paste",
+        "quantity": 3,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Coarsely ground"
+      },
+      {
+        "name": "Turmeric, Salt, Garam Masala",
+        "quantity": 1,
+        "unit": "tsp each",
+        "isPrimary": false,
+        "notes": "For marinade"
+      },
+      {
+        "name": "Banana Leaves",
+        "quantity": 4,
+        "unit": "leaves",
+        "isPrimary": false,
+        "notes": "For sealing"
+      }
+    ],
+    "instructions": [
+      "Marinate chicken pieces with ginger-garlic-chilli paste, turmeric, salt, and garam masala for 20 minutes.",
+      "Drain soaked rice. Mix with a pinch of turmeric and salt.",
+      "In each bamboo section, layer: soaked rice at the bottom, then marinated chicken, then more rice on top. Add 0.5 cup water.",
+      "Seal the open end tightly with folded banana leaves, secured with bamboo twine.",
+      "Place bamboo sections directly on glowing woodfire embers, rotating every 10 minutes.",
+      "Cook for 45-50 minutes until the exterior is charred and you can hear the rice bubbling inside.",
+      "Remove from fire. Let rest for 5 minutes. Split open carefully and serve on banana leaves."
+    ]
+  },
+  {
+    "slug": "bandar-laddu",
+    "nameEn": "Bandar Laddu",
+    "nameTe": "బందరు లడ్డు",
+    "nameEnMeaning": "Machilipatnam Pounded Besan Laddu",
+    "region": "coastal-andhra",
+    "districts": [
+      "krishna"
+    ],
+    "category": "sweets",
+    "heatLevel": 1,
+    "dietary": "vegetarian",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 30,
+    "servings": 12,
+    "primaryGrain": "besan",
+    "cookingFat": "pure-cow-ghee",
+    "descriptionEn": "The legendary GI-tagged besan laddu from the ancient port city of Machilipatnam (Bandar). Roasted gram flour is slow-cooked in pure ghee, mixed with powdered sugar, cardamom, and dry fruits, then pounded with closed fists (thokkudu technique) into dense, crumbly, melt-in-mouth laddus.",
+    "descriptionTe": "మచిలీపట్నం ప్రసిద్ధ GI ట్యాగ్ లడ్డూ. శనగపిండిని నెయ్యిలో నెమ్మదిగా వేయించి, పంచదార పొడి, యాలకులతో కలిపి, పిడికిలితో గట్టిగా దంచి (తొక్కుడు పద్ధతి) చేసే అద్భుతమైన మిఠాయి.",
+    "culturalContext": "Bandar Laddu received a GI tag recognizing the unique thokkudu (pounding) technique unique to Machilipatnam sweet families. The laddu's dense, crumbling texture is achieved by repeatedly pounding the roasted besan-ghee mixture with closed fists rather than gently rolling.",
+    "servingRituals": "Traditionally packed in wooden boxes lined with wax paper. A must-buy souvenir for travelers passing through Krishna district.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792339072/APFOOD/bandar-laddu.jpg",
+    "ingredients": [
+      {
+        "name": "Bengal Gram Flour (Besan)",
+        "quantity": 2,
+        "unit": "cups",
+        "isPrimary": true,
+        "notes": "Fresh, fine-sieved"
+      },
+      {
+        "name": "Pure Cow Ghee",
+        "quantity": 0.75,
+        "unit": "cup",
+        "isPrimary": true,
+        "notes": "For roasting and binding"
+      },
+      {
+        "name": "Powdered Sugar",
+        "quantity": 1,
+        "unit": "cup",
+        "isPrimary": true,
+        "notes": "Fine crystal"
+      },
+      {
+        "name": "Cardamom Powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "isPrimary": false,
+        "notes": "Freshly ground"
+      },
+      {
+        "name": "Cashew Bits & Raisins",
+        "quantity": 2,
+        "unit": "tbsp each",
+        "isPrimary": false,
+        "notes": "Fried in ghee"
+      }
+    ],
+    "instructions": [
+      "Heat ghee in a heavy brass kadai on lowest flame. Add sieved besan.",
+      "Roast on the lowest heat for 20-25 minutes, stirring continuously without a moment's pause. The besan must turn deep golden-brown and release a rich nutty aroma.",
+      "Remove from heat. While still very warm, add powdered sugar and mix thoroughly.",
+      "Add cardamom powder, fried cashew bits, and raisins. Mix well.",
+      "When the mixture is warm enough to handle but not burning, take a fistful and pound it firmly with your closed fist (thokkudu) into a dense, compressed ball.",
+      "Shape each laddu while warm. The pounding technique is what gives Bandar Laddu its signature dense, crumbly texture."
+    ]
+  },
+  {
+    "slug": "allam-pachadi",
+    "nameEn": "Allam Pachadi",
+    "nameTe": "అల్లం పచ్చడి",
+    "nameEnMeaning": "Ginger-Jaggery-Tamarind Chutney",
+    "region": "coastal-andhra",
+    "districts": [
+      "ntr",
+      "guntur",
+      "krishna",
+      "east-godavari"
+    ],
+    "category": "pickles-and-chutneys",
+    "heatLevel": 3,
+    "dietary": "vegetarian",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 15,
+    "servings": 8,
+    "primaryGrain": "none",
+    "cookingFat": "cold-pressed-sesame-oil",
+    "descriptionEn": "The iconic accompaniment to pesarattu — a sweet, tangy, fiery chutney made from fresh ginger, jaggery, tamarind, green chillies, and tempered with mustard seeds and dried red chillies in sesame oil. The holy trinity of sweet-sour-spicy in one relish.",
+    "descriptionTe": "పెసరట్టుకు తోడుగా ఉండే ప్రసిద్ధ పచ్చడి — అల్లం, బెల్లం, చింతపండు, పచ్చిమిర్చితో వండి, ఆవాలు, ఎండుమిరపకాయలతో తాలింపు పెట్టే అద్భుతమైన పచ్చడి.",
+    "culturalContext": "Allam Pachadi is inseparable from the MLA Pesarattu experience. Vijayawada pesarattu stalls pride themselves on their allam pachadi recipe, which varies from fiercely ginger-forward to mellow and jaggery-sweet depending on the cook's lineage.",
+    "servingRituals": "Served in generous mounds alongside pesarattu, punugulu, and idli. Scooped with torn pieces of the crepe.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792411612/APFOOD/allam-pachadi.jpg",
+    "ingredients": [
+      {
+        "name": "Fresh Ginger",
+        "quantity": 100,
+        "unit": "grams",
+        "isPrimary": true,
+        "notes": "Peeled, roughly chopped"
+      },
+      {
+        "name": "Jaggery (Bellam)",
+        "quantity": 50,
+        "unit": "grams",
+        "isPrimary": true,
+        "notes": "Grated"
+      },
+      {
+        "name": "Tamarind Paste",
+        "quantity": 2,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "From aged tamarind"
+      },
+      {
+        "name": "Green Chillies",
+        "quantity": 4,
+        "unit": "pieces",
+        "isPrimary": true,
+        "notes": "Roughly chopped"
+      },
+      {
+        "name": "Sesame Oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "isPrimary": false,
+        "notes": "For tempering"
+      },
+      {
+        "name": "Mustard Seeds, Dried Red Chillies",
+        "quantity": 1,
+        "unit": "tsp + 2",
+        "isPrimary": false,
+        "notes": "For talimpu"
+      }
+    ],
+    "instructions": [
+      "Grind ginger, green chillies, tamarind paste, and a pinch of salt into a coarse paste using minimal water.",
+      "Transfer to a saucepan. Add jaggery and 0.5 cup water. Simmer on low heat for 10 minutes, stirring occasionally until jaggery dissolves and the chutney thickens.",
+      "Prepare talimpu: Heat sesame oil, splutter mustard seeds, broken dried red chillies, and curry leaves.",
+      "Pour the sizzling talimpu over the chutney. Stir well.",
+      "Adjust sweet-sour-spicy balance. Let cool to room temperature before serving."
+    ]
+  },
+  {
+    "slug": "avakaya",
+    "nameEn": "Avakaya (Mango Pickle)",
+    "nameTe": "ఆవకాయ",
+    "nameEnMeaning": "Stone-Ground Raw Mango Pickle with Mustard",
+    "region": "coastal-andhra",
+    "districts": [
+      "guntur",
+      "krishna",
+      "east-godavari",
+      "west-godavari",
+      "ntr"
+    ],
+    "category": "pickles-and-chutneys",
+    "heatLevel": 5,
+    "dietary": "vegetarian",
+    "prepTimeMinutes": 60,
+    "cookTimeMinutes": 0,
+    "servings": 30,
+    "primaryGrain": "none",
+    "cookingFat": "cold-pressed-sesame-oil",
+    "descriptionEn": "The undisputed king of Andhra pickles — raw green mangoes cut into exact cubes, cured with rock salt, then mixed with a fierce stone-ground paste of mustard powder, red chilli powder, and fenugreek, drenched in cold-pressed sesame oil and fermented in ceramic bharani jars for weeks. No Andhra meal is complete without it.",
+    "descriptionTe": "ఆంధ్ర ఊరగాయల రాజు — పచ్చి మామిడికాయ ముక్కలను రాతి ఉప్పుతో కూర్చి, ఆవపిండి, ఎర్రమిరపకారం, మెంతిపొడితో కలిపి, నువ్వుల నూనెలో నానబెట్టి, మట్టి భరణిలో నిల్వ ఉంచే శాశ్వత వంటకం.",
+    "culturalContext": "Avakaya season (April-May) is a household event. Entire families gather to cut mangoes, grind masala on granite slabs, and fill massive clay bharanis. The pickle matures over weeks, developing complex umami flavors. A well-made avakaya lasts over a year.",
+    "servingRituals": "A mandatory side dish at every Andhra meal. Mixed directly into hot rice with a stream of ghee — 'Avakaya annam' (pickle rice) is considered a complete meal in itself.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792411657/APFOOD/avakaya.jpg",
+    "ingredients": [
+      {
+        "name": "Raw Green Mangoes (Aavakaya Mamidikayalu)",
+        "quantity": 1,
+        "unit": "kg",
+        "isPrimary": true,
+        "notes": "Hard, sour variety. Cut into exact cubes"
+      },
+      {
+        "name": "Mustard Powder (Aavapindi)",
+        "quantity": 200,
+        "unit": "grams",
+        "isPrimary": true,
+        "notes": "Freshly stone-ground"
+      },
+      {
+        "name": "Guntur Red Chilli Powder",
+        "quantity": 200,
+        "unit": "grams",
+        "isPrimary": true,
+        "notes": "Bright red, high-heat"
+      },
+      {
+        "name": "Fenugreek Powder (Menthi Podi)",
+        "quantity": 2,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Dry-roasted and ground"
+      },
+      {
+        "name": "Rock Salt",
+        "quantity": 150,
+        "unit": "grams",
+        "isPrimary": true,
+        "notes": "Coarse crystals"
+      },
+      {
+        "name": "Cold-Pressed Sesame Oil",
+        "quantity": 2,
+        "unit": "cups",
+        "isPrimary": true,
+        "notes": "Must be pure nuvvula noone"
+      }
+    ],
+    "instructions": [
+      "Wash mangoes, dry thoroughly with a clean cloth. Cut into even 1-inch cubes, retaining the seed piece. DO NOT use wet hands or utensils.",
+      "In a large dry ceramic or steel vessel, mix mango cubes with rock salt. Cover and let cure for 4-6 hours (salt draws out excess moisture).",
+      "Drain any accumulated water. Add mustard powder, red chilli powder, and fenugreek powder. Mix thoroughly with clean, dry hands.",
+      "Add cold-pressed sesame oil — enough to submerge and cover the mango pieces by at least 1 inch.",
+      "Transfer to a clean, bone-dry ceramic bharani (clay jar). Press down to eliminate air pockets.",
+      "Seal with a clean cloth and lid. Store in a cool, dark place. Stir with a dry wooden spoon every 2 days for the first week.",
+      "The avakaya is ready to eat after 7-10 days of fermentation. Flavors peak at 3-4 weeks."
+    ]
+  },
+  {
+    "slug": "pulagam",
+    "nameEn": "Pulagam (Sacred Peppercorn Rice)",
+    "nameTe": "పులగం",
+    "nameEnMeaning": "Pre-Chilli Heritage Rice & Green Gram with Black Pepper",
+    "region": "coastal-andhra",
+    "districts": [
+      "krishna",
+      "guntur",
+      "east-godavari",
+      "west-godavari"
+    ],
+    "category": "rice-and-meals",
+    "heatLevel": 1,
+    "dietary": "vegetarian",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
+    "servings": 4,
+    "primaryGrain": "rice",
+    "cookingFat": "pure-cow-ghee",
+    "descriptionEn": "An ancient, pre-chilli era comfort dish prepared with newly harvested raw rice and split yellow moong dal (pesara pappu), slow-simmered together in a bronze vessel and tempered exclusively with whole black peppercorns (miriyalu), cumin seeds, fresh curry leaves, and a flood of hot Bilona cow ghee. Sacred offering during Sankranti.",
+    "descriptionTe": "మిరపకాయలు మన దేశానికి రాకముందు నాటి ప్రాచీన పవిత్ర వంటకం. కొత్త బియ్యం, పెసరపప్పులను సమానంగా ఉడికించి, నల్ల మిరియాలు, జీలకర్ర, తాజా కరివేపాకు, స్వచ్ఛమైన ఆవునెయ్యి తాలింపుతో తయారుచేసే సులభంగా జీర్ణమయ్యే సంక్రాంతి ప్రసాదం.",
+    "culturalContext": "Before Portuguese traders introduced red chillies to coastal India in the 16th century, Andhra heat came entirely from black pepper (miriyalu) and long pepper (pippali). Pulagam is the culinary fossil of this ancient era — revered in Ayurveda for convalescence, post-fever recovery, and as the auspicious first meal cooked from the winter paddy harvest during Makara Sankranti.",
+    "servingRituals": "Served piping hot straight from the pot onto a fresh banana leaf, pooled with molten cow ghee and accompanied by Kandi Pachadi (roasted toor dal chutney) or thick buffalo curd.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792411704/APFOOD/pulagam.jpg",
+    "ingredients": [
+      {
+        "name": "Raw Sona Masuri Rice (Kotha Biyyam)",
+        "quantity": 1,
+        "unit": "cup",
+        "isPrimary": true,
+        "notes": "Preferably new harvest unpolished rice"
+      },
+      {
+        "name": "Split Yellow Moong Dal (Pesara Pappu)",
+        "quantity": 0.5,
+        "unit": "cup",
+        "isPrimary": true,
+        "notes": "Dry-roasted until fragrant"
+      },
+      {
+        "name": "Whole Black Peppercorns (Miriyalu)",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "isPrimary": true,
+        "notes": "Lightly crushed in stone mortar"
+      },
+      {
+        "name": "Cumin Seeds (Jeelakarra)",
+        "quantity": 1,
+        "unit": "tsp",
+        "isPrimary": true,
+        "notes": "Whole fragrant"
+      },
+      {
+        "name": "Fresh Ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "isPrimary": false,
+        "notes": "Finely minced"
+      },
+      {
+        "name": "Curry Leaves (Karivepaku)",
+        "quantity": 2,
+        "unit": "sprigs",
+        "isPrimary": false,
+        "notes": "Freshly torn"
+      },
+      {
+        "name": "Pure Desi Cow Ghee",
+        "quantity": 4,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Traditional Bilona ghee"
+      },
+      {
+        "name": "Rock Salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "isPrimary": false,
+        "notes": "To taste"
+      }
+    ],
+    "instructions": [
+      "In a thick-bottomed pot, dry roast the yellow moong dal on low flame for 3 minutes until slightly fragrant. Do not brown.",
+      "Rinse raw rice and roasted moong dal together under cold water twice. Drain thoroughly.",
+      "Add 3.5 cups of fresh water and 1 teaspoon of rock salt. Bring to a boil over medium flame.",
+      "Cover with a heavy lid, reduce heat to low, and cook for 15-18 minutes until the grains are very soft, plump, and slightly mashed.",
+      "In a small bronze tadka pan, heat 3 tablespoons of pure cow ghee until fragrant. Add crushed black peppercorns and cumin seeds; let them crackle and release their oils.",
+      "Add minced ginger and torn curry leaves, letting them sizzle for 20 seconds without burning.",
+      "Pour the sizzling aromatic ghee tempering over the cooked rice-dal mixture.",
+      "Gently fold with a flat wooden ladle, cover, and let it rest for 5 minutes so the pepper aroma infuses every grain before serving with ghee and Kandi Pachadi."
+    ]
+  },
+  {
+    "slug": "pachi-pulusu",
+    "nameEn": "Pachi Pulusu (Unheated Raw Tamarind Elixir)",
+    "nameTe": "పచ్చి పులుసు",
+    "nameEnMeaning": "Raw Cold Tamarind Broth with Hand-Crushed Shallots & Roasted Green Chillies",
+    "region": "rayalaseema",
+    "districts": [
+      "kurnool",
+      "anantapuramu",
+      "ysr-kadapa",
+      "chittoor"
+    ],
+    "category": "pulusu-and-charu",
+    "heatLevel": 3,
+    "dietary": "vegetarian",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 5,
+    "servings": 4,
+    "primaryGrain": "none",
+    "cookingFat": "cold-pressed-groundnut-oil",
+    "descriptionEn": "A genius no-cook summer cooling soup native to rural Andhra and Rayalaseema. Cold-extracted tamarind water infused with direct-charcoal roasted green chillies, hand-mashed shallots, jaggery, and roasted peanut powder. Never brought to a boil — only tempered with sizzling garlic and mustard in groundnut oil poured over the icy broth.",
+    "descriptionTe": "రాయలసీమ ఎండల వేడిని తగ్గించే అద్భుతమైన అమృతం. చింతపండు రసాన్ని పొయ్యిపై ఉడికించకుండా, బొగ్గులపై కాల్చిన పచ్చిమిర్చి, చేత్తో పిసికిన ఉల్లిపాయలు, బెల్లం, వేయించిన పల్లీల పొడి కలిపి, వేడివేడి తాలింపును చల్లని పులుసుపై పోసి తయారుచేసే నిరుపమాన వంటకం.",
+    "culturalContext": "During the blistering 45°C summer months across the arid Rayalaseema plateau, cooking over hearths was minimized. Pachi Pulusu ('raw extract') provided hydration, electrolytes, and gut-soothing acids. The green chillies are traditionally roasted directly over cow-dung embers using iron tongs to impart a rustic camp-fire smoke.",
+    "servingRituals": "Served cold or at room temperature in a brass katori alongside steaming hot rice and a spoonful of hot ghee, accompanied by fried vadiyalu or potato roast.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792411803/APFOOD/pachi-pulusu.jpg",
+    "ingredients": [
+      {
+        "name": "Aged Tamarind (Patha Chintapandu)",
+        "quantity": 50,
+        "unit": "grams",
+        "isPrimary": true,
+        "notes": "Soaked in 2 cups cold water for 30 minutes"
+      },
+      {
+        "name": "Small Shallots / Red Onions",
+        "quantity": 1,
+        "unit": "cup",
+        "isPrimary": true,
+        "notes": "Finely diced, hand-bruised with rock salt"
+      },
+      {
+        "name": "Green Chillies",
+        "quantity": 4,
+        "unit": "pieces",
+        "isPrimary": true,
+        "notes": "Charred on direct flame until blistered"
+      },
+      {
+        "name": "Roasted Peanut Powder (Palli Podi)",
+        "quantity": 2,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Rayalaseema secret thickener"
+      },
+      {
+        "name": "Organic Cane Jaggery (Bellam)",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Grated for sweet-sour balance"
+      },
+      {
+        "name": "Garlic Cloves",
+        "quantity": 6,
+        "unit": "cloves",
+        "isPrimary": false,
+        "notes": "Crushed with skin"
+      },
+      {
+        "name": "Cold-Pressed Groundnut Oil",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "isPrimary": false,
+        "notes": "For sizzling talimpu"
+      },
+      {
+        "name": "Mustard Seeds, Cumin & Curry Leaves",
+        "quantity": 1,
+        "unit": "tsp each",
+        "isPrimary": false,
+        "notes": "Tempering aromatics"
+      }
+    ],
+    "instructions": [
+      "Squeeze and strain the soaked tamarind thoroughly in 2.5 cups of cold water to yield a smooth, medium-bodied tangy extract. Discard pulp and seeds.",
+      "Hold green chillies with tongs directly over an open gas or charcoal flame until skins blister and blacken. Peel charred skin lightly and mash with the back of a fork.",
+      "In a wide clay or stone bowl, place the diced onions, mashed charred green chillies, and rock salt. Crush them together with your clean fingertips for 1 minute to release the sweet onion juices.",
+      "Pour the cold tamarind extract into the bowl. Add grated jaggery and roasted peanut powder; whisk thoroughly until jaggery dissolves completely.",
+      "In a small tempering pan, heat groundnut oil. Add mustard seeds, cumin seeds, crushed garlic, and curry leaves; allow them to crackle until garlic turns light golden.",
+      "Immediately pour the sizzling hot tempering directly into the cold tamarind broth (it will hiss dramatically). Cover with a plate for 2 minutes to trap the aroma.",
+      "Stir gently and serve at room temperature over hot rice."
+    ]
+  },
+  {
+    "slug": "aratikaya-aava-kura",
+    "nameEn": "Aratikaya Aava Kura (Raw Banana in Mustard Paste)",
+    "nameTe": "అరటికాయ ఆవ కూర",
+    "nameEnMeaning": "Green Plantain Cubes Simmered with Stone-Ground Mustard Paste",
+    "region": "coastal-andhra",
+    "districts": [
+      "east-godavari",
+      "west-godavari",
+      "konaseema",
+      "kakinada"
+    ],
+    "category": "curries-and-kuras",
+    "heatLevel": 3,
+    "dietary": "vegetarian",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 25,
+    "servings": 4,
+    "primaryGrain": "none",
+    "cookingFat": "cold-pressed-sesame-oil",
+    "descriptionEn": "A timeless vegetarian masterpiece from traditional Godavari weddings. Firm green raw cooking bananas peeled and cubed, parboiled with turmeric and salt, then braised with a freshly stone-ground pungent paste of black mustard seeds (aavapindi), raw green chillies, and ginger. Added at the exact last second to preserve the nasal-clearing sharpness without turning bitter.",
+    "descriptionTe": "గోదావరి పెళ్లిళ్ల విందులలో తప్పనిసరిగా ఉండే ప్రాచీన శాకాహార వంటకం. పచ్చి అరటికాయ ముక్కలను పసుపు నీటిలో ఉడికించి, నల్ల ఆవాలు, పచ్చిమిర్చి, అల్లంతో నూరిన ఆవముద్దను దించే ముందు కలిపి, ఘాటైన నువ్వుల నూనె తాలింపుతో ముగించే మహోన్నత కూర.",
+    "culturalContext": "Mustard paste (aava) is to Godavari Brahmins and delta cooks what wasabi is to Japan. The chemistry requires immense discipline: boiling mustard paste makes it unpleasantly bitter, so it is strictly folded into the cooked plantain off the flame, allowing residual heat to bloom the pungent glucosinolates.",
+    "servingRituals": "Served as a dry-medium curry course alongside hot steamed rice, mudda pappu, and a bowl of warm Godavari majjiga pulusu (buttermilk stew).",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792411847/APFOOD/aratikaya-aava-kura.jpg",
+    "ingredients": [
+      {
+        "name": "Raw Green Cooking Bananas (Pachi Aratikayalu)",
+        "quantity": 3,
+        "unit": "medium",
+        "isPrimary": true,
+        "notes": "Peeled and diced into 1-inch cubes"
+      },
+      {
+        "name": "Black Mustard Seeds (Nalla Aavalu)",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Soaked in 2 tbsp water for 15 minutes"
+      },
+      {
+        "name": "Green Chillies",
+        "quantity": 4,
+        "unit": "pieces",
+        "isPrimary": true,
+        "notes": "Ground with mustard"
+      },
+      {
+        "name": "Fresh Ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "isPrimary": false,
+        "notes": "Peeled"
+      },
+      {
+        "name": "Cold-Pressed Sesame Oil (Nuvvula Noone)",
+        "quantity": 3,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Traditional coastal cooking fat"
+      },
+      {
+        "name": "Chana Dal & Urad Dal",
+        "quantity": 1,
+        "unit": "tsp each",
+        "isPrimary": false,
+        "notes": "For crunchy tempering"
+      },
+      {
+        "name": "Mustard Seeds, Dried Red Chillies, Curry Leaves",
+        "quantity": 1,
+        "unit": "set",
+        "isPrimary": false,
+        "notes": "Talimpu essentials"
+      },
+      {
+        "name": "Turmeric Powder & Rock Salt",
+        "quantity": 0.5,
+        "unit": "tsp each",
+        "isPrimary": false,
+        "notes": "For parboiling"
+      }
+    ],
+    "instructions": [
+      "Place diced raw bananas in a bowl of salted water immediately upon chopping to prevent browning.",
+      "Drain and boil the banana cubes in 2 cups of water with turmeric powder and salt for 8-10 minutes until tender when pierced with a fork, yet holding their shape firm. Drain excess water completely.",
+      "In a small granite mortar (rubba-rolu) or spice blender, grind the soaked mustard seeds, green chillies, ginger, and 1 tablespoon water into a fine, pale, pungent paste (aava mudda).",
+      "Heat sesame oil in a heavy iron kadai. Splutter mustard seeds, chana dal, urad dal, broken red chillies, asafoetida (inguva), and fresh curry leaves until lentils turn golden red.",
+      "Add the boiled banana cubes to the kadai and gently toss on low flame for 3 minutes to coat in the fragrant tempering oil.",
+      "TURN OFF THE HEAT COMPLETELY. This is crucial to prevent bitterness.",
+      "While the pan is off the flame, add the prepared stone-ground mustard paste. Gently fold into the warm banana cubes until every piece is coated in a glossy, pungent film.",
+      "Cover with a lid and let rest for 10 minutes before serving so the mustard aroma permeates the vegetable."
+    ]
+  },
+  {
+    "slug": "chinta-chiguru-pappu",
+    "nameEn": "Chinta Chiguru Pappu (Spring Tamarind Leaf Dal)",
+    "nameTe": "చింతచిగురు పప్పు",
+    "nameEnMeaning": "Toor Dal Simmered with Tender Foraged Spring Tamarind Leaves",
+    "region": "coastal-andhra",
+    "districts": [
+      "guntur",
+      "prakasam",
+      "palnadu",
+      "krishna"
+    ],
+    "category": "pappu-and-dals",
+    "heatLevel": 3,
+    "dietary": "vegetarian",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 30,
+    "servings": 4,
+    "primaryGrain": "none",
+    "cookingFat": "pure-cow-ghee",
+    "descriptionEn": "A seasonal spring delicacy. Fresh, tender, pinkish-green shoots of the tamarind tree (chinta chiguru) harvested during March and April, crushed lightly between palms, and pressure-simmered with toor dal, green chillies, and garlic cloves. Tempered generously in golden cow ghee with mustard and asafoetida.",
+    "descriptionTe": "వసంత ఋతువులో మాత్రమే లభించే చింతచెట్ల లేత గులాబీ-ఆకుపచ్చ చిగుళ్లతో వండే రుచికరమైన పప్పు. చింతపండు అవసరం లేకుండా చిగురు సహజ పులుపు, కందిపప్పు తీపి, నెయ్యి-వెల్లుల్లి తాలింపు కలగలిసి నాలుకకు అమృత ప్రాయంగా ఉండే అపురూప వంటకం.",
+    "culturalContext": "Chinta chiguru is available for only 4-6 weeks each spring when the ancient tamarind groves flush with tender new foliage. Village youth climb the branches with bamboo poles to forage the delicate leaves. High in vitamin C and antioxidants, this dal requires zero dried tamarind.",
+    "servingRituals": "Poured piping hot over freshly steamed Sona Masuri rice, accompanied by a spoonful of ghee and sun-dried curd chillies (majjiga mirapakayalu).",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792411901/APFOOD/chinta-chiguru-pappu.jpg",
+    "ingredients": [
+      {
+        "name": "Fresh Tender Tamarind Leaves (Chinta Chiguru)",
+        "quantity": 2,
+        "unit": "cups packed",
+        "isPrimary": true,
+        "notes": "Stems removed, rubbed lightly between palms"
+      },
+      {
+        "name": "Toor Dal (Kandi Pappu)",
+        "quantity": 1,
+        "unit": "cup",
+        "isPrimary": true,
+        "notes": "Rinsed and drained"
+      },
+      {
+        "name": "Green Chillies",
+        "quantity": 5,
+        "unit": "pieces",
+        "isPrimary": true,
+        "notes": "Slit lengthwise"
+      },
+      {
+        "name": "Garlic Cloves",
+        "quantity": 8,
+        "unit": "cloves",
+        "isPrimary": true,
+        "notes": "Peeled and crushed"
+      },
+      {
+        "name": "Pure Cow Ghee",
+        "quantity": 2,
+        "unit": "tbsp",
+        "isPrimary": false,
+        "notes": "For aromatic talimpu"
+      },
+      {
+        "name": "Mustard Seeds, Cumin, Dry Red Chillies",
+        "quantity": 1,
+        "unit": "tsp each",
+        "isPrimary": false,
+        "notes": "Tempering seeds"
+      },
+      {
+        "name": "Asafoetida (Inguva)",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "isPrimary": false,
+        "notes": "Compounded resin"
+      }
+    ],
+    "instructions": [
+      "Carefully inspect fresh tamarind shoots, discarding any woody twigs. Rub the leaves gently between your dry palms to separate the tiny leaflets.",
+      "In a pressure cooker, combine toor dal, 2.5 cups water, turmeric, crushed garlic, and slit green chillies. Cook for 3-4 whistles until dal is soft.",
+      "Release pressure, open lid, and add the cleaned chinta chiguru leaves directly into the hot dal along with rock salt.",
+      "Mash gently with a wooden dal churner (pappu gutti) until dal and leaves integrate into a thick, rustic green-tinted puree.",
+      "Simmer on low flame for 5 minutes so the delicate herbal sourness infuses the lentils.",
+      "In a small pan, heat cow ghee. Splutter mustard seeds, cumin seeds, dry red chillies, and asafoetida.",
+      "Pour the sizzling ghee tempering over the dal. Stir well and serve hot with rice."
+    ]
+  },
+  {
+    "slug": "alasanda-vada",
+    "nameEn": "Rayalaseema Alasanda Vada (Cowpea Fritters)",
+    "nameTe": "అలసంద వడలు",
+    "nameEnMeaning": "Crunchy Golden Black-Eyed Pea Fritters with Raw Onions & Mint",
+    "region": "rayalaseema",
+    "districts": [
+      "chittoor",
+      "tirupati",
+      "annamayya",
+      "ysr-kadapa"
+    ],
+    "category": "snacks-and-street-food",
+    "heatLevel": 3,
+    "dietary": "vegetarian",
+    "prepTimeMinutes": 240,
+    "cookTimeMinutes": 25,
+    "servings": 6,
+    "primaryGrain": "cowpea",
+    "cookingFat": "cold-pressed-groundnut-oil",
+    "descriptionEn": "The pride of Rayalaseema festive snacking. Whole black-eyed peas (alasandalu / lobia) soaked, drained completely dry, and coarsely ground in a stone mortar without a single drop of water. Mixed with finely chopped red onions, fresh mint leaves, ginger, and green chillies, then patted into thin patties and deep-fried to a crackling golden crunch.",
+    "descriptionTe": "రాయలసీమ పండుగలలో తప్పనిసరిగా చేసుకునే కరకరలాడే వడలు. అలసందలను నానబెట్టి, బొట్టు నీరు లేకుండా రోట్లో బరకగా రుబ్బి, ఉల్లిపాయలు, పుదీనా, అల్లం, పచ్చిమిర్చి ముక్కలు కలిపి, వేరుశెనగ నూనెలో ఎర్రగా వేయించే అద్భుతమైన సాంప్రదాయ తినుబండారం.",
+    "culturalContext": "In the arid Rayalaseema districts, drought-hardy black-eyed peas (alasandalu) have been cultivated for centuries. During the Kanuma festival (the day honoring cattle after Sankranti), Alasanda Vada paired with fiery country chicken curry (Natu Kodi Pulusu) is the mandatory community feast.",
+    "servingRituals": "Served blisteringly hot straight from the kadai, dipped into spicy tomato-peanut chutney or dunked directly into the gravy of Natu Kodi Pulusu.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792411982/APFOOD/alasanda-vada.jpg",
+    "ingredients": [
+      {
+        "name": "Whole Black-Eyed Peas (Alasandalu)",
+        "quantity": 2,
+        "unit": "cups",
+        "isPrimary": true,
+        "notes": "Soaked in water for 4 hours"
+      },
+      {
+        "name": "Red Onions",
+        "quantity": 1,
+        "unit": "large",
+        "isPrimary": true,
+        "notes": "Very finely chopped"
+      },
+      {
+        "name": "Fresh Mint Leaves (Pudina)",
+        "quantity": 0.5,
+        "unit": "cup",
+        "isPrimary": true,
+        "notes": "Finely chopped, adds signature aroma"
+      },
+      {
+        "name": "Green Chillies",
+        "quantity": 4,
+        "unit": "pieces",
+        "isPrimary": true,
+        "notes": "Finely minced"
+      },
+      {
+        "name": "Ginger",
+        "quantity": 1,
+        "unit": "inch",
+        "isPrimary": false,
+        "notes": "Finely grated"
+      },
+      {
+        "name": "Cumin Seeds (Jeelakarra)",
+        "quantity": 1,
+        "unit": "tsp",
+        "isPrimary": false,
+        "notes": "Whole"
+      },
+      {
+        "name": "Cold-Pressed Groundnut Oil",
+        "quantity": 500,
+        "unit": "ml",
+        "isPrimary": false,
+        "notes": "For deep frying"
+      }
+    ],
+    "instructions": [
+      "Soak black-eyed peas in plenty of water for 4 hours. Drain in a colander for at least 20 minutes — beans must be bone dry before grinding.",
+      "Transfer drained beans to a food processor or wet grinder. Pulse coarsely without adding ANY water. The mixture should be chunky with some whole beans intact.",
+      "Transfer to a wide bowl. Add finely chopped onions, mint leaves, green chillies, grated ginger, cumin seeds, and rock salt. Mix thoroughly with clean hands.",
+      "Heat groundnut oil in a deep kadai over medium flame until a small speck of batter rises immediately.",
+      "Grease a banana leaf or plastic sheet with oil. Take a lemon-sized ball of batter and flatten with fingers into a flat 3-inch round disc (3-4 mm thickness). Poke a small hole in the center.",
+      "Gently slide the vada into the hot oil. Fry in batches of 4-5 on medium heat for 4-5 minutes, turning occasionally until deep reddish-golden and audibly crisp.",
+      "Drain onto absorbent paper and serve immediately with hot Natu Kodi Pulusu or chutney."
+    ]
+  },
+  {
+    "slug": "kandi-pachadi",
+    "nameEn": "Kandi Pachadi (Roasted Toor Dal Relish)",
+    "nameTe": "కంది పచ్చడి",
+    "nameEnMeaning": "Stone-Ground Roasted Red Gram Chutney with Cumin & Dried Chillies",
+    "region": "coastal-andhra",
+    "districts": [
+      "krishna",
+      "guntur",
+      "bapatla",
+      "prakasam"
+    ],
+    "category": "pickles-and-chutneys",
+    "heatLevel": 3,
+    "dietary": "vegetarian",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 10,
+    "servings": 6,
+    "primaryGrain": "none",
+    "cookingFat": "cold-pressed-sesame-oil",
+    "descriptionEn": "The quintessence of Telugu rustic comfort. Raw split toor dal slow-roasted on an iron tawa with dried red chillies, cumin, and black pepper until fragrant and deeply copper-colored, then stone-ground with a hint of garlic, tamarind, and rock salt into a dense, gritty, nutty chutney. The universal soulmate to steaming hot rice and melting ghee.",
+    "descriptionTe": "ఆంధ్రుల ఇంటింటి ఆదరణీయ పచ్చడి. కందిపప్పును ఇనుప బాణలిలో ఎర్రగా వేయించి, ఎండుమిరపకాయలు, జీలకర్ర, వెల్లుల్లి, చింతపండుతో రోట్లో బరకగా నూరే అద్భుతమైన పచ్చడి. వేడివేడి అన్నం, ఆవునెయ్యితో కలిపి తింటే స్వర్గతుల్యం.",
+    "culturalContext": "When unexpected guests arrived at an Andhra village home, or when someone fell ill and lost their appetite, the mother immediately reached for the toor dal jar. Roasted in five minutes and ground on the stone rolu, Kandi Pachadi is celebrated in Telugu literature as the ultimate appetite restorer.",
+    "servingRituals": "Served in a small mound on the rice plate. The diner scoops a spoonful of pachadi, pours a tablespoon of hot golden ghee over it, and mixes it with the first three mouthfuls of steaming rice.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792412031/APFOOD/kandi-pachadi.jpg",
+    "ingredients": [
+      {
+        "name": "Split Toor Dal (Kandi Pappu)",
+        "quantity": 0.75,
+        "unit": "cup",
+        "isPrimary": true,
+        "notes": "Dry, clean, unpolished"
+      },
+      {
+        "name": "Guntur Dried Red Chillies",
+        "quantity": 6,
+        "unit": "pieces",
+        "isPrimary": true,
+        "notes": "Sun-dried whole"
+      },
+      {
+        "name": "Cumin Seeds (Jeelakarra)",
+        "quantity": 1,
+        "unit": "tsp",
+        "isPrimary": true,
+        "notes": "Dry roasted"
+      },
+      {
+        "name": "Black Peppercorns",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "isPrimary": false,
+        "notes": "Whole"
+      },
+      {
+        "name": "Garlic Cloves",
+        "quantity": 4,
+        "unit": "cloves",
+        "isPrimary": false,
+        "notes": "Raw peeled"
+      },
+      {
+        "name": "Tamarind",
+        "quantity": 1,
+        "unit": "small piece",
+        "isPrimary": false,
+        "notes": "Size of a marble"
+      },
+      {
+        "name": "Cold-Pressed Sesame Oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "isPrimary": false,
+        "notes": "For roasting chillies"
+      }
+    ],
+    "instructions": [
+      "Heat a heavy cast-iron kadai on medium-low flame. Add toor dal without oil.",
+      "Dry-roast continuously for 6-8 minutes, stirring constantly until the lentils turn deep golden-copper and release an intensely nutty, roasted aroma. Transfer to a plate to cool.",
+      "In the same pan, heat 1 teaspoon sesame oil. Add dried red chillies, cumin seeds, and black peppercorns; roast for 1 minute until chillies turn dark. Cool completely.",
+      "In a granite mortar or blender, add the roasted chillies, cumin, black pepper, garlic, tamarind, and rock salt. Grind coarsely first.",
+      "Add the cooled roasted toor dal and pulse with minimal water (only 2-3 tablespoons) until it forms a dense, gritty, thick paste. It should NEVER be smooth like dosa chutney.",
+      "Taste and adjust salt. Serve in a stone bowl alongside hot rice and ghee."
+    ]
+  },
+  {
+    "slug": "peethala-kura",
+    "nameEn": "Konaseema Peethala Kura (Godavari Crab Curry)",
+    "nameTe": "పీతల కూర",
+    "nameEnMeaning": "Freshwater River Mud Crabs in Thick Roasted Spiced Masala",
+    "region": "coastal-andhra",
+    "districts": [
+      "konaseema",
+      "kakinada",
+      "west-godavari",
+      "krishna"
+    ],
+    "category": "curries-and-kuras",
+    "heatLevel": 5,
+    "dietary": "non-vegetarian",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 35,
+    "servings": 4,
+    "primaryGrain": "none",
+    "cookingFat": "cold-pressed-groundnut-oil",
+    "descriptionEn": "A legendary non-vegetarian delicacy from the mangrove deltas of Konaseema. Freshly caught live mud crabs cracked and cleaned, simmered in a dense, fiery gravy of caramelised onions, green chillies, freshly ground coriander-cumin masala, and a splash of tamarind extract in an earthen pot.",
+    "descriptionTe": "కోనసీమ నదీ ముఖద్వారాల ప్రత్యేకత. బతికిన పచ్చి మంచినీటి పీతలను శుభ్రం చేసి, ఉల్లిపాయల గ్రేవీలో, రాతిరోట్లో నూరిన మసాలా, చింతపండు రసం, నాటు మిరపకారంతో మట్టిపాత్రలో వండే అత్యంత ఘాటైన నదీ వంటకం.",
+    "culturalContext": "Godavari mud crabs (nalla peethalu) caught in the mangrove creek nets of Antarvedi and Coringa are prized for their sweet, succulent claw meat. Delta cooks crack the claws with a stone pestle before cooking so the spicy curry penetrates deep inside the shells.",
+    "servingRituals": "Served with hot white rice and extra bowls for discarded shells. Eaten leisurely with fingers, cracking the claws and spooning the rich, claw-infused gravy over rice.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792412093/APFOOD/peethala-kura.jpg",
+    "ingredients": [
+      {
+        "name": "Fresh Mud Crabs (Peethalu)",
+        "quantity": 1,
+        "unit": "kg",
+        "isPrimary": true,
+        "notes": "Cleaned, top carapace removed, claws cracked with stone"
+      },
+      {
+        "name": "Onions (finely minced)",
+        "quantity": 3,
+        "unit": "large",
+        "isPrimary": true,
+        "notes": "For rich thick gravy"
+      },
+      {
+        "name": "Ginger-Garlic Paste",
+        "quantity": 2,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Freshly stone-ground"
+      },
+      {
+        "name": "Guntur Red Chilli Powder",
+        "quantity": 3,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Fiery delta grade"
+      },
+      {
+        "name": "Coriander & Cumin Seeds",
+        "quantity": 2,
+        "unit": "tbsp + 1 tsp",
+        "isPrimary": true,
+        "notes": "Roasted and powdered"
+      },
+      {
+        "name": "Aged Tamarind Extract",
+        "quantity": 2,
+        "unit": "tbsp",
+        "isPrimary": false,
+        "notes": "Balancing tang"
+      },
+      {
+        "name": "Cold-Pressed Groundnut Oil",
+        "quantity": 5,
+        "unit": "tbsp",
+        "isPrimary": false,
+        "notes": "Generous delta cooking fat"
+      }
+    ],
+    "instructions": [
+      "Clean crabs thoroughly, remove gills, rinse cavity, and lightly crack the large claws with a flat stone or mallet so gravy penetrates inside.",
+      "Heat groundnut oil in an earthen pot or heavy iron kadai. Splutter mustard seeds, curry leaves, and 4 slit green chillies.",
+      "Add minced onions and sauté on medium flame for 12-15 minutes until deep reddish brown.",
+      "Add ginger-garlic paste and sauté for 2 minutes until raw aroma completely disappears.",
+      "Add red chilli powder, turmeric, coriander-cumin powder, and salt. Sauté for 30 seconds.",
+      "Add the cleaned crab pieces and toss gently in the hot masala for 5 minutes until shells turn bright orange-red.",
+      "Pour 1.5 cups warm water and the tamarind extract. Cover and cook on medium-low heat for 18-20 minutes, gently swirling the pot occasionally.",
+      "Uncover and cook for 5 minutes until gravy is thick, clinging, and oil floats on the surface. Garnish with fresh coriander."
+    ]
+  },
+  {
+    "slug": "beerakaya-badam-paalu-koora",
+    "nameEn": "Beerakaya Badam Paalu Koora (Ridge Gourd in Almond Milk)",
+    "nameTe": "బీరకాయ బాదం పాలు కూర",
+    "nameEnMeaning": "Tender Ridge Gourd Simmered in Rich Almond Milk & Fragrant Spices",
+    "region": "coastal-andhra",
+    "districts": [
+      "east-godavari",
+      "kakinada",
+      "west-godavari"
+    ],
+    "category": "curries-and-kuras",
+    "heatLevel": 1,
+    "dietary": "vegetarian",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 25,
+    "servings": 4,
+    "primaryGrain": "none",
+    "cookingFat": "pure-cow-ghee",
+    "descriptionEn": "An aristocratic, forgotten royal court delicacy from Zamindari kitchens of coastal Andhra. Sweet tender ridge gourd (beerakaya) peeled, diced, and gently braised in a velvety gravy of stone-ground blanched almonds (badam), whole milk, white pepper, and green cardamom, finished with a subtle ghee tempering of cumin.",
+    "descriptionTe": "తూర్పు గోదావరి సంస్థానాల జమీందారీ వంటశాలలలో జన్మించిన అపురూప శాకాహార వంటకం. లేత బీరకాయ ముక్కలను నూరిన బాదం పప్పు పేస్ట్, చిక్కటి ఆవుపాలు, మిరియాల పొడి, యాలకుల సువాసనతో నేతిలో మగ్గబెట్టే సున్నితమైన రాజసమైన కూర.",
+    "culturalContext": "While Andhra food is globally stereotyped as intensely hot, historical aristocratic estates like Pithapuram and Bobbili cultivated refined, mild, satvik dishes. This recipe showcases how indigenous backyard vegetables were elevated with luxurious dry fruits and dairy for royalty.",
+    "servingRituals": "Served with soft phulkas, jonna rotis, or mild ghee rice, accompanied by a light cucumber pachadi.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792412177/APFOOD/beerakaya-badam-paalu-koora.jpg",
+    "ingredients": [
+      {
+        "name": "Tender Ridge Gourd (Beerakaya)",
+        "quantity": 500,
+        "unit": "grams",
+        "isPrimary": true,
+        "notes": "Peeled lightly, diced into 1-inch pieces"
+      },
+      {
+        "name": "Raw Almonds (Badam)",
+        "quantity": 25,
+        "unit": "pieces",
+        "isPrimary": true,
+        "notes": "Soaked in hot water, skins peeled"
+      },
+      {
+        "name": "Fresh Whole Milk",
+        "quantity": 1,
+        "unit": "cup",
+        "isPrimary": true,
+        "notes": "Boiled and cooled"
+      },
+      {
+        "name": "Green Chillies",
+        "quantity": 2,
+        "unit": "pieces",
+        "isPrimary": false,
+        "notes": "Slit, mild heat"
+      },
+      {
+        "name": "White Peppercorn Powder",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "isPrimary": true,
+        "notes": "Delicate subtle heat"
+      },
+      {
+        "name": "Green Cardamom Powder",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "isPrimary": false,
+        "notes": "Freshly ground"
+      },
+      {
+        "name": "Pure Cow Ghee",
+        "quantity": 2,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "For gentle braising"
+      }
+    ],
+    "instructions": [
+      "Soak almonds in boiling water for 20 minutes. Pinch off brown skins and grind with 0.25 cup milk into a silky-smooth white almond paste.",
+      "Heat cow ghee in a pan. Add cumin seeds and slit green chillies; sauté gently without browning.",
+      "Add diced ridge gourd and rock salt. Cover and cook on low-medium flame for 8-10 minutes until the vegetable releases its natural juices and turns tender.",
+      "Pour the smooth almond paste and remaining milk into the pan. Stir well to form a creamy, pale gravy.",
+      "Simmer uncovered on the lowest flame for 5-6 minutes until the gravy thickens lightly. Do not allow it to boil vigorously.",
+      "Sprinkle white pepper powder and cardamom powder. Stir gently, turn off heat, and let rest covered for 5 minutes before serving."
+    ]
+  },
+  {
+    "slug": "bobbili-pulusu",
+    "nameEn": "Bobbili Dappalam (Heritage Sweet-Sour Vegetable Stew)",
+    "nameTe": "బొబ్బిలి పులుసు (దప్పళం)",
+    "nameEnMeaning": "Uttarandhra Royal Mixed Vegetable Jaggery Stew with Rice Flour Thickening",
+    "region": "uttarandhra",
+    "districts": [
+      "vizianagaram",
+      "srikakulam",
+      "parvathipuram-manyam"
+    ],
+    "category": "pulusu-and-charu",
+    "heatLevel": 2,
+    "dietary": "vegetarian",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 30,
+    "servings": 6,
+    "primaryGrain": "none",
+    "cookingFat": "cold-pressed-sesame-oil",
+    "descriptionEn": "The regal comfort stew of the Bobbili royal court in North Coastal Andhra. A medley of native vegetables—drumsticks, yellow pumpkin, sweet potato, and raw plantain—simmered in a rich tamarind-jaggery broth with crushed coriander, cumin, and dried red chillies, traditionally thickened with a slurry of raw rice flour (biyyam pindi) to create a silky, glossy nectar.",
+    "descriptionTe": "ఉత్తరాంధ్ర బొబ్బిలి సంస్థాన ప్రత్యేక దప్పళం. మునక్కాయలు, తియ్య గుమ్మడి, చిలగడదుంప, అరటికాయ ముక్కలను చింతపండు పులుపు, బెల్లం తీపిలో ఉడికించి, బియ్యపు పిండితో చిక్కదనం తెచ్చి, ఆవాలు-కరివేపాకు తాలింపుతో తయారుచేసే అద్భుతమైన అమృత తుల్య పులుసు.",
+    "culturalContext": "Dappalam is North Coastal Andhra's answer to sambar, yet contains zero lentils. The secret is the rice flour roux (biyyam pindi kalisina neeru) added towards the end, which imparts a velvety glaze and balances the jaggery-tamarind equilibrium without dulling the fresh vegetable flavors.",
+    "servingRituals": "Served hot over steamed Sona Masuri rice with a dollop of fresh ghee. It is the centerpiece of every Uttarandhra wedding feast and festival menu.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792412236/APFOOD/bobbili-pulusu.jpg",
+    "ingredients": [
+      {
+        "name": "Mixed Native Vegetables (Drumstick, Pumpkin, Sweet Potato, Brinjal)",
+        "quantity": 3,
+        "unit": "cups",
+        "isPrimary": true,
+        "notes": "Cut into uniform 2-inch chunks"
+      },
+      {
+        "name": "Organic Cane Jaggery (Bellam)",
+        "quantity": 75,
+        "unit": "grams",
+        "isPrimary": true,
+        "notes": "Dark unrefined block"
+      },
+      {
+        "name": "Aged Tamarind Extract",
+        "quantity": 3,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Medium thickness"
+      },
+      {
+        "name": "Raw Rice Flour (Biyyam Pindi)",
+        "quantity": 1.5,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Mixed with 0.25 cup cold water for thickening"
+      },
+      {
+        "name": "Mustard Seeds, Fenugreek, Dry Red Chillies",
+        "quantity": 1,
+        "unit": "tsp each",
+        "isPrimary": false,
+        "notes": "Talimpu essentials"
+      },
+      {
+        "name": "Curry Leaves & Coriander Leaves",
+        "quantity": 2,
+        "unit": "sprigs each",
+        "isPrimary": false,
+        "notes": "Aromatic finish"
+      }
+    ],
+    "instructions": [
+      "In a wide brass or clay vessel, combine the chopped mixed vegetables with 3 cups water, turmeric powder, and rock salt. Cook on medium heat for 10-12 minutes until vegetables are just tender.",
+      "Add tamarind extract, grated jaggery, and red chilli powder. Stir gently and bring to a rolling boil for 6-8 minutes so vegetables absorb the sweet-tangy broth.",
+      "In a small cup, dissolve the rice flour in 0.25 cup cold water to make a smooth, lump-free slurry.",
+      "Pour the rice flour slurry into the boiling stew in a steady stream, stirring continuously. The pulusu will instantly turn glossy, thick, and velvety. Simmer on low for 3 minutes.",
+      "In a separate tadka pan, heat sesame oil. Splutter mustard seeds, fenugreek seeds (menthulu), dry red chillies, and fresh curry leaves.",
+      "Pour the hot sizzling tempering over the thickened pulusu. Cover immediately and let rest for 10 minutes before serving over hot rice."
+    ]
+  },
+  {
+    "slug": "chintakaya-thokku",
+    "nameEn": "Chintakaya Thokku (Pounded Raw Green Tamarind Pickle)",
+    "nameTe": "చింతకాయ తొక్కు పచ్చడి",
+    "nameEnMeaning": "Seasonal Winter Unripe Green Tamarind Stone-Pounded with Salt & Turmeric",
+    "region": "rayalaseema",
+    "districts": [
+      "kurnool",
+      "anantapuramu",
+      "ysr-kadapa",
+      "prakasam"
+    ],
+    "category": "pickles-and-chutneys",
+    "heatLevel": 4,
+    "dietary": "vegetarian",
+    "prepTimeMinutes": 60,
+    "cookTimeMinutes": 0,
+    "servings": 30,
+    "primaryGrain": "none",
+    "cookingFat": "cold-pressed-sesame-oil",
+    "descriptionEn": "A vanishing winter harvest treasure. Plump, unripe green sour tamarind pods (chintakayalu) harvested in December and January, hand-washed, dried, and pounded with whole sea salt crystals and fresh turmeric in a heavy granite rolu with a wooden rokali. Fermented for months in ceramic bharanis; pounded with green chillies and garlic for fresh daily consumption.",
+    "descriptionTe": "శీతాకాలంలో మాత్రమే దొరికే పచ్చి చింతకాయలతో చేసే అపురూప సాంప్రదాయ ఊరగాయ. పచ్చి చింతకాయలను ఉప్పు, పసుపుతో రాతి రోట్లో దంచి, పిక్కలు వేరు చేసి, జాడీలలో నిల్వ ఉంచుతారు. తినే ముందు పచ్చిమిర్చి, వెల్లుల్లితో నూరి, నువ్వుల నూనె తాలింపుతో తింటారు.",
+    "culturalContext": "Unlike ripe brown tamarind, raw green tamarind contains crisp malic acid and fresh vegetable crunch. In Rayalaseema and coastal villages, women gathered for the annual 'thokku' ceremony, pounding dozens of kilograms in giant stone mortars. A jar of aged Chintakaya Thokku stays potent for up to 3 years without spoilage.",
+    "servingRituals": "A small portion of the cured thokku is mixed with crushed green chillies and garlic, tempered in sesame oil, and mixed into hot rice with ghee.",
+    "image": "https://res.cloudinary.com/dro6n6co1/image/upload/v1792412329/APFOOD/chintakaya-thokku.jpg",
+    "ingredients": [
+      {
+        "name": "Fresh Green Raw Tamarind Pods (Pachi Chintakayalu)",
+        "quantity": 1,
+        "unit": "kg",
+        "isPrimary": true,
+        "notes": "Hard, crisp, freshly picked in winter"
+      },
+      {
+        "name": "Rock Salt (Kallu Uppu)",
+        "quantity": 250,
+        "unit": "grams",
+        "isPrimary": true,
+        "notes": "Coarse sea salt crystals"
+      },
+      {
+        "name": "Fresh Turmeric Powder (Pasupu)",
+        "quantity": 2,
+        "unit": "tbsp",
+        "isPrimary": true,
+        "notes": "Antiseptic preservative"
+      },
+      {
+        "name": "Fresh Green Chillies",
+        "quantity": 10,
+        "unit": "pieces",
+        "isPrimary": false,
+        "notes": "For final table pounding"
+      },
+      {
+        "name": "Garlic Cloves",
+        "quantity": 10,
+        "unit": "cloves",
+        "isPrimary": false,
+        "notes": "For final table pounding"
+      },
+      {
+        "name": "Cold-Pressed Sesame Oil",
+        "quantity": 4,
+        "unit": "tbsp",
+        "isPrimary": false,
+        "notes": "For final tempering"
+      }
+    ],
+    "instructions": [
+      "Wash green tamarind pods thoroughly. Wipe each pod bone dry with a clean cotton towel. Let air-dry under the fan for 2 hours.",
+      "Trim the stem ends. Do not peel the tender green skin.",
+      "In a granite mortar (rolu), place a batch of dried tamarind pods with a handful of rock salt and turmeric.",
+      "Pound firmly with a wooden pestle (rokali) until the pods break open and crush. Remove the hard inner seeds by hand as they loosen.",
+      "Pound the seedless crushed pulp and salt together into a coarse, fibrous, pale-yellow paste.",
+      "Pack tightly into clean, dry ceramic bharanis (stone jars). Press down firmly to eliminate air pockets. Tie a muslin cloth over the mouth.",
+      "Store for at least 15 days in a cool, dark pantry to mature into cured base thokku.",
+      "To serve: take 3 tablespoons of cured thokku, pound in mortar with 4 green chillies and 4 garlic cloves. Temper with mustard and curry leaves in hot sesame oil; serve with hot rice and ghee."
+    ]
+  }
+]

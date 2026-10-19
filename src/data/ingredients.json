@@ -1,0 +1,167 @@
+[
+  {
+    "slug": "guntur-sannam-chilli",
+    "nameEn": "Guntur Sannam Chilli",
+    "nameTe": "గుంటూరు సన్నం మిరపకాయ",
+    "category": "spice",
+    "heatSHU": "35,000 - 50,000 SHU",
+    "geographicalIndication": "Guntur District, Andhra Pradesh (GI Tagged)",
+    "description": "The fiery backbone of Andhra gastronomy. Slender, deep crimson chillies with high capsaicin content and high natural red coloring agent (ASTA color value 80-100). Imparts unmistakable biting heat and vibrant ruby hue to karams, pickles, and curries.",
+    "culinaryUses": ["Stone-ground Avakaya pickle", "Gongura pachadi", "Gutti vankaya masala", "Daily talimpu seasoning"],
+    "traditionalProcessing": "Sun-dried on clean riverbank terraces, destemmed by hand, and pounded in granite mortars with sea salt."
+  },
+  {
+    "slug": "gongura",
+    "nameEn": "Gongura (Red-Stemmed Sorrel)",
+    "nameTe": "ఎర్ర గోంగూర",
+    "category": "herb-greens",
+    "heatSHU": "Non-pungent, High Natural Acidity",
+    "geographicalIndication": "Indigenous to Guntur, Krishna, and Godavari deltas",
+    "description": "Known as the Andhra Shakambhari (patron culinary plant). The red-stemmed variety (Erra Gongura) contains potent oxalic and malic acid that provides an assertive sour, earthy flavor that cuts through heavy meats and rich dals.",
+    "culinaryUses": ["Gongura Pachadi (oil-preserved chutney)", "Gongura Pappu (lentil stew)", "Gongura Mutton & Prawns"],
+    "traditionalProcessing": "Plucked fresh, washed thoroughly, dry-wilted in unrefined sesame oil without water, and pounded in stone mortars."
+  },
+  {
+    "slug": "ragi",
+    "nameEn": "Finger Millet (Ragi)",
+    "nameTe": "రాగులు",
+    "category": "grain-millet",
+    "heatSHU": "Cooling / Earthy",
+    "geographicalIndication": "Rayalaseema Dryland Plateau (Anantapur, Kurnool, Kadapa, Chittoor)",
+    "description": "Ancient drought-tolerant super-grain packed with calcium, dietary fiber, and complex carbohydrates. Sustained agrarian communities across the Rayalaseema plateau for millennia.",
+    "culinaryUses": ["Ragi Sangati (steamed mudda)", "Ragi Roti with green chillies", "Ragi Ambli (fermented summer cooling beverage)"],
+    "traditionalProcessing": "Sun-dried whole grains, coarsely stone-milled in stone chakki (tirugali) without removing the outer husk."
+  },
+  {
+    "slug": "tamarind",
+    "nameEn": "Aged Black Tamarind (Chintapandu)",
+    "nameTe": "పాత చింతపండు",
+    "category": "sour-agent",
+    "heatSHU": "Deep Tart / Fruity",
+    "geographicalIndication": "Nellore, Prakasam, and Chittoor groves",
+    "description": "Matured sour pods stored in ceramic bharanis with sea salt until the color deepens from amber to dark mahogany-black. Develops a complex, mellow, wine-like acidity without raw astringency.",
+    "culinaryUses": ["Godavari & Nellore Chepala Pulusu", "Pulihora (tamarind rice)", "Charu / Rasam", "Vegetable pulusus"],
+    "traditionalProcessing": "Deseeded by hand, salted, kneaded into tight balls, and aged in darkness for 1 to 3 years."
+  },
+  {
+    "slug": "desi-ghee",
+    "nameEn": "Cultured Desi Cow & Buffalo Ghee",
+    "nameTe": "స్వచ్ఛమైన నెయ్యి",
+    "category": "dairy-fat",
+    "heatSHU": "Soothing / Rich",
+    "geographicalIndication": "Ongole, Krishna, and Godavari dairy belts",
+    "description": "Golden clarified butter prepared by boiling whole raw milk, fermenting into curd with ancestral cultures, churning into butter with a wooden bilona (kavvam), and slow-clarifying over cow-dung embers with betel or drumstick leaves.",
+    "culinaryUses": ["Topping on Ragi Sangati & Mudda Pappu", "Roasting MLA Pesarattu", "Atreyapuram Pootharekulu & sweets"],
+    "traditionalProcessing": "Traditional Bilona method preserving butyric acid, nutty aroma, and golden granulations."
+  },
+  {
+    "slug": "groundnut",
+    "nameEn": "Raw Groundnuts (Verusenagalu)",
+    "nameTe": "వేరుశెనగలు",
+    "category": "legume-oilseed",
+    "heatSHU": "Neutral / Nutty",
+    "geographicalIndication": "Anantapuramu District — largest groundnut belt in Andhra Pradesh",
+    "description": "The agrarian lifeline of Rayalaseema. Raw, unpolished groundnuts slow-roasted in sand-filled iron kadais until the papery skins crack and release deep toasted aromas. Used as both a base for gravies and cold-pressed into the primary cooking oil of southern Andhra.",
+    "culinaryUses": ["Gutti Vankaya stuffing paste", "Palli Pachadi (groundnut chutney)", "Putnala Podi (roasted gram spice mix)", "Cold-pressed groundnut oil for deep frying"],
+    "traditionalProcessing": "Dried in the pod under sun, hand-shelled, and slow-roasted in hot sand in a concave iron wok."
+  },
+  {
+    "slug": "sesame",
+    "nameEn": "White Sesame Seeds (Nuvvulu)",
+    "nameTe": "తెల్ల నువ్వులు",
+    "category": "oilseed",
+    "heatSHU": "Warm / Nutty",
+    "geographicalIndication": "Krishna, Guntur, and Vizianagaram districts",
+    "description": "Tiny ivory seeds with immense nutritional density and a rich, toasty flavor when dry-roasted. Essential in Andhra spice pastes for curry stuffings and chutneys. Cold-pressed into nuvvula noone (sesame oil), the traditional cooking fat of coastal Andhra.",
+    "culinaryUses": ["Gutti Vankaya masala paste", "Nuvvula Podi (sesame spice powder)", "Cold-pressed sesame oil for talimpu", "Til chikki (sesame brittle)"],
+    "traditionalProcessing": "Dry-roasted on low heat until seeds pop and turn pale gold, then stone-ground with spices."
+  },
+  {
+    "slug": "green-gram",
+    "nameEn": "Whole Green Gram (Pesalu)",
+    "nameTe": "పెసలు",
+    "category": "pulse",
+    "heatSHU": "Cooling / Earthy",
+    "geographicalIndication": "Coastal Andhra Krishna-Godavari plains",
+    "description": "Small, olive-green whole lentils (moong) with intact skin, prized for their fresh, grassy aroma and high plant protein. Soaked and wet-ground into smooth batter without fermentation to make Pesarattu and pesara pappu.",
+    "culinaryUses": ["MLA Pesarattu (green gram crepe)", "Pesara Pappu (split green gram dal)", "Pesalu Garelu (green gram vada)", "Whole green gram sprout sundal"],
+    "traditionalProcessing": "Soaked whole in cold water for 4-6 hours, then wet-ground on rolu (stone grinder) with minimal water."
+  },
+  {
+    "slug": "rice",
+    "nameEn": "Sona Masuri / Raw Rice (Biyyam)",
+    "nameTe": "సోనా మసూరి బియ్యం",
+    "category": "grain",
+    "heatSHU": "Neutral / Starchy",
+    "geographicalIndication": "Godavari and Krishna delta paddy fields",
+    "description": "Medium-grain aromatic paddy variety acclaimed for its light, fluffy texture, low glycemic starch, and subtle jasmine-like fragrance. The daily staple grain of Andhra meals, served steaming hot with ghee, pappu, and pulusu.",
+    "culinaryUses": ["Daily steamed rice with pappu and ghee", "Pulihora (tamarind rice)", "Pesarattu batter additive", "Pootharekulu rice-paper sheets"],
+    "traditionalProcessing": "Hand-harvested, sun-dried on granite threshing floors, and parboiled or polished in village hullers."
+  },
+  {
+    "slug": "jaggery",
+    "nameEn": "Organic Cane Jaggery (Bellam)",
+    "nameTe": "బెల్లం",
+    "category": "sweetener",
+    "heatSHU": "Warm / Caramelized",
+    "geographicalIndication": "Anakapalli (Asia's 2nd largest jaggery market), Srikakulam, and Vizianagaram",
+    "description": "Unrefined, golden-to-dark-brown blocks of concentrated sugarcane juice, boiled in massive brass vessels until thick and crystallized. Retains minerals, iron, and deep molasses-toffee flavor absent in refined white sugar.",
+    "culinaryUses": ["Bellam Pulusu (jaggery tamarind stew)", "Pootharekulu filling", "Allam Pachadi (ginger-jaggery chutney)", "Payasam and Pongali sweets"],
+    "traditionalProcessing": "Fresh cane juice clarified with lime, boiled in open brass pans (gannela aadam), poured into wooden molds, and sun-solidified."
+  },
+  {
+    "slug": "mustard-seeds",
+    "nameEn": "Black Mustard Seeds (Aavalu)",
+    "nameTe": "ఆవాలు",
+    "category": "spice",
+    "heatSHU": "Sharp / Pungent",
+    "geographicalIndication": "Vizianagaram, Srikakulam, and northern coastal Andhra",
+    "description": "Tiny jet-black spheres that crackle and pop in hot oil, releasing a sharp, nutty pungency fundamental to every Andhra talimpu (tempering). Also ground into aavapindi (mustard powder) for Uttarandhra pickles and stews.",
+    "culinaryUses": ["Talimpu (tempering) base for every dal and curry", "Avakaya Mango Pickle", "Aavapindi for Bellam Pulusu", "Gongura Pachadi seasoning"],
+    "traditionalProcessing": "Sun-dried whole seeds, stored in clay pots. For aavapindi, dry-roasted lightly and stone-ground into coarse pungent powder."
+  },
+  {
+    "slug": "curry-leaves",
+    "nameEn": "Fresh Curry Leaves (Karivepaku)",
+    "nameTe": "కరివేపాకు",
+    "category": "herb-aromatic",
+    "heatSHU": "Fragrant / Bitter-Sweet",
+    "geographicalIndication": "Ubiquitous across all 26 districts of Andhra Pradesh",
+    "description": "Glossy, dark-green, deeply aromatic leaves from the Murraya koenigii tree. Releases an intensely fragrant, slightly citrusy, peppery oil when spluttered in hot oil or ghee. No Andhra dish is complete without karivepaku in its talimpu.",
+    "culinaryUses": ["Essential talimpu aromatic in every curry", "Karivepaku Podi (curry leaf spice powder)", "Fresh garnish on rasam and charu", "Fried crisp in ghee for biryani"],
+    "traditionalProcessing": "Plucked fresh from backyard trees, washed, and added whole sprigs directly into spluttering hot oil. Never dried."
+  },
+  {
+    "slug": "turmeric",
+    "nameEn": "Kasturi Turmeric (Pasupu)",
+    "nameTe": "పసుపు",
+    "category": "spice-root",
+    "heatSHU": "Warm / Earthy-Bitter",
+    "geographicalIndication": "Kadapa, Kurnool, and Duggirala (Krishna) — major Andhra turmeric belts",
+    "description": "Bright orange-gold rhizome of Curcuma longa, essential for its antiseptic properties, golden color, and earthy-bitter warmth. Added in measured pinches to nearly every Andhra preparation as both a flavoring and a preservative.",
+    "culinaryUses": ["Universal base spice in curries, dals, pulusus", "Pasupu Nuvvula Podi (turmeric-sesame powder)", "Sankranti ritual rice dishes", "Wedding and festival auspicious uses"],
+    "traditionalProcessing": "Boiled whole in copper vessels, sun-dried for 15 days, and stone-ground into fine golden powder."
+  },
+  {
+    "slug": "fenugreek",
+    "nameEn": "Fenugreek Seeds (Menthi)",
+    "nameTe": "మెంతులు",
+    "category": "spice-seed",
+    "heatSHU": "Bitter / Aromatic",
+    "geographicalIndication": "Prakasam, Nellore, and Guntur districts",
+    "description": "Small, hard, amber-brown seeds with an intensely bitter yet aromatic maple-like flavor. Dry-roasted and ground into menthi podi, they add depth and a distinctive umami-bitter backbone to pulusus, pickles, and chutneys.",
+    "culinaryUses": ["Menthi Podi (fenugreek spice powder) for Chepala Pulusu", "Avakaya pickle paste", "Menthi Kura (fresh fenugreek greens stir-fry)", "Dal tempering"],
+    "traditionalProcessing": "Dry-roasted on iron tawa until dark amber and fragrant, then coarsely stone-ground. Over-roasting turns them acrid."
+  },
+  {
+    "slug": "coconut",
+    "nameEn": "Fresh & Dry Coconut (Kobbari)",
+    "nameTe": "కొబ్బరి",
+    "category": "fruit-oilseed",
+    "heatSHU": "Cooling / Sweet-Creamy",
+    "geographicalIndication": "Konaseema and East Godavari coconut groves",
+    "description": "The tall coconut palms of the Godavari delta provide both fresh white kernel (for chutneys, sweets, and gravies) and copra (dried coconut, grated into stuffing masalas). Coconut oil and milk are fundamental to Konaseema cuisine.",
+    "culinaryUses": ["Kobbari Pachadi (fresh coconut chutney)", "Gutti Vankaya stuffing masala", "Konaseema coconut milk curries", "Laddu and Pootharekulu fillings"],
+    "traditionalProcessing": "Fresh kernel grated on a rotating iron scraper (thuranam). For dry coconut, copra is sun-dried for 2 weeks and grated fine."
+  }
+]

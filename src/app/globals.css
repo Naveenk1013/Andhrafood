@@ -1,0 +1,336 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-leaf-950: #081C14;
+  --color-leaf-900: #103226;
+  --color-leaf-800: #2261496e;
+  --color-leaf-700: #41e7a8b0;
+  --color-leaf-500: #3D8F6E;
+  --color-leaf-200: #C3DDCB;
+  --color-leaf-100: #E1EEE5;
+  --color-leaf-50: #F2F8F4;
+
+  --color-turmeric-600: #CF8800;
+  --color-turmeric-500: #F2B31B;
+  --color-turmeric-400: #F7C545;
+  --color-turmeric-700: #9C6300;
+
+  --color-guntur-600: #B3261E;
+  --color-guntur-500: #D32F2F;
+
+  --color-rice-50: #FAF9F5;
+  --color-rice-100: #F4F1E6;
+  --color-rice-200: #E8E4D3;
+  --color-rice-950: #0D130E;
+
+  --color-ink-950: #0E1410;
+  --color-ink-900: #141C18;
+  --color-ink-700: #36453B;
+  --color-ink-600: #4B5750;
+  --color-ink-500: #66776C;
+
+  --color-tamarind-700: #5B3A2C;
+  --color-tamarind-500: #9C5E43;
+
+  /* Fluid Motion Timing */
+  --ease-fluid: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-soft: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  touch-action: pan-y;
+}
+
+body {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  touch-action: pan-y;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Prevent iOS Safari auto-zoom on input focus while maintaining scaled desktop proportion */
+input,
+textarea,
+select {
+  font-size: 16px !important;
+}
+
+/* Fast tap response without mobile tap latency */
+button,
+a,
+[role="button"] {
+  touch-action: manipulation;
+}
+
+
+@keyframes ambientGradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.bg-ambient-light-drift {
+  background: radial-gradient(at 0% 0%, #FFF8EB 0px, transparent 50%),
+              radial-gradient(at 100% 0%, #EEF5ED 0px, transparent 50%),
+              radial-gradient(at 100% 100%, #F3EFE4 0px, transparent 50%),
+              radial-gradient(at 0% 100%, #FAF4E8 0px, transparent 50%),
+              #FAF7F0;
+  background-attachment: fixed;
+}
+
+.dark .bg-ambient-light-drift,
+html.dark .bg-ambient-light-drift,
+html.dark body {
+  background: radial-gradient(at 0% 0%, #1a533e 0px, transparent 55%),
+              radial-gradient(at 100% 0%, #103826 0px, transparent 55%),
+              radial-gradient(at 100% 100%, #081C14 0px, transparent 55%),
+              radial-gradient(at 0% 100%, #144632 0px, transparent 55%),
+              #081C14;
+  background-attachment: fixed;
+  color: #FAF9F5;
+}
+
+/* Hardware Acceleration & Fast Layer Compositing */
+.gpu-layer,
+.dish-card,
+.glass-folder,
+article,
+header,
+button,
+a {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+/* Offscreen Rendering Optimization */
+.content-lazy-contain {
+  content-visibility: auto;
+  contain-intrinsic-size: 0 400px;
+}
+
+body {
+  background-color: #FAF7F0;
+  color: var(--color-ink-900);
+  font-family: var(--font-hind), system-ui, sans-serif;
+  line-height: 1.6;
+  min-width: 1280px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+html.dark body {
+  background-color: #46c299e1;
+  color: #FAF9F5;
+}
+
+/* Warm Turmeric selection highlight */
+::selection {
+  background-color: #F2B31B;
+  color: #081C14;
+}
+
+/* Telugu typography line-height adjustment (approx 10% taller per design.md) */
+:lang(te) {
+  line-height: 1.75;
+}
+
+/* Focus ring styles per WCAG 2.2 AA */
+:focus-visible {
+  outline: 2px solid var(--color-turmeric-500);
+  outline-offset: 2px;
+}
+
+/* Ensure minimum touch targets */
+button,
+a,
+input,
+select {
+  touch-action: manipulation;
+}
+
+/* Elegant custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF9F5;
+}
+
+html.dark ::-webkit-scrollbar-track {
+  background: #081C14;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C3DDCB;
+  border-radius: 9999px;
+  transition: background 0.3s var(--ease-fluid);
+}
+
+html.dark ::-webkit-scrollbar-thumb {
+  background: #1F5A43;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1F5A43;
+}
+
+html.dark ::-webkit-scrollbar-thumb:hover {
+  background: #2A7356;
+}
+
+/* Fluid Keyframe Animations */
+@keyframes ambientGlow {
+
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.75;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes gentleFloat {
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes pulseBorder {
+
+  0%,
+  100% {
+    border-color: rgba(242, 179, 27, 0.25);
+  }
+
+  50% {
+    border-color: rgba(242, 179, 27, 0.7);
+  }
+}
+
+.animate-gentle-float {
+  animation: gentleFloat 4s ease-in-out infinite;
+}
+
+.animate-ambient-glow {
+  animation: ambientGlow 5s ease-in-out infinite;
+}
+
+.animate-pulse-border {
+  animation: pulseBorder 3s ease-in-out infinite;
+}
+
+/* Card Hover Fluid Shadows */
+.card-fluid-hover {
+  transition: transform 0.4s var(--ease-fluid), box-shadow 0.4s var(--ease-fluid), border-color 0.4s var(--ease-fluid);
+}
+
+.card-fluid-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 36px -12px rgba(8, 28, 20, 0.16), 0 0 0 1px rgba(242, 179, 27, 0.35);
+}
+
+/* Zero-Flicker Ruchi Splash Entrance */
+html.ruchi-splash-active body {
+  overflow: hidden !important;
+  background-color: #081C14 !important;
+}
+
+html.ruchi-splash-active #main-content-wrapper {
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* Living Bioluminescent Skeleton Shimmer & Warmth Animations */
+@keyframes skeletonShimmer {
+  0% {
+    transform: translateX(-160%) skewX(-16deg);
+  }
+  100% {
+    transform: translateX(200%) skewX(-16deg);
+  }
+}
+
+@keyframes skeletonBreathe {
+  0%, 100% {
+    opacity: 0.88;
+    filter: brightness(0.98);
+  }
+  50% {
+    opacity: 1;
+    filter: brightness(1.05);
+  }
+}
+
+@keyframes emberPulse {
+  0%, 100% {
+    opacity: 0.35;
+    transform: scale(0.85);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.18);
+    box-shadow: 0 0 10px rgba(242, 179, 27, 0.7);
+  }
+}
+
+@keyframes ringRadiate {
+  0% {
+    transform: scale(0.85);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(1.08);
+    opacity: 0.2;
+  }
+  100% {
+    transform: scale(1.25);
+    opacity: 0;
+  }
+}
+
+.animate-skeleton-shimmer {
+  animation: skeletonShimmer 2.2s cubic-bezier(0.25, 1, 0.35, 1) infinite;
+}
+
+.animate-skeleton-breathe {
+  animation: skeletonBreathe 3.2s ease-in-out infinite;
+}
+
+.animate-ember-pulse {
+  animation: emberPulse 1.8s ease-in-out infinite;
+}
+
+.animate-ring-radiate {
+  animation: ringRadiate 2.8s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
