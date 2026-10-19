@@ -8,14 +8,16 @@ import { optimizeCloudinaryUrl } from "@/lib/cloudinary";
 
 export function RegionalGlassFolders() {
   const locale = useLocale();
-  const [folderWidth, setFolderWidth] = React.useState(340);
+  const [folderWidth, setFolderWidth] = React.useState(300);
 
   React.useEffect(() => {
     const updateWidth = () => {
       if (typeof window !== "undefined") {
         const w = window.innerWidth;
-        if (w < 380) {
-          setFolderWidth(Math.max(280, w - 48));
+        if (w < 360) {
+          setFolderWidth(Math.max(260, w - 32));
+        } else if (w < 420) {
+          setFolderWidth(Math.min(300, w - 36));
         } else if (w < 640) {
           setFolderWidth(320);
         } else {

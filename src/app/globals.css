@@ -47,14 +47,12 @@ html {
   overflow-x: hidden;
   -webkit-tap-highlight-color: transparent;
   -webkit-text-size-adjust: 100%;
-  touch-action: pan-y;
 }
 
 body {
   width: 100%;
   max-width: 100vw;
   overflow-x: hidden;
-  touch-action: pan-y;
   -webkit-overflow-scrolling: touch;
 }
 
@@ -131,15 +129,10 @@ body {
   color: var(--color-ink-900);
   font-family: var(--font-hind), system-ui, sans-serif;
   line-height: 1.6;
-  min-width: 1280px;
+  min-width: 0;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   transition: background-color 0.4s ease, color 0.4s ease;
-}
-
-html.dark body {
-  background-color: #46c299e1;
-  color: #FAF9F5;
 }
 
 /* Warm Turmeric selection highlight */
