@@ -55,10 +55,24 @@ export const Footer: React.FC<FooterProps> = ({ locale = 'en' }) => {
         </div>
 
         {/* Bottom Rights Bar */}
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-6 border-t border-[#103226] text-[11px] text-[#E8E4D3]/60">
-          <p>
-            © {new Date().getFullYear()} Andhra Ruchulu · Made to bring all the dishes of Andhra together.
-          </p>
+        <div className="flex flex-col md:flex-row items-center justify-between gap-4 pt-6 border-t border-[#103226] text-[11px] text-[#E8E4D3]/60">
+          <div className="flex flex-col sm:flex-row items-center gap-1.5 sm:gap-2.5 text-center sm:text-left">
+            <p>
+              © {new Date().getFullYear()} Andhra Ruchulu · Bringing all Andhra dishes together.
+            </p>
+            <span className="hidden sm:inline text-[#2A7356]">|</span>
+            <p className="text-[#F2B31B]/90 font-medium">
+              Made with <span className="text-red-400">♥</span> by{' '}
+              <a
+                href="https://naveen-kr.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#FAF9F5] underline underline-offset-4 decoration-[#F2B31B]/60 hover:text-[#F2B31B] hover:decoration-[#F2B31B] transition-colors font-semibold"
+              >
+                Naveen
+              </a>
+            </p>
+          </div>
           <div className="flex items-center gap-4">
             <Link href="/privacy" className="hover:text-white transition-colors">Privacy</Link>
             <span>·</span>

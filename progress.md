@@ -4,8 +4,8 @@
 > Status key: ⬜ not started · 🟦 in progress · ✅ done · ⛔ blocked
 
 **Last updated:** 2026-10-20  
-**Current phase:** M0–M9 Complete · Production Build Passed · Codebase Pushed to GitHub (`Naveenk1013/Andhrafood`) · Ready for 1-Click Vercel Hosting  
-**Next action:** Connect repository in Vercel UI and launch live domain!
+**Current phase:** M0–M9 Complete · Live in Production on Vercel ([https://andhraruchulu.vercel.app/](https://andhraruchulu.vercel.app/)) · Portfolio Attribution Added · Preparing for M10 Mobile Overhaul  
+**Next action:** Milestone 10: Comprehensive Mobile Interface Overhaul & Native Touch Experience (scheduled for next session).
 
 ---
 
@@ -22,7 +22,8 @@
 | M6 Native Mobile App | ✅ | Done | 100% zero horizontal scrolling on mobile portrait; touch-action: pan-y; responsive app bar; adaptive 3D DriftWall; PWA manifest |
 | M7 Pantry Matcher | ✅ | Done | "Cook with What I Have" interactive pantry, real-time match scoring, 4 cultural presets, bilingual EN/TE, Ruchi AI prompt handoff |
 | M8 Deep Security Hardening | ✅ | Done | Production-grade CSP, HSTS, X-Frame-Options DENY, safeJsonLd tag escaping, sliding window IP rate limiting, input size limits, open redirect protection, sanitized error outputs |
-| M9 Hosting & Deployment | ✅ | Done | Production build passed (`next build` 103kB shared JS), code pushed to GitHub (`https://github.com/Naveenk1013/Andhrafood`), zero credential leaks, Vercel ready |
+| M9 Hosting & Deployment | ✅ | Done | 100% live on Vercel at `https://andhraruchulu.vercel.app/`; GitHub sync (`Naveenk1013/Andhrafood`), zero credential leaks |
+| M10 Mobile Interface Overhaul | 🟦 | Next (Post-Break) | Deep mobile UX overhaul: thumb-zone ergonomics, bottom sheet filters, touch swipe cards, adaptive typography, mobile-first recipe cards, 60fps mobile transitions |
 
 ---
 
@@ -315,6 +316,7 @@ When the Gemini image generation quota resets at **00:44 AM IST**:
 
 | Date | Change | By |
 |---|---|---|
+| 2026-10-20 | Live Production Launch on Vercel (`https://andhraruchulu.vercel.app/`): Initialized GitHub remote repository (`Naveenk1013/Andhrafood`), completed clean production build verification (103 kB First Load JS), eliminated all secret leaks from utility scripts, updated `Footer.tsx` with "Made with ♥ by Naveen" and portfolio link (`https://naveen-kr.netlify.app/`), and scheduled M10 Mobile Interface Overhaul | Antigravity + Naveen |
 | 2026-10-19 | Comprehensive Security Audit & Hardening (M8): Configured strict Content-Security-Policy (CSP) with whitelisted Cloudinary & Google API origins, enforced HTTP Strict-Transport-Security (HSTS), X-Frame-Options (DENY), nosniff, and Permissions-Policy in `next.config.ts`; created `safeJsonLd` utility to prevent script tag injection across all structured data; implemented sliding-window IP rate limiting (20 req/min) and 500-char input validation on `/api/ruchi/chat`; protected `middleware.ts` against protocol-relative open redirects; moved Gemini API keys to secure `x-goog-api-key` HTTP transport headers; sanitized all API error responses against internal stack leaks | Antigravity + Naveen |
 | 2026-10-19 | Refinement & Zero-Lag Speed Engineering: eliminated scroll-jacking and touch locks in `ScrollExpandMedia` (passive 120fps native scroll tracking), removed blocking GSAP/SVG blur filters (`FadeContent`), defaulted micro RuchiOrbs to CSS variant (saving WebGL2 contexts), accelerated entrance splash from 5s to 1.7s with localStorage persistence, optimized FluidMotion viewport margins, and fixed Next.js SWC package import config | Antigravity + Naveen |
 | 2026-10-19 | Architected and launched "Cook with What I Have" Pantry Mode (`/[locale]/pantry`): intelligent ingredient matcher (`pantry-matcher.ts`), 4 cultural pantry presets, real-time recipe match % scoring with missing-item tags, bilingual EN/TE support, Header integration with `CookingPot` badge, and seamless 1-click Ruchi AI prompt handoff | Antigravity + Naveen |
