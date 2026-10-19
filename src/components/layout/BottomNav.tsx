@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Link, usePathname } from "@/i18n/routing";
-import { Bookmark, Compass, Home, Sparkles } from "lucide-react";
+import { Bookmark, Compass, Home, CookingPot } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 import { RuchiOrb } from "@/components/ui/RuchiOrb";
@@ -11,16 +11,22 @@ export function BottomNav() {
   const pathname = usePathname();
   const t = useTranslations("nav");
 
+  // Do not show bottom nav inside active fullscreen or dedicated Ruchi page
+  if (pathname === "/ruchi" || pathname?.startsWith("/ruchi")) {
+    return null;
+  }
+
   const navItems = [
     { href: "/", label: t("home"), icon: Home },
     { href: "/browse", label: t("browse"), icon: Compass },
+    { href: "/pantry", label: t("pantry"), icon: CookingPot },
     { href: "/ruchi", label: t("ruchi"), isRuchi: true, highlight: true },
     { href: "/saved", label: t("saved"), icon: Bookmark },
   ];
 
   return (
     <nav
-      className="sm:hidden fixed bottom-0 left-0 right-0 z-50 bg-white/85 dark:bg-[#081C14]/90 backdrop-blur-2xl backdrop-saturate-150 border-t border-black/[0.06] dark:border-[#1F5A43]/50 text-ink-700 dark:text-rice-200 pb-[env(safe-area-inset-bottom)] shadow-[0_-4px_25px_rgba(0,0,0,0.06)] dark:shadow-[0_-4px_25px_rgba(0,0,0,0.5)]"
+      className="sm:hidden fixed bottom-0 left-0 right-0 z-50 bg-white/90 dark:bg-[#081C14]/95 backdrop-blur-2xl backdrop-saturate-150 border-t border-black/[0.08] dark:border-[#1F5A43]/60 text-ink-700 dark:text-rice-200 pb-[max(8px,env(safe-area-inset-bottom))] shadow-[0_-4px_25px_rgba(0,0,0,0.08)] dark:shadow-[0_-4px_25px_rgba(0,0,0,0.6)]"
       aria-label="Mobile navigation"
     >
       {/* Specular Liquid Top Edge */}

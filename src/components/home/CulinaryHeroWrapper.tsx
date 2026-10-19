@@ -27,8 +27,8 @@ export function CulinaryHeroWrapper({
           ? "విందును చూడటానికి స్క్రోల్ చేయండి ↓ · Scroll to Reveal"
           : "Scroll to Reveal the Feast ↓"
       }
-      titleClassName="font-displayTe text-5xl sm:text-7xl lg:text-8xl font-black text-rice-50 drop-shadow-[0_10px_20px_rgba(0,0,0,0.8)] tracking-tight"
-      subtitleClassName="font-display text-base sm:text-2xl font-bold text-turmeric-400 drop-shadow-[0_4px_10px_rgba(0,0,0,0.8)] tracking-wide"
+      titleClassName="font-displayTe text-4xl sm:text-6xl lg:text-8xl font-black text-rice-50 drop-shadow-[0_10px_20px_rgba(0,0,0,0.8)] tracking-tight"
+      subtitleClassName="font-display text-sm sm:text-2xl font-bold text-turmeric-400 drop-shadow-[0_4px_10px_rgba(0,0,0,0.8)] tracking-wide"
     >
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 space-y-16 py-8">
         {children}

@@ -34,7 +34,7 @@ export function Header() {
           <Link
             href="/browse"
             aria-label="All Dishes"
-            className="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-full text-xs font-semibold text-leaf-950 dark:text-[#FAF9F5] bg-black/[0.03] hover:bg-black/[0.07] dark:bg-white/[0.06] dark:hover:bg-white/[0.12] border border-black/[0.06] dark:border-[#1F5A43]/60 hover:border-[#F2B31B]/50 backdrop-blur-md transition-all shadow-sm hover:shadow-[0_0_15px_rgba(242,179,27,0.12)] active:scale-95"
+            className="hidden sm:inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-full text-xs font-semibold text-leaf-950 dark:text-[#FAF9F5] bg-black/[0.03] hover:bg-black/[0.07] dark:bg-white/[0.06] dark:hover:bg-white/[0.12] border border-black/[0.06] dark:border-[#1F5A43]/60 hover:border-[#F2B31B]/50 backdrop-blur-md transition-all shadow-sm hover:shadow-[0_0_15px_rgba(242,179,27,0.12)] active:scale-95"
           >
             <Compass className="w-4 h-4 text-turmeric-700 dark:text-turmeric-400 flex-shrink-0" />
             <span className="hidden md:inline">All Dishes</span>
@@ -43,7 +43,7 @@ export function Header() {
           <Link
             href="/pantry"
             aria-label="Pantry Mode"
-            className="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-full text-xs font-semibold text-leaf-950 dark:text-[#FAF9F5] bg-black/[0.03] hover:bg-black/[0.07] dark:bg-white/[0.06] dark:hover:bg-white/[0.12] border border-black/[0.06] dark:border-[#1F5A43]/60 hover:border-[#F2B31B]/50 backdrop-blur-md transition-all shadow-sm hover:shadow-[0_0_15px_rgba(242,179,27,0.12)] active:scale-95"
+            className="hidden sm:inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-full text-xs font-semibold text-leaf-950 dark:text-[#FAF9F5] bg-black/[0.03] hover:bg-black/[0.07] dark:bg-white/[0.06] dark:hover:bg-white/[0.12] border border-black/[0.06] dark:border-[#1F5A43]/60 hover:border-[#F2B31B]/50 backdrop-blur-md transition-all shadow-sm hover:shadow-[0_0_15px_rgba(242,179,27,0.12)] active:scale-95"
           >
             <CookingPot className="w-4 h-4 text-turmeric-700 dark:text-turmeric-400 flex-shrink-0" />
             <span className="hidden md:inline">Pantry</span>
@@ -52,7 +52,7 @@ export function Header() {
           <Link
             href="/ruchi"
             aria-label="Ruchi AI"
-            className="inline-flex items-center gap-1.5 px-2.5 sm:px-3.5 py-1.5 rounded-full text-xs font-bold text-[#081C14] bg-gradient-to-r from-[#F2B31B] via-[#F7C545] to-[#E5A717] hover:brightness-105 border border-white/60 shadow-[0_2px_12px_rgba(242,179,27,0.25),inset_0_1px_2px_rgba(255,255,255,0.7)] backdrop-blur-md transition-all focus:ring-2 focus:ring-[#FAF9F5] active:scale-95 group flex-shrink-0"
+            className="hidden sm:inline-flex items-center gap-1.5 px-2.5 sm:px-3.5 py-1.5 rounded-full text-xs font-bold text-[#081C14] bg-gradient-to-r from-[#F2B31B] via-[#F7C545] to-[#E5A717] hover:brightness-105 border border-white/60 shadow-[0_2px_12px_rgba(242,179,27,0.25),inset_0_1px_2px_rgba(255,255,255,0.7)] backdrop-blur-md transition-all focus:ring-2 focus:ring-[#FAF9F5] active:scale-95 group flex-shrink-0"
           >
             <RuchiOrb size="xs" state="idle" className="group-hover:scale-110 transition-transform" />
             <span className="tracking-wide">Ruchi<span className="hidden sm:inline"> AI</span></span>
@@ -61,7 +61,7 @@ export function Header() {
           <Link
             href="/saved"
             aria-label="Saved Recipes"
-            className="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-full text-xs font-semibold text-leaf-950 dark:text-[#FAF9F5] bg-black/[0.03] hover:bg-black/[0.07] dark:bg-white/[0.06] dark:hover:bg-white/[0.12] border border-black/[0.06] dark:border-[#1F5A43]/60 hover:border-[#F2B31B]/50 backdrop-blur-md transition-all shadow-sm active:scale-95"
+            className="hidden sm:inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-full text-xs font-semibold text-leaf-950 dark:text-[#FAF9F5] bg-black/[0.03] hover:bg-black/[0.07] dark:bg-white/[0.06] dark:hover:bg-white/[0.12] border border-black/[0.06] dark:border-[#1F5A43]/60 hover:border-[#F2B31B]/50 backdrop-blur-md transition-all shadow-sm active:scale-95"
           >
             <Bookmark className="w-4 h-4 text-turmeric-700 dark:text-turmeric-400 flex-shrink-0" />
             <span className="hidden md:inline">Saved</span>

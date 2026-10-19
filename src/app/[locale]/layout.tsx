@@ -4,8 +4,6 @@ import { Bricolage_Grotesque, Anek_Telugu, Hind_Guntur } from "next/font/google"
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  maximumScale: 1,
-  userScalable: false,
   viewportFit: "cover",
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "#F7F5EE" },
@@ -18,6 +16,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { BottomNav } from "@/components/layout/BottomNav";
 import { RuchiEntranceSplash } from "@/components/ui/RuchiEntranceSplash";
 import { CookieConsentBanner } from "@/components/ui/CookieConsentBanner";
 import "../globals.css";
@@ -217,13 +216,14 @@ export default async function LocaleLayout({
       <body className="min-h-screen w-full max-w-full overflow-x-hidden flex flex-col bg-ambient-light-drift text-ink-900 dark:text-rice-50 antialiased selection:bg-[#F2B31B] selection:text-[#081C14]">
         <NextIntlClientProvider messages={messages}>
           <RuchiEntranceSplash locale={locale} />
-          <div id="main-content-wrapper" className="flex-1 flex flex-col w-full max-w-full overflow-x-hidden transition-opacity duration-500">
+          <div id="main-content-wrapper" className="flex-1 flex flex-col w-full max-w-full overflow-x-hidden pb-16 sm:pb-0 transition-opacity duration-500">
             <Header />
             <main className="flex-1 w-full max-w-full overflow-x-hidden">
               {children}
             </main>
             <Footer locale={locale} />
           </div>
+          <BottomNav />
           <CookieConsentBanner locale={locale} />
         </NextIntlClientProvider>
       </body>
