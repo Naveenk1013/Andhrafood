@@ -327,3 +327,36 @@ html.ruchi-splash-active #main-content-wrapper {
 .animate-ring-radiate {
   animation: ringRadiate 2.8s cubic-bezier(0.16, 1, 0.3, 1) infinite;
 }
+
+/* ==========================================================================
+   Google Translate Headless Aesthetics Suppressors
+   ========================================================================== */
+.goog-te-banner-frame.skiptranslate,
+.goog-te-banner-frame,
+iframe.goog-te-banner-frame,
+.goog-te-gadget-simple,
+#goog-gt-tt,
+.goog-te-balloon-frame {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+body {
+  top: 0px !important;
+  position: static !important;
+}
+
+.skiptranslate:not(#google_translate_element) {
+  display: none !important;
+}
+
+.goog-tooltip,
+.goog-tooltip:hover {
+  display: none !important;
+}
+
+.goog-text-highlight {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}

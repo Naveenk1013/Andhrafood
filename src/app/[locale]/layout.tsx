@@ -20,6 +20,8 @@ import { BottomNav } from "@/components/layout/BottomNav";
 import { RuchiFloatingCTA } from "@/components/ui/RuchiFloatingCTA";
 import { RuchiEntranceSplash } from "@/components/ui/RuchiEntranceSplash";
 import { CookieConsentBanner } from "@/components/ui/CookieConsentBanner";
+import { GoogleTranslateProvider } from "@/components/ui/GoogleTranslateProvider";
+import { LanguageDetectionBanner } from "@/components/ui/LanguageDetectionBanner";
 import "../globals.css";
 
 const bricolage = Bricolage_Grotesque({
@@ -227,6 +229,8 @@ export default async function LocaleLayout({
           <BottomNav />
           <RuchiFloatingCTA />
           <CookieConsentBanner locale={locale} />
+          <LanguageDetectionBanner />
+          <GoogleTranslateProvider />
         </NextIntlClientProvider>
       </body>
     </html>
