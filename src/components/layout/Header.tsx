@@ -91,12 +91,7 @@ export function Header() {
             {/* Sleek Golden Sparkle with micro-hover rotation */}
             <Sparkles className="w-3.5 h-3.5 text-turmeric-600 dark:text-turmeric-400 group-hover:rotate-12 transition-transform duration-300 flex-shrink-0" />
 
-            <span className="font-semibold tracking-wide">Ruchi</span>
-
-            {/* Refined Micro AI Pill Badge */}
-            <span className="px-1.5 py-0.5 rounded text-[9px] font-black tracking-wider uppercase bg-turmeric-500/15 dark:bg-turmeric-500/25 text-turmeric-700 dark:text-turmeric-300 border border-turmeric-500/30">
-              AI
-            </span>
+            <span className="font-semibold tracking-wide">Ruchi AI</span>
           </Link>
 
           {/* 4. Saved */}
