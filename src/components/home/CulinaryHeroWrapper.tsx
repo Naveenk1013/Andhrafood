@@ -24,7 +24,7 @@ export function CulinaryHeroWrapper({
 
       scrollToExpand={
         isTe
-          ? "విందును చూడటానికి స్క్రోల్ చేయండి ↓ · Scroll to Reveal"
+          ? "Scroll to Reveal ↓ · విందును చూడటానికి స్క్రోల్ చేయండి"
           : "Scroll to Reveal the Feast ↓"
       }
       titleClassName="font-displayTe text-4xl sm:text-6xl lg:text-8xl font-black text-rice-50 drop-shadow-[0_10px_20px_rgba(0,0,0,0.8)] tracking-tight"

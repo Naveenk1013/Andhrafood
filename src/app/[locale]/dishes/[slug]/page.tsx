@@ -265,11 +265,11 @@ export default async function DishDetailPage({
             </div>
 
             <div className="space-y-1">
-              <h1 className="font-displayTe text-3xl sm:text-5xl font-extrabold text-white">
-                {dish.nameTe}
-              </h1>
-              <p className="font-display text-xl sm:text-2xl font-bold text-turmeric-400">
+              <h1 className="font-display text-3xl sm:text-5xl font-black text-white tracking-tight">
                 {dish.nameEn}
+              </h1>
+              <p className="font-displayTe text-xl sm:text-3xl font-bold text-turmeric-400">
+                {dish.nameTe}
               </p>
               <p className="text-xs text-rice-50/70 font-medium italic">
                 &ldquo;{dish.nameEnMeaning}&rdquo;

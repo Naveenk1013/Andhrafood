@@ -1,0 +1,20 @@
+[
+  {
+    "id": "iihm",
+    "name": "International Institute of Hotel Management (IIHM)",
+    "logo": "/iihmlogo.webp",
+    "url": "https://www.iihm.ac.in/courses-offered",
+    "description": "IIHM Courses Offered",
+    "social": {
+      "x": "https://x.com/iihmhotelschool",
+      "youtube": "https://www.youtube.com/iihmhotelschool"
+    }
+  },
+  {
+    "id": "aptourism",
+    "name": "Andhra Pradesh Tourism Development Corporation (APTDC)",
+    "logo": "/aptourism.png",
+    "url": "https://tourism.ap.gov.in/",
+    "description": "Andhra Pradesh Tourism"
+  }
+]

@@ -3,9 +3,9 @@
 > Update this file at the end of every working session or agent task.
 > Status key: ⬜ not started · 🟦 in progress · ✅ done · ⛔ blocked
 
-**Last updated:** 2026-10-20  
-**Current phase:** M0–M9 Complete · Live in Production on Vercel ([https://andhraruchulu.vercel.app/](https://andhraruchulu.vercel.app/)) · Portfolio Attribution Added · Preparing for M10 Mobile Overhaul  
-**Next action:** Milestone 10: Comprehensive Mobile Interface Overhaul & Native Touch Experience (scheduled for next session).
+**Last updated:** 2026-11-09  
+**Current phase:** M0–M10 Complete · Floating Chatbot Trigger Upgraded to Pure WebGL `Strands` Component (Minimalist, Self-Explanatory Living AI Orb) · Header Sleek & Professional Overhaul (Unified Glassmorphic Navigation, Integrated Ruchi AI Pill with Micro-Badge & Sparkles) · Institutional Partners & Social Media Integrated · Bilingual Typography Hierarchy (English First, Telugu Second) · Dev Server Running (200 OK)  
+**Next action:** Continuous refinement based on user design requests.
 
 ---
 
@@ -23,7 +23,7 @@
 | M7 Pantry Matcher | ✅ | Done | "Cook with What I Have" interactive pantry, real-time match scoring, 4 cultural presets, bilingual EN/TE, Ruchi AI prompt handoff |
 | M8 Deep Security Hardening | ✅ | Done | Production-grade CSP, HSTS, X-Frame-Options DENY, safeJsonLd tag escaping, sliding window IP rate limiting, input size limits, open redirect protection, sanitized error outputs |
 | M9 Hosting & Deployment | ✅ | Done | 100% live on Vercel at `https://andhraruchulu.vercel.app/`; GitHub sync (`Naveenk1013/Andhrafood`), zero credential leaks |
-| M10 Mobile Interface Overhaul | 🟦 | Next (Post-Break) | Deep mobile UX overhaul: thumb-zone ergonomics, bottom sheet filters, touch swipe cards, adaptive typography, mobile-first recipe cards, 60fps mobile transitions |
+| M10 Mobile Interface Overhaul | ✅ | Done | 100% native mobile responsiveness: eliminated 1280px body lock, removed touch restrictions, fluid 320px–390px layouts, uncluttered mobile header, thumb-zone BottomNav with Pantry & safe-area insets |
 
 ---
 
@@ -297,6 +297,67 @@ When the Gemini image generation quota resets at **00:44 AM IST**:
   - Resolved Next.js SWC `optimizePackageImports` bug with `framer-motion` in `next.config.ts`.
   - Verified clean static compilation and fast warm route response across `/en`, `/te`, `/en/pantry`, `/en/browse`, `/en/ruchi`, `/en/dishes/pesarattu`, and `/manifest.webmanifest`.
 
+## M7 Pantry Matcher ("Cook with What I Have")
+- [x] **Intelligent Pantry Engine (`pantry-matcher.ts`)**:
+  - Core scoring algorithm calculating percentage match based on available vs. required pantry ingredients.
+  - Identification of exact missing ingredients to assist smart grocery and cooking decisions.
+- [x] **Interactive Pantry Workspace (`/[locale]/pantry`)**:
+  - 4 cultural presets (Rayalaseema Spice Essentials, Coastal Godavari Bounty, Vegetarian Sattvic, Quick Evening Tiffins).
+  - Multi-select interactive ingredient chips organized by category (Grains, Lentils, Spices, Vegetables).
+  - Real-time matched dish cards with direct links to recipes and 1-click prompt handoff to Ruchi AI.
+- [x] **Header & Navigation Integration**:
+  - Added dedicated Pantry navigation link with `CookingPot` icon badge in desktop header and mobile navigation.
+
+## M8 Deep Security Hardening & Zero-Leak Audit
+- [x] **Secret Purge & Environment Consolidation**:
+  - Purged all hardcoded Cloudinary and API credentials from utility scripts (`upload-dish-image.mjs`, `upload-extra-assets.mjs`, `test-cloudinary.mjs`).
+  - Strict environment loading from `.env.local` with immediate runtime exceptions if required variables are undefined.
+  - Global regex audit across all tracked files: verified 0 hardcoded secrets or API tokens.
+  - Git repository defense: `.env*`, `.key`, `.pem`, and credentials added to `.gitignore`.
+- [x] **Production HTTP Security Headers (`next.config.ts`)**:
+  - Strict Content-Security-Policy (CSP) whitelisting only trusted Cloudinary CDN and Google AI origins.
+  - `Strict-Transport-Security` (HSTS) with max-age=63072000, `includeSubDomains`, and `preload`.
+  - `X-Frame-Options: DENY`, `X-Content-Type-Options: nosniff`, `Referrer-Policy: strict-origin-when-cross-origin`.
+- [x] **Injection & Rate Limiting Protections**:
+  - `safeJsonLd` utility escaping HTML and script tags in structured schema data.
+  - In-memory sliding-window IP rate limiter (20 requests/min) on `/api/ruchi/chat`.
+  - Input truncation and validation (max 500 characters) to prevent token exhaustion.
+  - Protection against open redirect attacks in `middleware.ts`.
+
+## M9 Production Build & Vercel Deployment
+- [x] **Clean Production Bundle (`npm run build`)**:
+  - Zero TypeScript compiler errors, zero ESLint issues, 100% test pass rate.
+  - 14 routes statically and dynamically generated with high-speed edge optimization.
+  - Shared First Load JS footprint optimized to just **103 kB**.
+- [x] **GitHub & Cloud Deployment**:
+  - Connected repository to GitHub remote (`https://github.com/Naveenk1013/Andhrafood.git`).
+  - Production deployment live on Vercel at [https://andhraruchulu.vercel.app/](https://andhraruchulu.vercel.app/).
+  - Custom domain readiness and instant automatic continuous integration from `main`.
+- [x] **Author Attribution in Footer (`Footer.tsx`)**:
+  - Added "Made with ♥ by Naveen" linking to personal portfolio [https://naveen-kr.netlify.app/](https://naveen-kr.netlify.app/) with secure `rel="noopener noreferrer"`.
+
+## M10 Mobile Viewport & Responsiveness Overhaul
+- [x] **Elimination of 1280px Desktop Body Lock**:
+  - Removed `min-width: 1280px;` constraint from `body` in `src/app/globals.css`.
+  - Replaced restrictive `touch-action: pan-y;` on `html` and `body` with natural fluid layout (`min-width: 0; width: 100%`).
+  - Removed outdated dark-mode body background override (`#46c299e1`).
+- [x] **Viewport & Scale Stabilization (`layout.tsx`)**:
+  - Removed `userScalable: false` to allow natural, accessible pinch-to-zoom.
+  - Set standard responsive viewport: `width=device-width, initial-scale=1, maximum-scale=5`.
+- [x] **Ergonomic Mobile Bottom Navigation (`BottomNav.tsx`)**:
+  - Created persistent 5-tab bottom bar: Home, Browse, Pantry, Ruchi AI, Saved.
+  - Active route highlighting with animated emerald pill indicator.
+  - iOS safe-area inset support: `pb-[max(8px,env(safe-area-inset-bottom))]`.
+  - Added bottom padding offset (`pb-16 sm:pb-0`) to `#main-content-wrapper` to prevent content overlap.
+- [x] **Header & Navigation Decluttering (`Header.tsx`)**:
+  - Streamlined mobile header: desktop navigation links hidden on small screens (`hidden sm:inline-flex`), preventing top bar horizontal blowout.
+  - Preserved brand insignia, Ruchi AI status pill, language toggle, and theme switch.
+- [x] **Component Mobile Adaptations**:
+  - `RegionalGlassFolders.tsx`: dynamically adapts folder card width (`w-[300px] sm:w-[340px]`) for seamless horizontal swipe on narrow mobile viewports.
+  - `CulinaryHeroWrapper.tsx`: adjusted headline typography scaling (`text-4xl sm:text-6xl lg:text-8xl`) with no text clipping.
+- [x] **Production Verification**:
+  - Successfully verified in mobile viewport: zero horizontal overflow, fluid touch scrolling, crisp typography, and full interactive feature parity.
+
 ---
 
 ## Content tracker
@@ -316,7 +377,13 @@ When the Gemini image generation quota resets at **00:44 AM IST**:
 
 | Date | Change | By |
 |---|---|---|
-| 2026-10-20 | Live Production Launch on Vercel (`https://andhraruchulu.vercel.app/`): Initialized GitHub remote repository (`Naveenk1013/Andhrafood`), completed clean production build verification (103 kB First Load JS), eliminated all secret leaks from utility scripts, updated `Footer.tsx` with "Made with ♥ by Naveen" and portfolio link (`https://naveen-kr.netlify.app/`), and scheduled M10 Mobile Interface Overhaul | Antigravity + Naveen |
+| 2026-11-09 | Typography & Bilingual Hierarchy Reversal: Updated all homepage sections, glass folders, category cards, and headers so English is displayed first as the prominent primary title, followed by authentic Telugu as the cultural subtitle/secondary line | Antigravity + Naveen |
+| 2026-11-09 | Integrated Institutional Partners (APTDC & IIHM) & Social Channels in Footer (`Footer.tsx`): Added dedicated collaboration cards for Andhra Pradesh Tourism (`/public/aptourism.png`) and IIHM Hotel School (`/public/iihmlogo.webp` with direct course offerings link), alongside X (`@iihmhotelschool`) and YouTube channels with custom interactive icon buttons | Antigravity + Naveen |
+| 2026-11-09 | Refined Section Watermarks & Backdrops (`SectionVisuals.tsx`): Upgraded all 15 authentic Andhra cultural & culinary vector motifs (Kolam, Kalamkari, Gopuram, Lotus, Guntur Chilli, Rolu Mortar, Kuchipudi, Kondapalli, Amaravati, Lepakshi, Ikat, Andhra map) with precision line weights, balanced opacity scaling (light vs dark mode), while preserving the beloved rich emerald & gold homepage atmosphere | Antigravity + Naveen |
+| 2026-11-09 | Built & Launched Ruchi Floating CTA & Quick-Chat Flyout (`RuchiFloatingCTA.tsx`): floating bottom-right action button with living CSS RuchiOrb, pulse glow indicator, audio entry chime, and an interactive slide-over chat flyout directly on the home page with instant answers, 26-district knowledge citations, quick prompt presets, and 1-click fullscreen studio handoff | Antigravity + Naveen |
+| 2026-11-09 | Added brand & partner assets (`/public/aptourism.png` & `/public/iihmlogo.webp`), IIHM courses link, and social profiles (X: `https://x.com/iihmhotelschool`, YouTube: `https://www.youtube.com/iihmhotelschool`) saved in `src/data/partners.json` and `src/data/social-links.ts` | Antigravity + Naveen |
+| 2026-10-20 | Native Mobile Responsiveness & Viewport Overhaul (M10): Eliminated forced 1280px min-width body lock, removed touch-action restrictions, implemented fluid 320px–390px phone scaling with accessible pinch-to-zoom, streamlined header navigation, built 5-tab ergonomic BottomNav (Home, Browse, Pantry, Ruchi AI, Saved) with iOS safe-area insets, resolved mobile zoom-in & vertical scroll jitter, and verified live on Vercel (`https://andhraruchulu.vercel.app/`) | Antigravity + Naveen |
+| 2026-10-20 | Live Production Launch on Vercel (`https://andhraruchulu.vercel.app/`): Initialized GitHub remote repository (`Naveenk1013/Andhrafood`), completed clean production build verification (103 kB First Load JS), eliminated all secret leaks from utility scripts, updated `Footer.tsx` with "Made with ♥ by Naveen" and portfolio link (`https://naveen-kr.netlify.app/`) | Antigravity + Naveen |
 | 2026-10-19 | Comprehensive Security Audit & Hardening (M8): Configured strict Content-Security-Policy (CSP) with whitelisted Cloudinary & Google API origins, enforced HTTP Strict-Transport-Security (HSTS), X-Frame-Options (DENY), nosniff, and Permissions-Policy in `next.config.ts`; created `safeJsonLd` utility to prevent script tag injection across all structured data; implemented sliding-window IP rate limiting (20 req/min) and 500-char input validation on `/api/ruchi/chat`; protected `middleware.ts` against protocol-relative open redirects; moved Gemini API keys to secure `x-goog-api-key` HTTP transport headers; sanitized all API error responses against internal stack leaks | Antigravity + Naveen |
 | 2026-10-19 | Refinement & Zero-Lag Speed Engineering: eliminated scroll-jacking and touch locks in `ScrollExpandMedia` (passive 120fps native scroll tracking), removed blocking GSAP/SVG blur filters (`FadeContent`), defaulted micro RuchiOrbs to CSS variant (saving WebGL2 contexts), accelerated entrance splash from 5s to 1.7s with localStorage persistence, optimized FluidMotion viewport margins, and fixed Next.js SWC package import config | Antigravity + Naveen |
 | 2026-10-19 | Architected and launched "Cook with What I Have" Pantry Mode (`/[locale]/pantry`): intelligent ingredient matcher (`pantry-matcher.ts`), 4 cultural pantry presets, real-time recipe match % scoring with missing-item tags, bilingual EN/TE support, Header integration with `CookingPot` badge, and seamless 1-click Ruchi AI prompt handoff | Antigravity + Naveen |

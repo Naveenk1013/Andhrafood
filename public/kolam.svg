@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1.8">
+  <circle cx="50" cy="50" r="38" stroke-dasharray="4 4" opacity="0.6" />
+  <circle cx="50" cy="50" r="24" opacity="0.8" />
+  <circle cx="50" cy="50" r="8" fill="currentColor" fill-opacity="0.2" />
+  <path d="M50 12 L50 88 M12 50 L88 50" opacity="0.5" />
+  <path d="M23 23 L77 77 M77 23 L23 77" opacity="0.4" />
+  <!-- Petals -->
+  <path d="M50 26 C58 36, 58 42, 50 50 C42 42, 42 36, 50 26 Z" fill="currentColor" fill-opacity="0.15" />
+  <path d="M50 74 C58 64, 58 58, 50 50 C42 58, 42 64, 50 74 Z" fill="currentColor" fill-opacity="0.15" />
+  <path d="M26 50 C36 58, 42 58, 50 50 C42 42, 36 42, 26 50 Z" fill="currentColor" fill-opacity="0.15" />
+  <path d="M74 50 C64 58, 58 58, 50 50 C58 42, 64 42, 74 50 Z" fill="currentColor" fill-opacity="0.15" />
+</svg>
+

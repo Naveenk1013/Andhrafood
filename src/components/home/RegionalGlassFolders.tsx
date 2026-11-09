@@ -120,10 +120,13 @@ export function RegionalGlassFolders() {
             <Compass className="w-4 h-4 text-turmeric-600" />
             <span>Interactive Regional Dossiers</span>
           </div>
-          <h2 className="font-displayTe text-2xl sm:text-4xl font-extrabold text-leaf-950 dark:text-[#FAF9F5] mt-1">
-            ఆంధ్రప్రదేశ్ 3 ఆహార ప్రాంతాల ఆర్కైవ్స్
+          <h2 className="font-display text-2xl sm:text-4xl font-extrabold text-leaf-950 dark:text-[#FAF9F5] mt-1">
+            Archives of 3 Culinary Regions
           </h2>
-          <p className="text-sm text-ink-600 dark:text-[#E8E4D3]/80 font-medium">
+          <p className="font-displayTe text-base sm:text-lg font-bold text-turmeric-700 dark:text-turmeric-400 mt-1">
+            ఆంధ్రప్రదేశ్ 3 ఆహార ప్రాంతాల ఆర్కైవ్స్
+          </p>
+          <p className="text-xs sm:text-sm text-ink-600 dark:text-[#E8E4D3]/80 font-medium mt-0.5">
             Touch or hover any regional glass folder to inspect its recipes, signatures, and culinary heritage
           </p>
         </div>
@@ -139,7 +142,7 @@ export function RegionalGlassFolders() {
         {/* 1. Coastal Andhra */}
         <div className="flex flex-col items-center space-y-3">
           <GlassFolder
-            label="కోస్తా ఆంధ్ర · Coastal"
+            label="Coastal Andhra · కోస్తా ఆంధ్ర"
             meta="12 Districts · Godavari Delta"
             tone="light"
             image={optimizeCloudinaryUrl("https://res.cloudinary.com/dro6n6co1/image/upload/v1792341033/APFOOD/region-coastal-andhra.jpg", 640)}
@@ -167,7 +170,7 @@ export function RegionalGlassFolders() {
         {/* 2. Rayalaseema */}
         <div className="flex flex-col items-center space-y-3">
           <GlassFolder
-            label="రాయలసీమ · Rayalaseema"
+            label="Rayalaseema · రాయలసీమ"
             meta="8 Districts · Arid Plateau"
             tone="dark"
             image={optimizeCloudinaryUrl("https://res.cloudinary.com/dro6n6co1/image/upload/v1792341035/APFOOD/region-rayalaseema.jpg", 640)}
@@ -195,7 +198,7 @@ export function RegionalGlassFolders() {
         {/* 3. Uttarandhra */}
         <div className="flex flex-col items-center space-y-3">
           <GlassFolder
-            label="ఉత్తరాంధ్ర · Uttarandhra"
+            label="Uttarandhra · ఉత్తరాంధ్ర"
             meta="6 Districts · Eastern Ghats"
             tone="light"
             image={optimizeCloudinaryUrl("https://res.cloudinary.com/dro6n6co1/image/upload/v1792341037/APFOOD/region-uttarandhra.jpg", 640)}

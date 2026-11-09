@@ -95,11 +95,11 @@ export function DishCard({ dish }: DishCardProps) {
 
         {/* Bottom Banner inside image */}
         <div className="absolute bottom-3 left-3 right-3">
-          <h3 className="font-displayTe text-2xl font-extrabold text-white drop-shadow-md group-hover:text-turmeric-400 transition-colors">
-            {nameTe}
+          <h3 className="font-display text-xl sm:text-2xl font-black text-white drop-shadow-md group-hover:text-turmeric-400 transition-colors">
+            {nameEn}
           </h3>
-          <p className="font-display text-sm font-semibold text-rice-50/95 drop-shadow">
-            {nameEn} · {subName}
+          <p className="font-displayTe text-sm font-bold text-turmeric-300 drop-shadow">
+            {nameTe} {subName ? `· ${subName}` : ""}
           </p>
         </div>
       </div>

@@ -53,13 +53,13 @@ export default async function HomePage({
               <span>The Authentic Andhra Pradesh Culinary Encyclopedia</span>
             </div>
 
-            {/* High-Contrast Telugu Title & English Subtitle */}
+            {/* High-Contrast English Title & Telugu Subtitle */}
             <div className="space-y-2.5">
-              <h2 className="font-displayTe text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight text-leaf-950 dark:text-[#FAF9F5]">
-                ఆంధ్రప్రదేశ్ రుచుల మహా సర్వస్వం
+              <h2 className="font-display text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight text-leaf-950 dark:text-[#FAF9F5]">
+                The Living Soul of Andhra Cuisine
               </h2>
-              <p className="font-display text-base sm:text-xl font-bold text-turmeric-700 dark:text-turmeric-400 tracking-wide">
-                The Living Soul of Andhra Cuisine across 26 Districts
+              <p className="font-displayTe text-lg sm:text-2xl font-bold text-turmeric-700 dark:text-turmeric-400 tracking-wide">
+                ఆంధ్రప్రదేశ్ రుచుల మహా సర్వస్వం · 26 జిల్లాల సమాహారం
               </p>
             </div>
 
@@ -122,9 +122,12 @@ export default async function HomePage({
             <span className="text-xs font-bold uppercase tracking-widest text-turmeric-700 dark:text-turmeric-400">
               Taste Philosophy · రుచి సిద్ధాంతం
             </span>
-            <h2 className="font-displayTe text-2xl sm:text-4xl font-extrabold text-leaf-950 dark:text-[#FAF9F5]">
-              ఆంధ్ర రుచుల ఆరు స్తంభాలు
+            <h2 className="font-display text-2xl sm:text-4xl font-extrabold text-leaf-950 dark:text-[#FAF9F5]">
+              Six Pillars of Andhra Cuisine
             </h2>
+            <p className="font-displayTe text-lg sm:text-xl font-bold text-turmeric-700 dark:text-turmeric-400">
+              ఆంధ్ర రుచుల ఆరు స్తంభాలు
+            </p>
             <p className="text-sm text-ink-600 dark:text-[#E8E4D3]/80">
               The fundamental pillars of Andhra culinary intelligence — interactive heritage archive with live Scoville heat, heirloom millets, coastal clay pots, and artisanal sweets
             </p>
@@ -144,8 +147,8 @@ export default async function HomePage({
               <span>Course by Course Exploration</span>
             </div>
           }
-          title="సాంప్రదాయ విభాగాల వారీగా అన్వేషించండి"
-          subtitle="Browse by traditional course, tiffins, curries, and festival preparations across 26 districts"
+          title="Browse by Traditional Courses & Categories"
+          subtitle="సాంప్రదాయ విభాగాల వారీగా అన్వేషించండి · Traditional course-by-course feast across 26 districts"
         >
           <StaggerList className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 pt-2">
             {categories.map((cat) => (
@@ -158,11 +161,11 @@ export default async function HomePage({
                     {cat.icon}
                   </span>
                   <div>
-                    <span className="font-displayTe text-base font-bold text-leaf-950 dark:text-[#FAF9F5] group-hover:text-leaf-800 dark:group-hover:text-turmeric-400 block transition-colors">
-                      {cat.nameTe}
-                    </span>
-                    <span className="text-[11px] text-ink-600 dark:text-[#E8E4D3]/70 font-medium block">
+                    <span className="font-display text-sm sm:text-base font-bold text-leaf-950 dark:text-[#FAF9F5] group-hover:text-leaf-800 dark:group-hover:text-turmeric-400 block transition-colors">
                       {cat.nameEn}
+                    </span>
+                    <span className="font-displayTe text-[11px] text-turmeric-700 dark:text-[#FDE8A8]/80 font-semibold block mt-0.5">
+                      {cat.nameTe}
                     </span>
                   </div>
                 </Link>
@@ -182,7 +185,7 @@ export default async function HomePage({
               <span>Curated Masterpieces</span>
             </div>
           }
-          title="ప్రముఖ వంటకాలు · Featured Recipes"
+          title="Featured Masterpiece Recipes · ప్రముఖ వంటకాలు"
           subtitle="Verified recipes documented with historical context, exact measurements, and sensory cues"
           headerAction={
             <Link

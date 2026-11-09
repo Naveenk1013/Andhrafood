@@ -17,6 +17,7 @@ import { routing } from "@/i18n/routing";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { BottomNav } from "@/components/layout/BottomNav";
+import { RuchiFloatingCTA } from "@/components/ui/RuchiFloatingCTA";
 import { RuchiEntranceSplash } from "@/components/ui/RuchiEntranceSplash";
 import { CookieConsentBanner } from "@/components/ui/CookieConsentBanner";
 import "../globals.css";
@@ -224,6 +225,7 @@ export default async function LocaleLayout({
             <Footer locale={locale} />
           </div>
           <BottomNav />
+          <RuchiFloatingCTA />
           <CookieConsentBanner locale={locale} />
         </NextIntlClientProvider>
       </body>
