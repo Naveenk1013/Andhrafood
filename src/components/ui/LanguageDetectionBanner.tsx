@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Globe, X, ArrowRight } from 'lucide-react';
 import { applyGoogleTranslation } from './GoogleTranslateProvider';
@@ -92,6 +93,11 @@ const SUPPORTED_DETECTIONS: Record<string, DetectedLangInfo> = {
 export const LanguageDetectionBanner: React.FC = () => {
   const [detected, setDetected] = useState<DetectedLangInfo | null>(null);
   const [visible, setVisible] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     try {
@@ -138,9 +144,9 @@ export const LanguageDetectionBanner: React.FC = () => {
     setVisible(false);
   };
 
-  if (!visible || !detected) return null;
+  if (!mounted || !visible || !detected) return null;
 
-  return (
+  return createPortal(
     <AnimatePresence>
       <motion.aside
         initial={{ y: 50, opacity: 0, scale: 0.95 }}
@@ -148,7 +154,7 @@ export const LanguageDetectionBanner: React.FC = () => {
         exit={{ y: 50, opacity: 0, scale: 0.95 }}
         transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
         aria-label="Language assistance recommendation"
-        className="fixed bottom-20 sm:bottom-6 left-4 sm:left-6 z-40 max-w-sm w-[calc(100%-2rem)] bg-white/95 dark:bg-[#0c241b]/95 backdrop-blur-xl border border-turmeric-500/40 rounded-2xl p-4 shadow-[0_12px_40px_rgba(0,0,0,0.25)] text-leaf-950 dark:text-[#FAF9F5]"
+        className="fixed bottom-20 sm:bottom-6 left-4 sm:left-6 z-[99990] max-w-sm w-[calc(100%-2rem)] bg-white/95 dark:bg-[#0c241b]/95 backdrop-blur-xl border border-turmeric-500/40 rounded-2xl p-4 shadow-[0_12px_40px_rgba(0,0,0,0.35)] text-leaf-950 dark:text-[#FAF9F5] isolate"
       >
         <div className="flex items-start gap-3">
           <div className="text-2xl leading-none flex-shrink-0 mt-0.5">
@@ -198,6 +204,7 @@ export const LanguageDetectionBanner: React.FC = () => {
           </button>
         </div>
       </motion.aside>
-    </AnimatePresence>
+    </AnimatePresence>,
+    document.body
   );
 };

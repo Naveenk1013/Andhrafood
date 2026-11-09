@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
+import { createPortal } from 'react-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Globe, X, Check, Sparkles, Compass } from 'lucide-react';
 import { usePathname, useRouter } from '@/i18n/routing';
@@ -115,6 +116,35 @@ export const GlobalLanguageModal: React.FC<GlobalLanguageModalProps> = ({
   const router = useRouter();
   const pathname = usePathname();
   const [activeCode, setActiveCode] = useState<string>('en');
+  const [mounted, setMounted] = useState<boolean>(false);
+
+  // Client-side mount check for createPortal
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  // Lock background scroll when modal is active
+  useEffect(() => {
+    if (isOpen) {
+      const originalOverflow = document.body.style.overflow;
+      document.body.style.overflow = 'hidden';
+      return () => {
+        document.body.style.overflow = originalOverflow;
+      };
+    }
+  }, [isOpen]);
+
+  // Close on Escape key
+  useEffect(() => {
+    if (!isOpen) return;
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        onClose();
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isOpen, onClose]);
 
   // Detect current active language from cookie or locale
   useEffect(() => {
@@ -148,22 +178,24 @@ export const GlobalLanguageModal: React.FC<GlobalLanguageModalProps> = ({
     }
   };
 
-  return (
+  if (!mounted) return null;
+
+  return createPortal(
     <AnimatePresence>
       {isOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 overflow-y-auto">
-          {/* Backdrop */}
+        <div className="fixed inset-0 z-[99999] flex items-center justify-center p-4 sm:p-6 overflow-y-auto isolate">
+          {/* Backdrop with high blur */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
             onClick={onClose}
-            className="fixed inset-0 bg-black/60 backdrop-blur-md"
+            className="fixed inset-0 bg-black/75 backdrop-blur-md z-0"
             aria-hidden="true"
           />
 
-          {/* Modal Card */}
+          {/* Modal Card - Floating on top of everything */}
           <motion.div
             initial={{ scale: 0.94, opacity: 0, y: 16 }}
             animate={{ scale: 1, opacity: 1, y: 0 }}
@@ -172,7 +204,7 @@ export const GlobalLanguageModal: React.FC<GlobalLanguageModalProps> = ({
             role="dialog"
             aria-modal="true"
             aria-labelledby="global-lang-title"
-            className="relative w-full max-w-xl bg-white dark:bg-[#0c2219] border border-black/10 dark:border-[#1F5A43] rounded-2xl shadow-2xl overflow-hidden z-10 my-auto text-leaf-950 dark:text-[#FAF9F5]"
+            className="relative w-full max-w-xl bg-white dark:bg-[#0c2219] border border-black/15 dark:border-[#1F5A43] rounded-2xl shadow-[0_25px_70px_rgba(0,0,0,0.65)] overflow-hidden z-10 my-auto text-leaf-950 dark:text-[#FAF9F5]"
           >
             {/* Header Accent Glow */}
             <div className="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-turmeric-500 via-leaf-400 to-turmeric-500" />
@@ -307,7 +339,7 @@ export const GlobalLanguageModal: React.FC<GlobalLanguageModalProps> = ({
               <span>Powered by APTDC Tourism & Neural Translation</span>
               <button
                 onClick={onClose}
-                className="px-3 py-1 rounded-lg bg-leaf-950 text-white dark:bg-[#FAF9F5] dark:text-[#081C14] font-medium text-xs hover:opacity-90 transition-opacity"
+                className="px-3.5 py-1.5 rounded-lg bg-leaf-950 text-white dark:bg-[#FAF9F5] dark:text-[#081C14] font-semibold text-xs hover:opacity-90 transition-opacity"
               >
                 Close
               </button>
@@ -315,6 +347,7 @@ export const GlobalLanguageModal: React.FC<GlobalLanguageModalProps> = ({
           </motion.div>
         </div>
       )}
-    </AnimatePresence>
+    </AnimatePresence>,
+    document.body
   );
 };
