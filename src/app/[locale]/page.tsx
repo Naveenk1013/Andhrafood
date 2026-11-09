@@ -115,7 +115,8 @@ export default async function HomePage({
         </SectionVisualBackdrop>
       </RevealOnScroll>
 
-      {/* 3. THE 4 PILLARS OF ANDHRA FLAVOR - INTERACTIVE MAGIC BENTO */}
+      {/* 3. THE 4 PILLARS OF ANDHRA FLAVOR - INTERACTIVE MAGIC BENTO (Temporarily hidden until actual data is populated) */}
+      {/* 
       <RevealOnScroll direction="up" delay={0.1}>
         <SectionVisualBackdrop variant="emerald-sanctum" containerClassName="border-white/80 dark:border-[#1F5A43]">
           <div className="text-center max-w-2xl mx-auto space-y-2 mb-8">
@@ -136,6 +137,7 @@ export default async function HomePage({
           <TastePhilosophyBento locale={locale} />
         </SectionVisualBackdrop>
       </RevealOnScroll>
+      */}
 
       {/* 4. BROWSE BY TRADITIONAL COURSE / CATEGORY */}
       <RevealOnScroll direction="up" delay={0.1}>

@@ -180,10 +180,10 @@ export const DriftWallGallery: React.FC<DriftWallGalleryProps> = ({ dishes, loca
                 </div>
                 <div>
                   <h2 className="font-displayTe text-base sm:text-lg font-bold text-[#FAF9F5] leading-tight">
-                    {isTe ? 'సజీవ ఆంధ్ర వంటల ప్రదర్శన' : 'Living Andhra Culinary Gallery'}
+                    {isTe ? 'సజీవ ఆంధ్ర వంటల ప్రదర్శన' : 'Andhra Culinary Gallery'}
                   </h2>
                   <p className="text-[11px] text-[#F7C545] font-semibold">
-                    {isTe ? 'పూర్తి తెర అన్వేషణ' : 'Fullscreen 3D Exploration'} ·{' '}
+                    {isTe ? 'పూర్తి తెర అన్వేషణ' : 'Fullscreen'} ·{' '}
                     <span className="text-[#E8E4D3] font-medium">
                       {filteredDishes.length} {isTe ? 'వంటకాలు' : 'dishes'}
                     </span>
