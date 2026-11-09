@@ -4,7 +4,7 @@
 > Status key: ⬜ not started · 🟦 in progress · ✅ done · ⛔ blocked
 
 **Last updated:** 2026-11-09  
-**Current phase:** M0–M10 Complete · Floating Chatbot Trigger Upgraded to Pure WebGL `Strands` Component (Minimalist, Self-Explanatory Living AI Orb) · Header Sleek & Professional Overhaul (Unified Glassmorphic Navigation, Integrated Ruchi AI Pill with Micro-Badge & Sparkles) · Institutional Partners & Social Media Integrated · Bilingual Typography Hierarchy (English First, Telugu Second) · Dev Server Running (200 OK)  
+**Current phase:** M0–M10 Complete · Chatbot Intent Intelligence & Formatting Overhaul (Fixed Repetitive Scripted Greetings, Integrated Conversational Intent Handler for Gratitude/Acknowledgments, Full Multi-Turn Chat History Grounding, Clean Markdown Rendering with `RuchiMarkdown` in Floating CTA) · Floating Chatbot Trigger Upgraded to Pure WebGL `Strands` Component · Header Sleek & Professional Overhaul · Dev Server Running (200 OK)  
 **Next action:** Continuous refinement based on user design requests.
 
 ---

@@ -158,10 +158,15 @@ export default function RuchiAIPage() {
     }, 600);
 
     try {
+      const historyPayload = messages.slice(-6).map((m) => ({
+        role: m.sender === "user" ? "user" : "model",
+        text: m.text,
+      }));
+
       const res = await fetch("/api/ruchi/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ query: textToSend, locale }),
+        body: JSON.stringify({ query: textToSend, locale, history: historyPayload }),
       });
 
       clearTimeout(stepTimer);

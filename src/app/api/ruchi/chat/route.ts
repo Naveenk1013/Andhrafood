@@ -86,11 +86,21 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // 4. Whitelist Locale
+    // 4. Whitelist Locale & Extract History
     const locale = body?.locale === "te" ? "te" : "en";
+    const history = Array.isArray(body?.history)
+      ? body.history
+          .filter(
+            (item: any) =>
+              item &&
+              typeof item.text === "string" &&
+              (item.role === "user" || item.role === "model")
+          )
+          .slice(-6)
+      : [];
 
     // 5. Execute Grounded Query
-    const result = await queryGroundedGemini(query, locale);
+    const result = await queryGroundedGemini(query, locale, history);
 
     return NextResponse.json({
       success: true,

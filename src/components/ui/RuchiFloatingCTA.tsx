@@ -16,6 +16,7 @@ import {
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import Strands from "@/components/ui/Strands";
+import { RuchiMarkdown } from "@/components/ui/RuchiMarkdown";
 import { ruchiAudio } from "@/lib/sound-effects";
 import { queryRuchiKnowledge } from "@/lib/json-db";
 
@@ -130,10 +131,15 @@ export function RuchiFloatingCTA() {
     setThinkingStep(isTe ? "26 జిల్లాల గ్రంథాలను శోధిస్తోంది..." : "Searching 26 district archives...");
 
     try {
+      const historyPayload = messages.slice(-6).map((m) => ({
+        role: m.sender === "user" ? "user" : "model",
+        text: m.text,
+      }));
+
       const res = await fetch("/api/ruchi/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ query, locale }),
+        body: JSON.stringify({ query, locale, history: historyPayload }),
       });
 
       if (res.ok) {
@@ -261,7 +267,11 @@ export function RuchiFloatingCTA() {
                         : "bg-[#092218] text-[#FAF9F5] border border-[#103226] rounded-bl-none"
                     }`}
                   >
-                    <p className="whitespace-pre-line font-body">{msg.text}</p>
+                    {msg.sender === "user" ? (
+                      <p className="whitespace-pre-line font-body">{msg.text}</p>
+                    ) : (
+                      <RuchiMarkdown content={msg.text} isStreaming={false} />
+                    )}
 
                     {/* Source Attribution Tag */}
                     {msg.source && (
