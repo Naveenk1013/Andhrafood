@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Globe, X, Check, Sparkles, Compass } from 'lucide-react';
+import { Globe, X, Check, Languages } from 'lucide-react';
 import { usePathname, useRouter } from '@/i18n/routing';
 import { useLocale } from 'next-intl';
 import { cn } from '@/lib/utils';
@@ -23,22 +23,22 @@ interface LanguageOption {
   note?: string;
 }
 
-const HERITAGE_LANGUAGES: LanguageOption[] = [
+const PRIMARY_LANGUAGES: LanguageOption[] = [
   {
     code: 'en',
     name: 'English',
-    nativeName: 'English (Primary)',
+    nativeName: 'English',
     flag: '🇬🇧',
     type: 'heritage',
-    note: 'Official Master Archive & Global Standard',
+    note: 'Default language',
   },
   {
     code: 'te',
     name: 'Telugu',
-    nativeName: 'తెలుగు (మూల భాష)',
+    nativeName: 'తెలుగు',
     flag: '🇮🇳',
     type: 'heritage',
-    note: 'Human-curated indigenous Andhra culinary heritage',
+    note: 'ఆంధ్రప్రదేశ్ అధికారిక భాష',
   },
 ];
 
@@ -184,7 +184,7 @@ export const GlobalLanguageModal: React.FC<GlobalLanguageModalProps> = ({
     <AnimatePresence>
       {isOpen && (
         <div className="fixed inset-0 z-[99999] flex items-center justify-center p-4 sm:p-6 overflow-y-auto isolate">
-          {/* Backdrop with high blur */}
+          {/* Backdrop */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -195,7 +195,7 @@ export const GlobalLanguageModal: React.FC<GlobalLanguageModalProps> = ({
             aria-hidden="true"
           />
 
-          {/* Modal Card - Floating on top of everything */}
+          {/* Modal Card */}
           <motion.div
             initial={{ scale: 0.94, opacity: 0, y: 16 }}
             animate={{ scale: 1, opacity: 1, y: 0 }}
@@ -206,7 +206,7 @@ export const GlobalLanguageModal: React.FC<GlobalLanguageModalProps> = ({
             aria-labelledby="global-lang-title"
             className="relative w-full max-w-xl bg-white dark:bg-[#0c2219] border border-black/15 dark:border-[#1F5A43] rounded-2xl shadow-[0_25px_70px_rgba(0,0,0,0.65)] overflow-hidden z-10 my-auto text-leaf-950 dark:text-[#FAF9F5]"
           >
-            {/* Header Accent Glow */}
+            {/* Header Accent Line */}
             <div className="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-turmeric-500 via-leaf-400 to-turmeric-500" />
 
             {/* Modal Header */}
@@ -220,10 +220,10 @@ export const GlobalLanguageModal: React.FC<GlobalLanguageModalProps> = ({
                     id="global-lang-title"
                     className="text-base sm:text-lg font-bold font-serif tracking-tight text-leaf-950 dark:text-[#FAF9F5]"
                   >
-                    Language & Region / భాష & ప్రాంతం
+                    Select Language / భాషను ఎంచుకోండి
                   </h2>
                   <p className="text-xs text-leaf-700 dark:text-[#C3DDCB]/80 mt-0.5">
-                    Select your preferred language for the Andhra culinary archives
+                    Choose your preferred reading language
                   </p>
                 </div>
               </div>
@@ -239,20 +239,17 @@ export const GlobalLanguageModal: React.FC<GlobalLanguageModalProps> = ({
 
             {/* Modal Body */}
             <div className="p-6 space-y-6 max-h-[75vh] overflow-y-auto">
-              {/* 1. Official Heritage Editions */}
+              {/* 1. Official Languages */}
               <div>
                 <div className="flex items-center gap-1.5 mb-2.5">
-                  <Sparkles className="w-3.5 h-3.5 text-turmeric-600 dark:text-turmeric-400" />
+                  <Globe className="w-3.5 h-3.5 text-turmeric-600 dark:text-turmeric-400" />
                   <span className="text-xs font-bold tracking-wider uppercase text-turmeric-800 dark:text-turmeric-400">
-                    Official Heritage Editions
-                  </span>
-                  <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-turmeric-500/15 text-turmeric-700 dark:text-turmeric-300 font-semibold ml-auto">
-                    Curated by Culinary Historians
+                    Official Languages
                   </span>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-                  {HERITAGE_LANGUAGES.map((lang) => {
+                  {PRIMARY_LANGUAGES.map((lang) => {
                     const isSelected = activeCode === lang.code;
                     return (
                       <button
@@ -287,15 +284,12 @@ export const GlobalLanguageModal: React.FC<GlobalLanguageModalProps> = ({
                 </div>
               </div>
 
-              {/* 2. World Tourism Editions (Google Neural Translation) */}
+              {/* 2. International Translations */}
               <div>
                 <div className="flex items-center gap-1.5 mb-2.5">
-                  <Compass className="w-3.5 h-3.5 text-leaf-600 dark:text-leaf-400" />
+                  <Languages className="w-3.5 h-3.5 text-leaf-600 dark:text-leaf-400" />
                   <span className="text-xs font-bold tracking-wider uppercase text-leaf-700 dark:text-leaf-300">
-                    World Tourism Editions
-                  </span>
-                  <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-leaf-500/10 dark:bg-leaf-400/10 text-leaf-800 dark:text-leaf-200 font-semibold ml-auto">
-                    Real-Time Translation
+                    Translate Page
                   </span>
                 </div>
 
@@ -334,9 +328,9 @@ export const GlobalLanguageModal: React.FC<GlobalLanguageModalProps> = ({
               </div>
             </div>
 
-            {/* Footer with Note */}
+            {/* Modal Footer */}
             <div className="px-6 py-3.5 bg-black/[0.03] dark:bg-black/20 border-t border-black/5 dark:border-white/5 flex items-center justify-between text-[11px] text-leaf-700 dark:text-rice-200/70">
-              <span>Powered by APTDC Tourism & Neural Translation</span>
+              <span>Automatic translation for international visitors.</span>
               <button
                 onClick={onClose}
                 className="px-3.5 py-1.5 rounded-lg bg-leaf-950 text-white dark:bg-[#FAF9F5] dark:text-[#081C14] font-semibold text-xs hover:opacity-90 transition-opacity"

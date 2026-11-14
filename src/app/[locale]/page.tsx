@@ -33,11 +33,11 @@ export default async function HomePage({
   const tCommon = await getTranslations("common");
 
   const categories = [
-    { slug: "tiffin", nameEn: "Tiffins", nameTe: "టిఫిన్లు & అట్లు", icon: "🥞" },
-    { slug: "rice-and-meals", nameEn: "Rice", nameTe: "భోజనం & అన్నం", icon: "🍚" },
-    { slug: "curries-and-kuras", nameEn: "Kuras", nameTe: "కూరలు & ఇగురు", icon: "🥘" },
-    { slug: "pappu-and-dals", nameEn: "Charu", nameTe: "పప్పు & చారు", icon: "🥣" },
-    { slug: "pickles-and-chutneys", nameEn: "Pachallu", nameTe: "ఆవకాయ & పచ్చళ్ళు", icon: "🫙" },
+    { slug: "tiffin", nameEn: "Tiffins", nameTe: "టిఫిన్లు", icon: "🥞" },
+    { slug: "rice-and-meals", nameEn: "Rice", nameTe: "భోజనం", icon: "🍚" },
+    { slug: "curries-and-kuras", nameEn: "curries", nameTe: "కూరలు", icon: "🥘" },
+    { slug: "pappu-and-dals", nameEn: "Pappucharu", nameTe: "పప్పు చారు", icon: "🥣" },
+    { slug: "pickles-and-chutneys", nameEn: "Pickles", nameTe: "పచ్చళ్లు", icon: "🫙" },
     { slug: "sweets", nameEn: "Heritage Sweets", nameTe: "సాంప్రదాయ మిఠాయిలు", icon: "🍯" },
   ];
 
@@ -149,8 +149,15 @@ export default async function HomePage({
               <span>Course by Course Exploration</span>
             </div>
           }
-          title="Browse by Traditional Courses & Categories"
-          subtitle="సాంప్రదాయ విభాగాల వారీగా అన్వేషించండి · Traditional course-by-course feast across 28 districts"
+          title={
+            <div>
+              <span>Browse by Traditional Courses & Categories</span>
+              <span className="font-displayTe text-base sm:text-lg font-bold text-turmeric-700 dark:text-turmeric-400 block mt-1">
+                సంప్రదాయ వంటకాల విభాగాల వారీగా అన్వేషించండి
+              </span>
+            </div>
+          }
+          subtitle="A Traditional Culinary Journey Across 28 Districts · 28 జిల్లాల సంప్రదాయ ఆహార రుచుల అపురూప ప్రయాణం"
         >
           <StaggerList className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 pt-2">
             {categories.map((cat) => (
@@ -187,7 +194,14 @@ export default async function HomePage({
               <span>Curated Masterpieces</span>
             </div>
           }
-          title="Featured Masterpiece Recipes · ప్రముఖ వంటకాలు"
+          title={
+            <div>
+              <span>Featured Masterpiece Recipes</span>
+              <span className="font-displayTe text-base sm:text-lg font-bold text-turmeric-700 dark:text-turmeric-400 block mt-1">
+                ప్రత్యేక ప్రసిద్ధ వంటకాల వైభవం
+              </span>
+            </div>
+          }
           subtitle="Verified recipes documented with historical context, exact measurements, and sensory cues"
           headerAction={
             <Link

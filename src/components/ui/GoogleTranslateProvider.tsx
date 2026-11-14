@@ -23,7 +23,7 @@ declare global {
 
 /**
  * Headless Google Translate Provider.
- * Loads the Google Translate script quietly and creates a hidden mount point.
+ * Loads the Google Translate script quietly and creates an offscreen mount point.
  * All UI is handled via our custom GlobalLanguageModal and LanguageDetectionBanner.
  */
 export function GoogleTranslateProvider() {
@@ -51,7 +51,7 @@ export function GoogleTranslateProvider() {
     if (!existingScript) {
       const script = document.createElement('script');
       script.id = 'google-translate-script';
-      script.src = '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+      script.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
       script.async = true;
       document.body.appendChild(script);
     }
@@ -60,7 +60,16 @@ export function GoogleTranslateProvider() {
   return (
     <div
       id="google_translate_element"
-      style={{ display: 'none', position: 'absolute', top: -9999, left: -9999 }}
+      style={{
+        position: 'fixed',
+        top: -9999,
+        left: -9999,
+        width: 1,
+        height: 1,
+        opacity: 0,
+        overflow: 'hidden',
+        pointerEvents: 'none',
+      }}
       aria-hidden="true"
     />
   );
@@ -71,26 +80,37 @@ export function GoogleTranslateProvider() {
  */
 export function applyGoogleTranslation(targetLang: string): void {
   try {
+    const isDomain = typeof window !== 'undefined' && window.location.hostname.includes('.');
+
     if (targetLang === 'en' || targetLang === 'original') {
-      // Clear google translate cookie
+      // Clear google translate cookies on path and domains
       document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
-      document.cookie = `googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=${window.location.hostname}; path=/;`;
+      document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+      if (isDomain) {
+        document.cookie = `googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=.${window.location.hostname}; path=/;`;
+        document.cookie = `googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=${window.location.hostname}; path=/;`;
+      }
       localStorage.removeItem('user_global_lang');
-      
+
       const combo = document.querySelector<HTMLSelectElement>('.goog-te-combo');
       if (combo) {
         combo.value = 'en';
         combo.dispatchEvent(new Event('change'));
-      } else {
-        window.location.reload();
       }
+      // Give DOM time to update or reload to restore pristine React markup
+      setTimeout(() => {
+        window.location.reload();
+      }, 150);
       return;
     }
 
     // Set google translate cookie (/source/target)
     const cookieVal = `/en/${targetLang}`;
-    document.cookie = `googtrans=${cookieVal}; path=/;`;
-    document.cookie = `googtrans=${cookieVal}; domain=${window.location.hostname}; path=/;`;
+    document.cookie = `googtrans=${cookieVal}; path=/; SameSite=Lax;`;
+    if (isDomain) {
+      document.cookie = `googtrans=${cookieVal}; domain=.${window.location.hostname}; path=/; SameSite=Lax;`;
+      document.cookie = `googtrans=${cookieVal}; domain=${window.location.hostname}; path=/; SameSite=Lax;`;
+    }
     localStorage.setItem('user_global_lang', targetLang);
 
     const combo = document.querySelector<HTMLSelectElement>('.goog-te-combo');
