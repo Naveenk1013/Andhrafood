@@ -145,8 +145,8 @@ export default async function DishDetailPage({
         ? `${dish.nameTe} ప్రత్యేకత ఏమిటి?`
         : `What makes authentic ${dish.nameEn} (${dish.nameTe}) unique?`,
       answer: isTe
-        ? `${dish.nameTe} అనేది ఆంధ్రప్రదేశ్ ${dish.region} ప్రాంతానికి చెందిన ప్రామాణిక ${dish.category} వంటకం. దీనిలో ${dish.ingredients.slice(0, 4).map((i) => i.name).join(', ')} మరియు సాంప్రదాయ సుగంధ ద్రవ్యాలు మిళితమై ఉంటాయి.`
-        : `${dish.nameEn} (${dish.nameTe}) is a classic ${dish.category} from the ${dish.region.replace('-', ' ')} region of Andhra Pradesh. Its hallmark is the precise balance of ${dish.ingredients.slice(0, 4).map((i) => i.name).join(', ')} prepared with traditional cooking fat (${dish.cookingFat || 'Ghee / Sesame oil'}) and a heat rating of ${dish.heatLevel}/5.`,
+        ? (dish.culinaryOverviewTe || `${dish.nameTe} అనేది ఆంధ్రప్రదేశ్ ${dish.region} ప్రాంతానికి చెందిన ప్రామాణిక ${dish.category} వంటకం. దీనిలో ${dish.ingredients.slice(0, 4).map((i) => i.name).join(', ')} మరియు సాంప్రదాయ సుగంధ ద్రవ్యాలు మిళితమై ఉంటాయి.`)
+        : (dish.culinaryOverviewEn || `${dish.nameEn} (${dish.nameTe}) is a classic ${dish.category} from the ${dish.region.replace('-', ' ')} region of Andhra Pradesh. Its hallmark is the precise balance of ${dish.ingredients.slice(0, 4).map((i) => i.name).join(', ')} prepared with traditional cooking fat (${dish.cookingFat || 'Ghee / Sesame oil'}) and a heat rating of ${dish.heatLevel}/5.`),
     },
     {
       question: isTe
@@ -264,7 +264,7 @@ export default async function DishDetailPage({
               </span>
             </div>
 
-            <div className="space-y-1">
+            <div className="space-y-2">
               <h1 className="font-display text-3xl sm:text-5xl font-black text-white tracking-tight">
                 {dish.nameEn}
               </h1>
@@ -273,6 +273,9 @@ export default async function DishDetailPage({
               </p>
               <p className="text-xs text-rice-50/70 font-medium italic">
                 &ldquo;{dish.nameEnMeaning}&rdquo;
+              </p>
+              <p className="text-sm sm:text-base text-rice-100/90 leading-relaxed pt-1 max-w-3xl font-body">
+                {isTe ? dish.descriptionTe : dish.descriptionEn}
               </p>
             </div>
 
@@ -371,7 +374,9 @@ export default async function DishDetailPage({
                   {isTe ? 'వంటకం పరిచయం' : 'Culinary Overview'}
                 </h2>
                 <p className="text-ink-700 dark:text-rice-50/90 leading-relaxed text-sm">
-                  {isTe ? dish.descriptionTe : dish.descriptionEn}
+                  {isTe
+                    ? (dish.culinaryOverviewTe || dish.descriptionTe)
+                    : (dish.culinaryOverviewEn || dish.descriptionEn)}
                 </p>
               </div>
             </SectionVisualBackdrop>

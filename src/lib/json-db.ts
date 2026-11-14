@@ -43,6 +43,8 @@ export interface Dish {
   cookingFat?: string;
   descriptionEn: string;
   descriptionTe: string;
+  culinaryOverviewEn?: string;
+  culinaryOverviewTe?: string;
   culturalContext: string;
   servingRituals: string;
   image: string;
