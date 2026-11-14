@@ -124,10 +124,10 @@ export function RegionalGlassFolders() {
             Archives of 3 Culinary Regions
           </h2>
           <p className="font-displayTe text-base sm:text-lg font-bold text-turmeric-700 dark:text-turmeric-400 mt-1">
-            ఆంధ్రప్రదేశ్ 3 ఆహార ప్రాంతాల ఆర్కైవ్స్
+            ఆంధ్రప్రదేశ్ మూడు ప్రాంతాల రుచుల భాండాగారం
           </p>
           <p className="text-xs sm:text-sm text-ink-600 dark:text-[#E8E4D3]/80 font-medium mt-0.5">
-            Touch or hover any regional glass folder to inspect its recipes, signatures, and culinary heritage
+            Touch any regional glass folder to explore its recipes, signatures, and culinary heritage
           </p>
         </div>
 
