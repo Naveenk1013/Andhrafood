@@ -154,8 +154,8 @@ ${districtSnippet}${ingredientSnippet}`.trim();
   const matchedSource = primaryDish
     ? `${primaryDish.nameEn} · Verified Recipe Entry (${primaryDish.districts.join(", ")})`
     : isTe
-      ? "ఆంధ్రప్రదేశ్ 26 జిల్లాల సాంప్రదాయ పాకశాస్త్ర సమాహారం"
-      : "Andhra Pradesh Traditional Culinary Archive (26 Districts)";
+      ? "ఆంధ్రప్రదేశ్ 28 జిల్లాల సాంప్రదాయ పాకశాస్త్ర సమాహారం"
+      : "Andhra Pradesh Traditional Culinary Archive (28 Districts)";
 
   return { contextText, matchedDish: primaryDish, matchedSource };
 }
@@ -221,8 +221,8 @@ async function queryOpenRouter(
           const sourceLabel = matchedDish
             ? `${matchedDish.nameEn} · Andhra Heritage Collection (${matchedDish.districts.join(", ")})`
             : isTe
-              ? "ఆంధ్రప్రదేశ్ 26 జిల్లాల సాంప్రదాయ పాకశాస్త్ర సమాహారం"
-              : "Andhra Pradesh Traditional Culinary Archive (26 Districts)";
+              ? "ఆంధ్రప్రదేశ్ 28 జిల్లాల సాంప్రదాయ పాకశాస్త్ర సమాహారం"
+              : "Andhra Pradesh Traditional Culinary Archive (28 Districts)";
 
           return {
             text: content.trim(),
@@ -267,7 +267,7 @@ export async function queryGroundedGemini(
   if (conversationalIntent === "thanks") {
     return {
       text: isTe
-        ? "మీకు నా హృదయపూర్వక ధన్యవాదాలు! ఆంధ్రప్రదేశ్ 26 జిల్లాల సాంప్రదాయ రుచులను, అమ్మమ్మల నాటి పాకశాస్త్ర రహస్యాలను మీతో పంచుకోవడం నాకు ఎంతో ఆనందం. మీకు ఎప్పుడైనా ఏదైనా వంటకం, పోపు నిష్పత్తి లేదా ప్రాంతీయ ప్రత్యేకత గురించి తెలుసుకోవాలనిపిస్తే నిరభ్యంతరంగా అడగండి!"
+        ? "మీకు నా హృదయపూర్వక ధన్యవాదాలు! ఆంధ్రప్రదేశ్ 28 జిల్లాల సాంప్రదాయ రుచులను, అమ్మమ్మల నాటి పాకశాస్త్ర రహస్యాలను మీతో పంచుకోవడం నాకు ఎంతో ఆనందం. మీకు ఎప్పుడైనా ఏదైనా వంటకం, పోపు నిష్పత్తి లేదా ప్రాంతీయ ప్రత్యేకత గురించి తెలుసుకోవాలనిపిస్తే నిరభ్యంతరంగా అడగండి!"
         : "You are most welcome! It is an absolute pleasure sharing the authentic food culture of Andhra Pradesh with you. Whenever you'd like to explore another recipe, spice secret, or regional classic, I am always right here.",
       source: "Andhra Ruchulu Culinary Archives",
       isGemini: false,
@@ -287,8 +287,8 @@ export async function queryGroundedGemini(
   if (conversationalIntent === "greeting") {
     return {
       text: isTe
-        ? "నమస్కారం! ఆంధ్ర రుచుల పాకశాస్త్ర విజ్ఞాన భాండాగారానికి స్వాగతం. 26 జిల్లాల అసలైన వంటకాలు, రోలు రుబ్బుడు పద్ధతులు, ప్రామాణిక కారం నిష్పత్తులతో మీకు సహాయం చేయడానికి నేను సిద్ధంగా ఉన్నాను. ఈ రోజు మీరు ఏ వంటకం గురించి అన్వేషించాలనుకుంటున్నారు?"
-        : "Namaskaram! Welcome to Andhra Ruchulu. I am Ruchi, your culinary companion across the 26 districts of Andhra Pradesh. What dish, spice balance, or heirloom recipe would you like to explore today?",
+        ? "నమస్కారం! ఆంధ్ర రుచుల పాకశాస్త్ర విజ్ఞాన భాండాగారానికి స్వాగతం. 28 జిల్లాల అసలైన వంటకాలు, రోలు రుబ్బుడు పద్ధతులు, ప్రామాణిక కారం నిష్పత్తులతో మీకు సహాయం చేయడానికి నేను సిద్ధంగా ఉన్నాను. ఈ రోజు మీరు ఏ వంటకం గురించి అన్వేషించాలనుకుంటున్నారు?"
+        : "Namaskaram! Welcome to Andhra Ruchulu. I am Ruchi, your culinary companion across the 28 districts of Andhra Pradesh. What dish, spice balance, or heirloom recipe would you like to explore today?",
       source: "Andhra Ruchulu Culinary Archives",
       isGemini: false,
     };
@@ -329,7 +329,7 @@ STRICT MARKDOWN STRUCTURE:
 
 STRICT KNOWLEDGE BASE GROUNDING:
 - Answer STRICTLY using the verified Andhra Pradesh culinary records provided below.
-- Focus exclusively on the 3 culinary zones (Coastal Andhra, Rayalaseema, Uttarandhra) across 26 districts.
+- Focus exclusively on the 3 culinary zones (Coastal Andhra, Rayalaseema, Uttarandhra) across 28 districts.
 - If asked about non-Andhra dishes or non-food topics, gracefully guide the conversation back to Andhra Pradesh's heirloom food culture.
 
 ${contextText}

@@ -24,8 +24,8 @@ export function generateWebSiteSchema(locale: string = 'en') {
     inLanguage: [locale === 'te' ? 'te-IN' : 'en-IN', 'en', 'te'],
     description:
       locale === 'te'
-        ? 'ఆంధ్రప్రదేశ్ 26 జిల్లాల ప్రామాణిక ఆహార సంస్కృతి, పురాతన వంటకాలు, ఘాటు కొలతలు మరియు సజీవ AI చెఫ్ రుచి.'
-        : 'The authoritative culinary encyclopedia of Andhra Pradesh: 26 districts, traditional recipes, authentic spices, and AI chef Ruchi.',
+        ? 'ఆంధ్రప్రదేశ్ 28 జిల్లాల ప్రామాణిక ఆహార సంస్కృతి, పురాతన వంటకాలు, ఘాటు కొలతలు మరియు సజీవ AI చెఫ్ రుచి.'
+        : 'The authoritative culinary encyclopedia of Andhra Pradesh: 28 districts, traditional recipes, authentic spices, and AI chef Ruchi.',
     publisher: {
       '@type': 'Organization',
       name: 'Andhra Ruchulu',
@@ -44,7 +44,7 @@ export function generateWebSiteSchema(locale: string = 'en') {
 }
 
 /**
- * Geographic Schema for Andhra Pradesh & its 26 Districts
+ * Geographic Schema for Andhra Pradesh & its 28 Districts
  */
 export function generateAPGeoSchema(district?: District, locale: string = 'en') {
   const baseAP = {

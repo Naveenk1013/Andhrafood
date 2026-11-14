@@ -56,15 +56,15 @@ export const Footer: React.FC<FooterProps> = ({ locale = 'en' }) => {
             </div>
             <p className="text-xs sm:text-sm text-[#E8E4D3]/80 max-w-xl leading-relaxed">
               {isTe
-                ? 'ఆంధ్రప్రదేశ్ 26 జిల్లాల ఘుమఘుమలాడే సాంప్రదాయ వంటకాలను, ఆహార ప్రియుల కోసం ఒకే వేదికపైకి తెచ్చే సామూహిక ప్రయత్నం.'
-                : 'A dedicated platform celebrating authentic heirloom flavours, indigenous culinary wisdom, and traditional food culture across all 26 districts of Andhra Pradesh.'}
+                ? 'ఆంధ్రప్రదేశ్ 28 జిల్లాల ఘుమఘుమలాడే సాంప్రదాయ వంటకాలను, ఆహార ప్రియుల కోసం ఒకే వేదికపైకి తెచ్చే సామూహిక ప్రయత్నం.'
+                : 'A dedicated platform celebrating authentic heirloom flavours, indigenous culinary wisdom, and traditional food culture across all 28 districts of Andhra Pradesh.'}
             </p>
           </div>
 
           <div className="flex flex-wrap items-center gap-3">
             <div className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#0D2E20] border border-[#2A7356] text-xs text-[#FDE8A8] font-semibold shadow-sm">
               <Compass className="w-4 h-4 text-[#F2B31B]" />
-              <span>{isTe ? '26 జిల్లాల వంటకాలు' : '26 Districts United'}</span>
+              <span>{isTe ? '28 జిల్లాల వంటకాలు' : '28 Districts United'}</span>
             </div>
           </div>
         </div>

@@ -71,8 +71,8 @@ export default function NotFound() {
               </h1>
               <p className="font-body text-sm sm:text-base text-ink-700 leading-relaxed max-w-lg mx-auto">
                 {isTe
-                  ? 'మీరు వెతుకుతున్న వంటకం లేదా పేజీ మా 26 జిల్లాల రికార్డులలో లభించలేదు. బహుశా పేరు మార్చబడి ఉండవచ్చు లేదా ఇంకా పొయ్యిపై ఉడకాల్సి ఉంది!'
-                  : "The page or authentic recipe you are looking for isn't in our 26-district archives, or may have drifted into a different traditional course."}
+                  ? 'మీరు వెతుకుతున్న వంటకం లేదా పేజీ మా 28 జిల్లాల రికార్డులలో లభించలేదు. బహుశా పేరు మార్చబడి ఉండవచ్చు లేదా ఇంకా పొయ్యిపై ఉడకాల్సి ఉంది!'
+                  : "The page or authentic recipe you are looking for isn't in our 28-district archives, or may have drifted into a different traditional course."}
               </p>
             </div>
 
@@ -132,7 +132,7 @@ export default function NotFound() {
               <p className="text-xs text-ink-600">
                 {isTe
                   ? '“ఈ వంటకం తయారీ విధానం లేదా పదార్థాలు చెప్పండి” అని రుచిని అడగవచ్చు.'
-                  : 'Ruchi knows secret heirloom recipes and techniques across all 26 districts.'}
+                  : 'Ruchi knows secret heirloom recipes and techniques across all 28 districts.'}
               </p>
             </div>
           </div>

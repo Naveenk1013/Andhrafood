@@ -33,11 +33,11 @@ export default async function HomePage({
   const tCommon = await getTranslations("common");
 
   const categories = [
-    { slug: "tiffin", nameEn: "Tiffins & Attu", nameTe: "టిఫిన్లు & అట్లు", icon: "🥞" },
-    { slug: "rice-and-meals", nameEn: "Bhojanam & Rice", nameTe: "భోజనం & అన్నం", icon: "🍚" },
-    { slug: "curries-and-kuras", nameEn: "Kuras & Iguru", nameTe: "కూరలు & ఇగురు", icon: "🥘" },
-    { slug: "pappu-and-dals", nameEn: "Mudda Pappu & Charu", nameTe: "పప్పు & చారు", icon: "🥣" },
-    { slug: "pickles-and-chutneys", nameEn: "Avakaya & Pachallu", nameTe: "ఆవకాయ & పచ్చళ్ళు", icon: "🫙" },
+    { slug: "tiffin", nameEn: "Tiffins", nameTe: "టిఫిన్లు & అట్లు", icon: "🥞" },
+    { slug: "rice-and-meals", nameEn: "Rice", nameTe: "భోజనం & అన్నం", icon: "🍚" },
+    { slug: "curries-and-kuras", nameEn: "Kuras", nameTe: "కూరలు & ఇగురు", icon: "🥘" },
+    { slug: "pappu-and-dals", nameEn: "Charu", nameTe: "పప్పు & చారు", icon: "🥣" },
+    { slug: "pickles-and-chutneys", nameEn: "Pachallu", nameTe: "ఆవకాయ & పచ్చళ్ళు", icon: "🫙" },
     { slug: "sweets", nameEn: "Heritage Sweets", nameTe: "సాంప్రదాయ మిఠాయిలు", icon: "🍯" },
   ];
 
@@ -59,19 +59,19 @@ export default async function HomePage({
                 The Living Soul of Andhra Cuisine
               </h2>
               <p className="font-displayTe text-lg sm:text-2xl font-bold text-turmeric-700 dark:text-turmeric-400 tracking-wide">
-                ఆంధ్రప్రదేశ్ రుచుల మహా సర్వస్వం · 26 జిల్లాల సమాహారం
+                ఆంధ్రప్రదేశ్ రుచుల మహా సర్వస్వం · సంప్రదాయ వంటకాల అపురూప వారసత్వం
               </p>
             </div>
 
             {/* Legible Body Paragraph with Turmeric Highlights */}
             <p className="font-body text-sm sm:text-base text-ink-700 dark:text-[#E8E4D3]/90 leading-relaxed max-w-3xl mx-auto font-normal">
-              From the fiery dryland <span className="text-leaf-900 dark:text-turmeric-400 font-semibold underline decoration-turmeric-500/40 underline-offset-4">Ragi Sangati</span> of Rayalaseema to the rich, tangy <span className="text-leaf-900 dark:text-turmeric-400 font-semibold underline decoration-turmeric-500/40 underline-offset-4">Godavari Delta pulusus</span> and the wild bamboo-cooked delicacies of <span className="text-leaf-900 dark:text-turmeric-400 font-semibold underline decoration-turmeric-500/40 underline-offset-4">Araku</span> — explore 26 districts of unadulterated heritage food, grounded in verified traditions and zero internet guesswork.
+              From the fiery dryland <span className="text-leaf-900 dark:text-turmeric-400 font-semibold underline decoration-turmeric-500/40 underline-offset-4">Ragi Sangati</span> of Rayalaseema to the rich, tangy <span className="text-leaf-900 dark:text-turmeric-400 font-semibold underline decoration-turmeric-500/40 underline-offset-4">Godavari Delta pulusu</span> and the wild bamboo-cooked delicacies of <span className="text-leaf-900 dark:text-turmeric-400 font-semibold underline decoration-turmeric-500/40 underline-offset-4">Araku</span> — explore 28 districts of unadulterated heritage food, grounded in verified traditions and zero internet guesswork.
             </p>
 
             {/* Quick Hub Badges with High Contrast & Rich Tinting */}
             <div className="flex flex-wrap items-center justify-center gap-2.5 pt-2 text-xs">
               <span className="px-3.5 py-1.5 rounded-chip bg-white/90 dark:bg-leaf-900/60 border border-leaf-200 dark:border-leaf-700 text-leaf-900 dark:text-leaf-100 font-semibold flex items-center gap-2 shadow-sm hover:border-turmeric-500 transition-colors">
-                <MapPin className="w-3.5 h-3.5 text-turmeric-600 dark:text-turmeric-400" /> 26 Districts
+                <MapPin className="w-3.5 h-3.5 text-turmeric-600 dark:text-turmeric-400" /> 28 Districts
               </span>
               <span className="px-3.5 py-1.5 rounded-chip bg-white/90 dark:bg-leaf-900/60 border border-leaf-200 dark:border-leaf-700 text-leaf-900 dark:text-leaf-100 font-semibold flex items-center gap-2 shadow-sm hover:border-turmeric-500 transition-colors">
                 <Compass className="w-3.5 h-3.5 text-turmeric-600 dark:text-turmeric-400" /> 3 Distinct Food Zones
@@ -99,7 +99,7 @@ export default async function HomePage({
                     </span>
                   </div>
                   <span className="px-4 py-2 rounded-lg bg-gradient-to-r from-[#F2B31B] to-[#CF8800] text-[#081C14] text-xs font-black shadow-md group-hover:brightness-105 transition-all flex-shrink-0 ml-2">
-                    Ask Ruchi ▶
+                    Ask Ruchi
                   </span>
                 </Link>
               </div>
@@ -150,7 +150,7 @@ export default async function HomePage({
             </div>
           }
           title="Browse by Traditional Courses & Categories"
-          subtitle="సాంప్రదాయ విభాగాల వారీగా అన్వేషించండి · Traditional course-by-course feast across 26 districts"
+          subtitle="సాంప్రదాయ విభాగాల వారీగా అన్వేషించండి · Traditional course-by-course feast across 28 districts"
         >
           <StaggerList className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 pt-2">
             {categories.map((cat) => (

@@ -38,8 +38,8 @@ export default async function BrowsePage({
           </h1>
           <p className="text-sm text-rice-200/90 max-w-3xl leading-relaxed">
             {locale === 'te'
-              ? 'కోస్తా ఆంధ్ర, రాయలసీమ, ఉత్తరాంధ్రల 26 జిల్లాల నుండి సేకరించిన ప్రాచీన, అరుదైన మరియు నిత్య వంటకాల సమగ్ర సమాహారం. పారలాక్స్ డ్రిఫ్ట్ వాల్‌తో ఇంటరాక్టివ్‌గా అన్వేషించండి.'
-              : 'An interactive 3D perspective archive chronicling ancient pre-chilli recipes, royal Zamindari curries, clay-pot delta fish pulusus, and drought-resistant millets across 26 districts.'}
+              ? 'కోస్తా ఆంధ్ర, రాయలసీమ, ఉత్తరాంధ్రల 28 జిల్లాల నుండి సేకరించిన ప్రాచీన, అరుదైన మరియు నిత్య వంటకాల సమగ్ర సమాహారం. పారలాక్స్ డ్రిఫ్ట్ వాల్‌తో ఇంటరాక్టివ్‌గా అన్వేషించండి.'
+              : 'An interactive 3D perspective archive chronicling ancient pre-chilli recipes, royal Zamindari curries, clay-pot delta fish pulusus, and drought-resistant millets across 28 districts.'}
           </p>
         </div>
       </SectionVisualBackdrop>

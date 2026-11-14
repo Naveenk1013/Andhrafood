@@ -112,7 +112,7 @@ export const DriftWallGallery: React.FC<DriftWallGalleryProps> = ({ dishes, loca
   ];
 
   const regions = [
-    { id: 'all', nameEn: 'All 26 Districts', nameTe: '26 జిల్లాలు' },
+    { id: 'all', nameEn: 'All 28 Districts', nameTe: '28 జిల్లాలు' },
     { id: 'coastal-andhra', nameEn: 'Coastal Andhra', nameTe: 'కోస్తా ఆంధ్ర' },
     { id: 'rayalaseema', nameEn: 'Rayalaseema', nameTe: 'రాయలసీమ' },
     { id: 'uttarandhra', nameEn: 'Uttarandhra', nameTe: 'ఉత్తరాంధ్ర' },

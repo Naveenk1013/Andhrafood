@@ -41,13 +41,11 @@ export function Skeleton({
 
   return (
     <div
-      className={`relative overflow-hidden rounded-md border ${variantClasses} ${
-        breathe ? "animate-skeleton-breathe" : ""
-      } ${
-        shimmer
+      className={`relative overflow-hidden rounded-md border ${variantClasses} ${breathe ? "animate-skeleton-breathe" : ""
+        } ${shimmer
           ? "before:absolute before:inset-0 before:w-[200%] before:-translate-x-full before:animate-skeleton-shimmer before:bg-gradient-to-r before:from-transparent before:via-white/70 dark:before:via-[#F2B31B]/15 before:to-transparent will-change-transform"
           : ""
-      } ${className}`}
+        } ${className}`}
       style={{
         animationDelay: delay ? `${delay}ms` : undefined,
         ...style,
@@ -79,13 +77,12 @@ export function SkeletonText({
         <Skeleton
           key={i}
           delay={i * staggerDelay}
-          className={`${lineHeight} rounded-full ${
-            i === lines - 1
+          className={`${lineHeight} rounded-full ${i === lines - 1
               ? lastLineWidth
               : i % 2 === 1
-              ? "w-11/12"
-              : "w-full"
-          }`}
+                ? "w-11/12"
+                : "w-full"
+            }`}
         />
       ))}
     </div>
@@ -161,14 +158,14 @@ export function SkeletonCulinaryBeacon({
             <span className="w-2 h-2 rounded-full bg-turmeric-500 animate-ping flex-shrink-0" />
             <h4 className="font-displayTe text-sm sm:text-base font-bold text-leaf-950 dark:text-[#FAF9F5] leading-tight">
               {isTe
-                ? "ఆంధ్రప్రదేశ్ 26 జిల్లాల సాంప్రదాయ రుచులు సిద్ధమవుతున్నాయి..."
-                : "Warming the hearth across 26 Andhra districts..."}
+                ? "ఆంధ్రప్రదేశ్ 28 జిల్లాల సాంప్రదాయ రుచులు సిద్ధమవుతున్నాయి..."
+                : "Warming the hearth across 28 Andhra districts..."}
             </h4>
           </div>
           <p className="text-[11px] sm:text-xs text-ink-600 dark:text-[#E8E4D3]/75 font-medium">
             {isTe
               ? "రాతిరోటి ఘాటు, మట్టికుండ పులుసులు & ప్రామాణిక నిష్పత్తులను సమన్వయం చేస్తోంది"
-              : "Calibrating stone-pounded karam, clay-pot pulusus & authentic heritage ratios"}
+              : "Calibrating stone-pounded karam, clay-pot pulusu & authentic heritage ratios"}
           </p>
         </div>
       </div>

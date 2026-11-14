@@ -205,7 +205,7 @@ export function RuchiGeneratingLoader({
               <p className="text-[11px] sm:text-xs text-ink-600 dark:text-[#E8E4D3]/80 font-medium leading-relaxed">
                 {stepText ||
                   (isTe
-                    ? "26 జిల్లాల రికార్డులను మరియు ప్రామాణిక కారం నిష్పత్తులను సమీక్షిస్తోంది..."
+                    ? "28 జిల్లాల రికార్డులను మరియు ప్రామాణిక కారం నిష్పత్తులను సమీక్షిస్తోంది..."
                     : "Retrieving verified recipes, heat ratios & regional wisdom...")}
               </p>
             </div>
@@ -237,8 +237,8 @@ export function RuchiGeneratingLoader({
         <p className="text-xs text-ink-600 dark:text-[#E8E4D3]/80 font-medium leading-relaxed">
           {stepText ||
             (isTe
-              ? "26 జిల్లాల పాకశాస్త్ర రికార్డులను మరియు ప్రామాణిక నిష్పత్తులను సమీక్షిస్తోంది..."
-              : "Retrieving verified recipes, heat ratios & elder wisdom across 26 districts...")}
+              ? "28 జిల్లాల పాకశాస్త్ర రికార్డులను మరియు ప్రామాణిక నిష్పత్తులను సమీక్షిస్తోంది..."
+              : "Retrieving verified recipes, heat ratios & elder wisdom across 28 districts...")}
         </p>
       </div>
     </div>

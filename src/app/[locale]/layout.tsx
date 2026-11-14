@@ -58,7 +58,7 @@ export async function generateMetadata({
     : 'Andhra Ruchulu | Bringing All Andhra Dishes Together';
 
   const description = isTe
-    ? 'ఆంధ్రప్రదేశ్ 26 జిల్లాల సాంప్రదాయ ఆహార సంస్కృతి, రుచులు మరియు సజీవ AI చెఫ్ రుచి.'
+    ? 'ఆంధ్రప్రదేశ్ 28 జిల్లాల సాంప్రదాయ ఆహార సంస్కృతి, రుచులు మరియు సజీవ AI చెఫ్ రుచి.'
     : 'A community platform bringing all the authentic recipes, traditional flavours, and culinary heritage of Andhra Pradesh together.';
 
   return {

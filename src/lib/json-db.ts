@@ -159,7 +159,7 @@ export function searchDishes(query: string): Dish[] {
 }
 
 /**
- * Retrieve all 26 districts of Andhra Pradesh
+ * Retrieve all 28 districts of Andhra Pradesh
  */
 export function getDistricts(regionSlug?: string): District[] {
   if (regionSlug) {
@@ -269,8 +269,8 @@ export function queryRuchiKnowledge(
   return {
     text:
       isTe
-        ? "ఆంధ్రప్రదేశ్ భోజనం 26 జిల్లాల భిన్నమైన సంస్కృతుల సమ్మేళనం. రాయలసీమలో రాగి సంగటి, నాటుకోడి పులుసు ప్రాధాన్యం కాగా; కోస్తాంధ్రలో గోదావరి చేపల పులుసు, పూతరేకులు ప్రసిద్ధి; ఉత్తరాంధ్రలో అరకు వెదురు బొంగు చికెన్, బెల్లం పులుసులు ప్రత్యేకమైనవి."
-        : "Andhra Pradesh cuisine is shaped by 26 distinct districts across 3 culinary zones: Rayalaseema (Ragi Sangati, fiery Natu Kodi and groundnut gravies), Coastal Andhra (Godavari fish pulusus, Atreyapuram Pootharekulu, and green gram tiffins), and Uttarandhra (Araku bamboo woodfire chicken and sweet-tart jaggery pulusus).",
-    source: "Andhra Ruchulu Culinary Master Database (26 Districts)",
+        ? "ఆంధ్రప్రదేశ్ భోజనం 28 జిల్లాల భిన్నమైన సంస్కృతుల సమ్మేళనం. రాయలసీమలో రాగి సంగటి, నాటుకోడి పులుసు ప్రాధాన్యం కాగా; కోస్తాంధ్రలో గోదావరి చేపల పులుసు, పూతరేకులు ప్రసిద్ధి; ఉత్తరాంధ్రలో అరకు వెదురు బొంగు చికెన్, బెల్లం పులుసులు ప్రత్యేకమైనవి."
+        : "Andhra Pradesh cuisine is shaped by 28 distinct districts across 3 culinary zones: Rayalaseema (Ragi Sangati, fiery Natu Kodi and groundnut gravies), Coastal Andhra (Godavari fish pulusus, Atreyapuram Pootharekulu, and green gram tiffins), and Uttarandhra (Araku bamboo woodfire chicken and sweet-tart jaggery pulusus).",
+    source: "Andhra Ruchulu Culinary Master Database (28 Districts)",
   };
 }
