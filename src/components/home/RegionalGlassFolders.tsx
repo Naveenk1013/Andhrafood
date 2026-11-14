@@ -2,12 +2,14 @@
 
 import React from "react";
 import GlassFolder, { FolderFile } from "@/components/ui/glass-folder-cards";
-import { Compass, Flame, MapPin, Sparkles } from "lucide-react";
+import { Compass, Flame, MapPin, Sparkles, ArrowRight } from "lucide-react";
 import { useLocale } from "next-intl";
+import { Link } from "@/i18n/routing";
 import { optimizeCloudinaryUrl } from "@/lib/cloudinary";
 
 export function RegionalGlassFolders() {
   const locale = useLocale();
+  const isTe = locale === "te";
   const [folderWidth, setFolderWidth] = React.useState(300);
 
   React.useEffect(() => {
@@ -149,21 +151,23 @@ export function RegionalGlassFolders() {
             appearDelay={0}
             width={folderWidth}
             files={coastalFiles.map(f => ({ ...f, image: optimizeCloudinaryUrl(f.image, 380) }))}
-            action="more"
+            action="none"
             labelPlacement="bottom-left"
-            menu={[
-              { label: "View Coastal Andhra Guide" },
-              { label: "Show Godavari Seafood" },
-              { label: "Show Sweets & Tiffins" },
-            ]}
           />
-          <div className="text-center max-w-[320px]">
+          <div className="text-center max-w-[320px] flex flex-col items-center space-y-1">
             <span className="text-xs font-bold text-leaf-800 dark:text-leaf-300 uppercase tracking-wider">
               Coastal Andhra
             </span>
-            <p className="text-xs text-ink-600 dark:text-[#E8E4D3]/70 mt-0.5">
+            <p className="text-xs text-ink-600 dark:text-[#E8E4D3]/70">
               Tamarind tang, Gongura sourness, Godavari Pulasa fish, and Pootharekulu sweets.
             </p>
+            <Link
+              href="/browse?region=coastal-andhra"
+              className="inline-flex items-center gap-1.5 text-xs font-semibold text-turmeric-700 dark:text-turmeric-400 hover:text-turmeric-800 dark:hover:text-turmeric-300 group pt-0.5 transition-colors"
+            >
+              <span>{isTe ? "కోస్తా ఆంధ్ర వంటకాలు అన్నీ అన్వేషించండి" : "Explore all Coastal Andhra recipes"}</span>
+              <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+            </Link>
           </div>
         </div>
 
@@ -177,21 +181,23 @@ export function RegionalGlassFolders() {
             appearDelay={140}
             width={folderWidth}
             files={rayalaseemaFiles.map(f => ({ ...f, image: optimizeCloudinaryUrl(f.image, 380) }))}
-            action="more"
+            action="none"
             labelPlacement="bottom-left"
-            menu={[
-              { label: "View Rayalaseema Guide" },
-              { label: "Show Millets & Ragi" },
-              { label: "Show Fiery Meat Curries" },
-            ]}
           />
-          <div className="text-center max-w-[320px]">
+          <div className="text-center max-w-[320px] flex flex-col items-center space-y-1">
             <span className="text-xs font-bold text-turmeric-700 dark:text-turmeric-400 uppercase tracking-wider">
               Rayalaseema
             </span>
-            <p className="text-xs text-ink-600 dark:text-[#E8E4D3]/70 mt-0.5">
+            <p className="text-xs text-ink-600 dark:text-[#E8E4D3]/70">
               Robust finger millet (ragi), fiery Natu Kodi pulusu, roasted groundnut and garlic.
             </p>
+            <Link
+              href="/browse?region=rayalaseema"
+              className="inline-flex items-center gap-1.5 text-xs font-semibold text-turmeric-700 dark:text-turmeric-400 hover:text-turmeric-800 dark:hover:text-turmeric-300 group pt-0.5 transition-colors"
+            >
+              <span>{isTe ? "రాయలసీమ వంటకాలు అన్నీ అన్వేషించండి" : "Explore all Rayalaseema recipes"}</span>
+              <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+            </Link>
           </div>
         </div>
 
@@ -205,21 +211,23 @@ export function RegionalGlassFolders() {
             appearDelay={280}
             width={folderWidth}
             files={uttarandhraFiles.map(f => ({ ...f, image: optimizeCloudinaryUrl(f.image, 380) }))}
-            action="more"
+            action="none"
             labelPlacement="bottom-left"
-            menu={[
-              { label: "View Uttarandhra Guide" },
-              { label: "Show Araku Tribal Cooking" },
-              { label: "Show Sweet Pulusu Dishes" },
-            ]}
           />
-          <div className="text-center max-w-[320px]">
+          <div className="text-center max-w-[320px] flex flex-col items-center space-y-1">
             <span className="text-xs font-bold text-leaf-800 dark:text-leaf-300 uppercase tracking-wider">
               Uttarandhra & Araku
             </span>
-            <p className="text-xs text-ink-600 dark:text-[#E8E4D3]/70 mt-0.5">
+            <p className="text-xs text-ink-600 dark:text-[#E8E4D3]/70">
               Woodfire Bamboo Chicken (Bongu Kodi), jaggery bellam pulusu, mountain millets.
             </p>
+            <Link
+              href="/browse?region=uttarandhra"
+              className="inline-flex items-center gap-1.5 text-xs font-semibold text-turmeric-700 dark:text-turmeric-400 hover:text-turmeric-800 dark:hover:text-turmeric-300 group pt-0.5 transition-colors"
+            >
+              <span>{isTe ? "ఉత్తరాంధ్ర వంటకాలు అన్నీ అన్వేషించండి" : "Explore all Uttarandhra recipes"}</span>
+              <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+            </Link>
           </div>
         </div>
       </div>
